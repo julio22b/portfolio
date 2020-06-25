@@ -1,0 +1,107 @@
+$black: #393d3f;
+$white: #ebebeb;
+$brown: #706e5c;
+$teal: #62929e;
+$blue: #536979;
+
+@mixin flex($flex-direction: row, $justify-content: space-between) {
+    display: flex;
+    justify-content: $justify-content;
+    flex-direction: $flex-direction;
+}
+
+.section {
+    min-height: 100vh;
+    @include flex(column, center);
+    align-items: center;
+    flex: 1;
+    margin-left: 15%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: $white;
+}
+
+#wrapper {
+    display: flex;
+}
+
+nav {
+    background-color: $black;
+    @extend .section;
+    position: fixed;
+    z-index: 10;
+    width: 15%;
+    box-shadow: 0 2px 8px $black;
+    margin-left: 0;
+    ul {
+        @include flex(column, center);
+        list-style: none;
+        width: 100%;
+        li {
+            text-align: center;
+            margin: 20px 0;
+            width: 100%;
+            a {
+                transition: background-color 150ms ease;
+                padding: 20px 0;
+                color: $white;
+                font-weight: bold;
+                font-size: 1.2rem;
+                text-decoration: none;
+                display: inline-block;
+                width: 100%;
+                &:hover {
+                    background-color: $white;
+                    text-decoration: underline;
+                    color: $black;
+                }
+            }
+        }
+    }
+}
+
+#hero {
+    @extend .section;
+    width: 60%;
+    h1 {
+        font-size: 4rem;
+        color: $blue;
+        text-shadow: 0 0 1px $black;
+        span {
+            font-size: 2rem;
+            color: $black;
+            text-shadow: none;
+        }
+    }
+}
+
+#about {
+    @extend .section;
+    position: relative;
+    color: $white;
+    &:after {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        background-color: $black;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
+    }
+}
+
+#facebook-project,
+#blog-project,
+#battleship-project,
+#other-projects {
+    @extend .section;
+}
