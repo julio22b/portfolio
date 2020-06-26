@@ -3,41 +3,66 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="style.css" />
         <title>Julio Bermudez</title>
     </head>
     <body>
-        <div id="wrapper">
-            <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <section id="hero">
-                <h1><span>Hi. I'm</span> Julio Bermudez</h1>
-                <p>A self-taught</p>
-                <p>web developer.</p>
-                <div>
-                    <span>github</span>
-                    <span>something</span>
-                    <span>something</span>
-                    <span>something</span>
-                </div>
+        <main>
+            <div id="wrapper">
+                <nav>
+                    <ul class="outer-menu">
+                        <li><a data-section="about" href="#about">About</a></li>
+                        <li class="has-menu">
+                            <a data-section="projects" href="#facebook">Projects</a>
+                            <ul class="inner-menu">
+                                <li>
+                                    <a data-section="facebook" href="#facebook">Facebook Clone</a>
+                                </li>
+                                <li><a data-section="blog" href="#blog">Blog</a></li>
+                                <li>
+                                    <a data-section="battleship" href="#battleship">Battleship</a>
+                                </li>
+                                <li>
+                                    <a data-section="other-projects" href="#other-projects"
+                                        >More...</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a data-section="resume" href="#">Resume</a></li>
+                        <li><a data-section="contact" href="#">Contact</a></li>
+                        <div class="selector"></div>
+                    </ul>
+                </nav>
+                <section id="hero">
+                    <h1><span>Hi. I'm</span> Julio Bermudez</h1>
+                    <p>A self-taught</p>
+                    <p>web developer.</p>
+                    <div>
+                        <span>github</span>
+                        <span>something</span>
+                        <span>something</span>
+                        <span>something</span>
+                    </div>
+                </section>
+            </div>
+            <section id="about">
+                this is abouyt section
             </section>
-        </div>
-        <section id="about">
-            this is abouyt section
-        </section>
-        <section id="facebook-project">
-            facebook project here
-        </section>
-        <section id="blog-project-here">
-            blog project here
-        </section>
-        <section id="battleship">battleship project here</section>
-        <section id="other-projects">other projects</section>
+            <section id="facebook">
+                facebook project here
+            </section>
+            <section id="blog">
+                blog project here
+            </section>
+            <section id="battleship">battleship project here</section>
+            <section id="other-projects">other projects</section>
+        </main>
+
+        <script src="./index.js"></script>
     </body>
 </html>
