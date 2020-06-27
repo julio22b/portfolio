@@ -2,10 +2,11 @@ const hero = document.querySelector('#hero');
 const sections = document.querySelectorAll('section');
 const selector = document.querySelector('.selector');
 const links = document.querySelectorAll('a');
+const navBar = document.querySelector('nav');
 const black = '#393d3f';
 const white = '#ebebeb';
 
-const observerOpts = { threshold: 0.65 };
+const observerOpts = { threshold: 0.55 };
 
 const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {

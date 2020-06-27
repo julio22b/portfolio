@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/eb2785bfc3.js" crossorigin="anonymous"></script>
         <link
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
             rel="stylesheet"
@@ -15,9 +16,15 @@
             <div id="wrapper">
                 <nav>
                     <ul class="outer-menu">
-                        <li><a data-section="about" href="#about">About</a></li>
+                        <li>
+                            <a data-section="about" href="#about"
+                                ><i class="fas fa-user-alt"></i>About</a
+                            >
+                        </li>
                         <li class="has-menu">
-                            <a data-section="projects" href="#facebook">Projects</a>
+                            <a data-section="projects" href="#facebook"
+                                ><i class="far fa-folder-open"></i>Projects</a
+                            >
                             <ul class="inner-menu">
                                 <li>
                                     <a data-section="facebook" href="#facebook">Facebook Clone</a>
@@ -33,21 +40,32 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a data-section="resume" href="#">Resume</a></li>
-                        <li><a data-section="contact" href="#">Contact</a></li>
+                        <li>
+                            <a data-section="resume" href="#"
+                                ><i class="far fa-file-alt"></i>Resume</a
+                            >
+                        </li>
+                        <li>
+                            <a data-section="contact" href="#"
+                                ><i class="far fa-paper-plane"></i>Contact</a
+                            >
+                        </li>
                         <div class="selector"></div>
                     </ul>
                 </nav>
                 <section id="hero">
-                    <h1><span>Hi. I'm</span> Julio Bermudez</h1>
-                    <p>A self-taught</p>
+                    <h1>
+                        <span class="hello">Hi.</span>
+                        <div class="slide-in"><span> I'm</span> Julio Bermudez</div>
+                    </h1>
+                    <!-- <p>A self-taught</p>
                     <p>web developer.</p>
                     <div>
                         <span>github</span>
                         <span>something</span>
                         <span>something</span>
                         <span>something</span>
-                    </div>
+                    </div> -->
                 </section>
             </div>
             <section id="about">

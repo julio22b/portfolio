@@ -47,6 +47,10 @@ body {
     display: flex;
 }
 
+nav.hide {
+    transform: translateX(-100%);
+}
+
 nav {
     background-color: $black;
     @extend .section;
@@ -55,6 +59,8 @@ nav {
     width: 15%;
     box-shadow: 0 2px 10px $black;
     margin-left: 0;
+    transition: opacity 250ms ease-out;
+
     .outer-menu {
         @include flex(column, center);
         list-style: none;
@@ -72,8 +78,14 @@ nav {
                 text-decoration: none;
                 display: inline-block;
                 width: 100%;
+                @include flex(cemter, space-evenly);
                 &:hover {
                     text-decoration: underline;
+                }
+                i {
+                    margin-right: -30px;
+                    display: flex;
+                    align-items: center;
                 }
             }
         }
@@ -104,15 +116,31 @@ nav {
 #hero {
     @extend .section;
     width: 60%;
-    justify-content: flex-start;
+    justify-content: center;
     h1 {
         font-size: 4rem;
         color: $blue;
         text-shadow: 0 0 1px $black;
-        span {
+        @include flex(row, center);
+        align-items: baseline;
+        width: 100%;
+        .hello {
             font-size: 2rem;
             color: $black;
             text-shadow: none;
+            display: inline-block;
+            transform: scale(5) translateX(100%);
+            animation: hello 0.5s cubic-bezier(0.6, -0.28, 0.74, 0.05) forwards;
+            animation-delay: 1s;
+            margin-right: 5px;
+        }
+        .slide-in {
+            @include flex(row, center);
+            align-items: center;
+            transform: translateX(-100%);
+            animation: slideIn 1.5s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+            animation-delay: 1.2s;
+            opacity: 0;
         }
     }
     &:after {
@@ -121,16 +149,39 @@ nav {
         width: 100%;
         position: absolute;
         top: 0;
-        background-color: #d8d8d8;
+        background-color: #dfdfdf;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 27%);
         z-index: -10;
     }
 }
 
+@keyframes slideIn {
+    0% {
+        transform: translateX(-200%);
+        opacity: 0;
+    }
+    80% {
+        transform: translateX(2%);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes hello {
+    0% {
+        transform: scale(5) translateX(100%);
+    }
+    100% {
+        transform: scale(1) translateX(0);
+    }
+}
+
 #about {
     @extend .section;
-    position: relative;
     color: $white;
+    background-color: $black;
 }
 
 #facebook,
