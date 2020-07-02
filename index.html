@@ -8,6 +8,10 @@
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
             rel="stylesheet"
         />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="style.css" />
         <title>Julio Bermudez</title>
     </head>
@@ -16,27 +20,21 @@
             <div id="wrapper">
                 <nav>
                     <ul class="outer-menu">
-                        <li>
-                            <a data-section="about" href="#about"
-                                ><i class="fas fa-user-alt"></i>About</a
-                            >
+                        <li data-section="about">
+                            <a href="#about"><i class="fas fa-user-alt"></i>About</a>
                         </li>
-                        <li class="has-menu">
-                            <a data-section="projects" href="#facebook"
-                                ><i class="far fa-folder-open"></i>Projects</a
-                            >
+                        <li class="has-menu" data-section="projects">
+                            <a href="#facebook"><i class="far fa-folder-open"></i>Projects</a>
                             <ul class="inner-menu">
-                                <li>
-                                    <a data-section="facebook" href="#facebook">Facebook Clone</a>
+                                <li data-section="facebook">
+                                    <a href="#facebook">Facebook Clone</a>
                                 </li>
-                                <li><a data-section="blog" href="#blog">Blog</a></li>
-                                <li>
-                                    <a data-section="battleship" href="#battleship">Battleship</a>
+                                <li data-section="blog"><a href="#blog">Blog</a></li>
+                                <li data-section="battleship">
+                                    <a href="#battleship">Battleship</a>
                                 </li>
-                                <li>
-                                    <a data-section="other-projects" href="#other-projects"
-                                        >More...</a
-                                    >
+                                <li data-section="other-projects">
+                                    <a href="#other-projects">More...</a>
                                 </li>
                             </ul>
                         </li>
@@ -54,13 +52,14 @@
                     </ul>
                 </nav>
                 <section id="hero">
-                    <h1>
-                        <span class="hello">Hi.</span>
-                        <div class="slide-in"><span> I'm</span> Julio Bermudez</div>
-                    </h1>
-                    <!-- <p>A self-taught</p>
-                    <p>web developer.</p>
                     <div>
+                        <h1>
+                            <span class="hello">Hi.</span>
+                            <div class="slide-in"><span> I'm</span>&ThinSpace;Julio Bermudez</div>
+                        </h1>
+                        <p class="subtitle">A self-taught <span>web developer</span></p>
+                    </div>
+                    <!-- <div>
                         <span>github</span>
                         <span>something</span>
                         <span>something</span>
@@ -72,7 +71,58 @@
                 this is abouyt section
             </section>
             <section id="facebook">
-                facebook project here
+                <article class="text">
+                    <h2>
+                        Facebook Clone
+                        <a href="https://facebook-clone-odin.herokuapp.com/users/log-in">Live</a
+                        ><a href="https://github.com/julio22b/facebook-clone-api">Api code</a>
+                        <a href="https://github.com/julio22b/facebook-clone-frontend"
+                            >Frontend code</a
+                        >
+                    </h2>
+                    <div>
+                        <p>
+                            Social media app where users can create an account and add friends by
+                            sending them requests which the receiver must accept to become friends.
+                            <br />
+                            <br />
+                            They can create posts to share with friends through the live feed, posts
+                            can have reactions and comments. Users can edit or delete their own
+                            posts. Each user has a profile page where they can see all their posts
+                            and edit their profile information. <br />
+                            <br />
+                            Friends can chat with each other through private messaging.
+                        </p>
+                    </div>
+                    <ul class="techs">
+                        <li>React <i class="fab fa-react"></i></li>
+                        <li>Express <i class="fab fa-html5"></i></li>
+                        <li>Mongoose</li>
+                        <li>Sass <i class="fab fa-sass"></i></li>
+                        <li>Socket.io</li>
+                        <li>Passport.js</li>
+                    </ul>
+                </article>
+                <article class="images">
+                    <figure>
+                        <video autoplay disablePictureInPicture loop muted>
+                            <source src="./imgs/timeline.webm" type="video/webm" />
+                        </video>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <video autoplay disablePictureInPicture loop muted>
+                            <source src="./imgs/profile.webm" />
+                        </video>
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <video autoplay disablePictureInPicture loop muted>
+                            <source src="./imgs/sockets.webm" />
+                        </video>
+                        <figcaption></figcaption>
+                    </figure>
+                </article>
             </section>
             <section id="blog">
                 blog project here

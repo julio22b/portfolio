@@ -6,12 +6,13 @@ const navBar = document.querySelector('nav');
 const black = '#393d3f';
 const white = '#ebebeb';
 
-const observerOpts = { threshold: 0.55 };
+const observerOpts = { threshold: 0.1 };
 
 const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
-        const link = document.querySelector(`[data-section=${entry.target.id}`);
-        const dimensions = link.getBoundingClientRect();
+        const li = document.querySelector(`[data-section=${entry.target.id}]`);
+        const link = document.querySelector(`[data-section=${entry.target.id}] a`);
+        const dimensions = li.getBoundingClientRect();
         if (entry.isIntersecting) {
             links.forEach((link) => link.classList.remove('black-text'));
             selector.style.width = `${dimensions.width + 10}px`;

@@ -15,15 +15,12 @@ $blue: #536979;
     @include flex(column, center);
     align-items: center;
     flex: 1;
-    margin-left: 15%;
+    margin-left: 12%;
+    scroll-snap-align: start;
 }
 
 .black-text {
     color: $black !important;
-}
-
-.white-text {
-    color: $white !important;
 }
 
 * {
@@ -37,6 +34,7 @@ $blue: #536979;
 
 body {
     background-color: $white;
+    overflow: hidden;
 }
 
 :root {
@@ -56,10 +54,13 @@ nav {
     @extend .section;
     position: fixed;
     z-index: 10;
-    width: 15%;
+    width: 12%;
+    min-width: 170px;
     box-shadow: 0 2px 10px $black;
     margin-left: 0;
-    transition: opacity 250ms ease-out;
+    opacity: 0;
+    animation: fadeIn 500ms ease-in forwards;
+    animation-delay: 3s;
 
     .outer-menu {
         @include flex(column, center);
@@ -69,38 +70,58 @@ nav {
             text-align: center;
             margin: 20px 0;
             width: 100%;
+            display: flex;
+            justify-content: center;
             a {
                 transition: background-color 150ms ease;
                 padding: 20px 0;
                 color: $white;
                 font-weight: bold;
-                font-size: 1.2rem;
                 text-decoration: none;
                 display: inline-block;
-                width: 100%;
-                @include flex(cemter, space-evenly);
-                &:hover {
-                    text-decoration: underline;
+                @include flex(center, space-evenly);
+                position: relative;
+                &:after {
+                    content: '';
+                    position: absolute;
+                    height: 2px;
+                    width: 0%;
+                    background-color: $white;
+                    bottom: 10px;
+                    left: 0;
+                    transition: width 250ms ease;
+                }
+                &:hover:after {
+                    width: 100%;
                 }
                 i {
-                    margin-right: -30px;
+                    margin-right: 10px;
                     display: flex;
                     align-items: center;
                 }
             }
         }
         .has-menu {
+            flex-direction: column;
+            a {
+                align-self: center;
+            }
             .inner-menu {
                 margin-top: -10px;
+                li a:after {
+                    bottom: 0;
+                }
             }
         }
     }
     .inner-menu {
         & > li {
             margin: 10px 0;
+            display: flex;
+            justify-content: center;
             a {
                 padding: 10px 0;
-                font-size: 1rem;
+                font-size: 0.85rem;
             }
         }
     }
@@ -113,12 +134,21 @@ nav {
     }
 }
 
+main {
+    scroll-snap-type: y mandatory;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
 #hero {
     @extend .section;
     width: 60%;
     justify-content: center;
+    & > div {
+        margin-top: -150px;
+    }
     h1 {
-        font-size: 4rem;
+        font-size: 7rem;
         color: $blue;
         text-shadow: 0 0 1px $black;
         @include flex(row, center);
@@ -130,7 +160,7 @@ nav {
             text-shadow: none;
             display: inline-block;
             transform: scale(5) translateX(100%);
-            animation: hello 0.5s cubic-bezier(0.6, -0.28, 0.74, 0.05) forwards;
+            animation: hello 0.8s cubic-bezier(0.6, -0.28, 0.74, 0.05) forwards;
             animation-delay: 1s;
             margin-right: 5px;
         }
@@ -139,14 +169,29 @@ nav {
             align-items: center;
             transform: translateX(-100%);
             animation: slideIn 1.5s cubic-bezier(0.86, 0, 0.07, 1) forwards;
-            animation-delay: 1.2s;
+            animation-delay: 1.3s;
             opacity: 0;
+            font-family: 'Kalam', cursive;
+            span {
+                color: $black;
+                font-size: 2rem;
+                font-weight: normal;
+            }
         }
+    }
+    .subtitle {
+        font-size: 1.5rem;
+        opacity: 0;
+        animation: fadeIn 500ms ease-in forwards;
+        animation-delay: 2.8s;
+        color: $black;
+        text-align: end;
+        letter-spacing: 2px;
     }
     &:after {
         content: '';
         height: 60%;
-        width: 100%;
+        width: 120%;
         position: absolute;
         top: 0;
         background-color: #dfdfdf;
@@ -174,7 +219,14 @@ nav {
         transform: scale(5) translateX(100%);
     }
     100% {
-        transform: scale(1) translateX(0);
+        transform: scale(0) translateX(0);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
     }
 }
 
@@ -190,8 +242,63 @@ nav {
 #other-projects {
     @extend .section;
 }
+
+.project-title {
+    font-family: 'Kalam', cursive;
+    font-size: 3rem;
+    color: $black;
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+
+.video {
+    cursor: pointer;
+    display: block;
+    max-width: 90%;
+    max-height: 270px;
+    box-shadow: 0 2px 40px -20px $black;
+}
+
 #facebook {
-    background-color: $teal;
+    @include flex(column, space-around);
+    align-items: stretch;
+    .text {
+        margin-left: 4em;
+        font-size: 1.1rem;
+        @include flex(row, space-between);
+        flex-wrap: wrap;
+        h2 {
+            @extend .project-title;
+        }
+        .techs {
+            margin-top: 2em;
+            @include flex(row, center);
+            list-style: none;
+            flex-wrap: wrap;
+            li {
+                width: 48%;
+                text-align: center;
+                text-indent: 5px;
+                font-size: 1.2rem;
+            }
+        }
+        & > div {
+            width: 48%;
+        }
+    }
+    .images {
+        @include flex(row, flex-end);
+        width: 100%;
+        figure {
+            @include flex();
+            video {
+                @extend .video;
+            }
+        }
+        figure:first-child {
+            margin-left: 4em;
+        }
+    }
 }
 #blog {
     background-color: $brown;
