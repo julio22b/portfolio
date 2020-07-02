@@ -194,7 +194,7 @@ main {
         width: 120%;
         position: absolute;
         top: 0;
-        background-color: #dfdfdf;
+        background-color: #dfdfdfd0;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 27%);
         z-index: -10;
     }
@@ -249,6 +249,11 @@ main {
     color: $black;
     margin-bottom: 1.5em;
     width: 100%;
+    a {
+        color: $black;
+        font-size: 1rem;
+        text-decoration: none;
+    }
 }
 
 .video {
@@ -256,30 +261,45 @@ main {
     display: block;
     max-width: 90%;
     max-height: 270px;
-    box-shadow: 0 2px 40px -20px $black;
+    box-shadow: 0 2px 35px -20px $black;
 }
 
-#facebook {
+.techs-items {
+    width: 48%;
+    text-align: center;
+    text-indent: 5px;
+    font-size: 1.2rem;
+}
+
+.live {
+    background: url('./imgs/live.png');
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#facebook,
+#blog,
+#battleship {
     @include flex(column, space-around);
     align-items: stretch;
     .text {
+        @include flex(row, space-between);
         margin-left: 4em;
         font-size: 1.1rem;
-        @include flex(row, space-between);
         flex-wrap: wrap;
         h2 {
             @extend .project-title;
         }
         .techs {
-            margin-top: 2em;
-            @include flex(row, center);
+            @include flex(row, flex-start);
             list-style: none;
             flex-wrap: wrap;
             li {
-                width: 48%;
-                text-align: center;
-                text-indent: 5px;
-                font-size: 1.2rem;
+                @extend .techs-items;
             }
         }
         & > div {
@@ -301,8 +321,12 @@ main {
     }
 }
 #blog {
-    background-color: $brown;
+    .images {
+        justify-content: space-around;
+    }
 }
 #battleship {
-    background-color: $blue;
+    .images {
+        justify-content: space-around;
+    }
 }

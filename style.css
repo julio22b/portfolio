@@ -293,7 +293,7 @@ main {
   width: 120%;
   position: absolute;
   top: 0;
-  background-color: #dfdfdf;
+  background-color: #dfdfdfd0;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 27%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 27%);
   z-index: -10;
@@ -374,7 +374,9 @@ main {
   background-color: #393d3f;
 }
 
-.project-title, #facebook .text h2 {
+.project-title, #facebook .text h2,
+#blog .text h2,
+#battleship .text h2 {
   font-family: 'Kalam', cursive;
   font-size: 3rem;
   color: #393d3f;
@@ -382,16 +384,45 @@ main {
   width: 100%;
 }
 
-.video, #facebook .images figure video {
+.project-title a, #facebook .text h2 a, #blog .text h2 a, #battleship .text h2 a {
+  color: #393d3f;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.video, #facebook .images figure video,
+#blog .images figure video,
+#battleship .images figure video {
   cursor: pointer;
   display: block;
   max-width: 90%;
   max-height: 270px;
-  -webkit-box-shadow: 0 2px 40px -20px #393d3f;
-          box-shadow: 0 2px 40px -20px #393d3f;
+  -webkit-box-shadow: 0 2px 35px -20px #393d3f;
+          box-shadow: 0 2px 35px -20px #393d3f;
 }
 
-#facebook {
+.techs-items, #facebook .text .techs li,
+#blog .text .techs li,
+#battleship .text .techs li {
+  width: 48%;
+  text-align: center;
+  text-indent: 5px;
+  font-size: 1.2rem;
+}
+
+.live {
+  background: url("./imgs/live.png");
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#facebook,
+#blog,
+#battleship {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -406,9 +437,9 @@ main {
           align-items: stretch;
 }
 
-#facebook .text {
-  margin-left: 4em;
-  font-size: 1.1rem;
+#facebook .text,
+#blog .text,
+#battleship .text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -419,18 +450,21 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-left: 4em;
+  font-size: 1.1rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
-#facebook .text .techs {
-  margin-top: 2em;
+#facebook .text .techs,
+#blog .text .techs,
+#battleship .text .techs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -440,18 +474,15 @@ main {
       flex-wrap: wrap;
 }
 
-#facebook .text .techs li {
-  width: 48%;
-  text-align: center;
-  text-indent: 5px;
-  font-size: 1.2rem;
-}
-
-#facebook .text > div {
+#facebook .text > div,
+#blog .text > div,
+#battleship .text > div {
   width: 48%;
 }
 
-#facebook .images {
+#facebook .images,
+#blog .images,
+#battleship .images {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -465,7 +496,9 @@ main {
   width: 100%;
 }
 
-#facebook .images figure {
+#facebook .images figure,
+#blog .images figure,
+#battleship .images figure {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -478,15 +511,19 @@ main {
           flex-direction: row;
 }
 
-#facebook .images figure:first-child {
+#facebook .images figure:first-child,
+#blog .images figure:first-child,
+#battleship .images figure:first-child {
   margin-left: 4em;
 }
 
-#blog {
-  background-color: #706e5c;
+#blog .images {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-#battleship {
-  background-color: #536979;
+#battleship .images {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 /*# sourceMappingURL=style.css.map */
