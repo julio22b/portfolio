@@ -351,12 +351,33 @@ main {
             width: 60%;
             li {
                 @extend .techs-items;
+                position: relative;
+                span {
+                    position: absolute;
+                    bottom: 5px;
+                    transform: translateY(100%);
+                    background-color: $black;
+                    color: $white;
+                    font-size: 0.7rem;
+                    padding: 0.2em 0.5em;
+                    border-radius: 25px;
+                    display: inline-block;
+                    opacity: 0;
+                    transition: opacity 250ms ease-in;
+                }
+                &:hover span {
+                    opacity: 1;
+                }
+            }
+            li.passport img {
+                height: 90%;
+                align-self: flex-start;
             }
         }
         & > div {
             width: 75%;
             margin-bottom: 4.5em;
-            color: #454849;
+            color: #4b4d4e;
         }
     }
     .images {
@@ -389,30 +410,25 @@ main {
         justify-content: space-around;
     }
 }
+
 #battleship {
     .images {
         justify-content: space-around;
     }
     .text {
         .techs li {
-            width: 11.5%;
+            width: 6%;
             position: relative;
+            min-width: 42px;
+            max-width: 70px;
             img {
                 width: 100%;
             }
-            span {
-                position: absolute;
-                bottom: 0;
-                transform: translateY(100%);
-                background-color: $black;
-                color: $white;
-                font-size: 0.7rem;
-                padding: 0.2em 0.5em;
-                border-radius: 25px;
-                display: inline-block;
-            }
             &:last-child {
-                width: 9.5%;
+                width: 8%;
+                img {
+                    align-self: self-end;
+                }
             }
         }
     }

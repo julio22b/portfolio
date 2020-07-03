@@ -305,73 +305,73 @@ nav .selector {
 }
 
 .box-1 {
-  top: calc(1 * 75px);
-  left: calc(1 * 64px);
-  height: calc(1* 2px);
-  width: calc(1* 2px);
+  top: calc(1 * 27px);
+  left: calc(1 * 1px);
+  height: calc(1* 3px);
+  width: calc(1* 1px);
 }
 
 .box-2 {
-  top: calc(2 * 58px);
-  left: calc(2 * 95px);
-  height: calc(2* 3px);
-  width: calc(2* 1px);
+  top: calc(2 * 61px);
+  left: calc(2 * 16px);
+  height: calc(2* 4px);
+  width: calc(2* 2px);
 }
 
 .box-3 {
-  top: calc(3 * 78px);
-  left: calc(3 * 31px);
-  height: calc(3* 3px);
-  width: calc(3* 2px);
+  top: calc(3 * 83px);
+  left: calc(3 * 30px);
+  height: calc(3* 4px);
+  width: calc(3* 1px);
 }
 
 .box-4 {
-  top: calc(4 * 59px);
+  top: calc(4 * 22px);
   left: calc(4 * 71px);
-  height: calc(4* 1px);
+  height: calc(4* 5px);
   width: calc(4* 2px);
 }
 
 .box-5 {
-  top: calc(5 * 31px);
-  left: calc(5 * 92px);
-  height: calc(5* 1px);
+  top: calc(5 * 59px);
+  left: calc(5 * 15px);
+  height: calc(5* 5px);
   width: calc(5* 1px);
 }
 
 .box-6 {
-  top: calc(6 * 76px);
-  left: calc(6 * 59px);
-  height: calc(6* 3px);
+  top: calc(6 * 61px);
+  left: calc(6 * 4px);
+  height: calc(6* 4px);
   width: calc(6* 3px);
 }
 
 .box-7 {
-  top: calc(7 * 43px);
-  left: calc(7 * 14px);
-  height: calc(7* 4px);
-  width: calc(7* 1px);
+  top: calc(7 * 90px);
+  left: calc(7 * 87px);
+  height: calc(7* 5px);
+  width: calc(7* 3px);
 }
 
 .box-8 {
-  top: calc(8 * 24px);
-  left: calc(8 * 24px);
+  top: calc(8 * 33px);
+  left: calc(8 * 100px);
   height: calc(8* 3px);
   width: calc(8* 1px);
 }
 
 .box-9 {
-  top: calc(9 * 16px);
-  left: calc(9 * 34px);
-  height: calc(9* 5px);
+  top: calc(9 * 52px);
+  left: calc(9 * 63px);
+  height: calc(9* 3px);
   width: calc(9* 2px);
 }
 
 .box-10 {
-  top: calc(10 * 50px);
-  left: calc(10 * 75px);
+  top: calc(10 * 96px);
+  left: calc(10 * 46px);
   height: calc(10* 2px);
-  width: calc(10* 1px);
+  width: calc(10* 3px);
 }
 
 main {
@@ -667,12 +667,50 @@ main {
   width: 60%;
 }
 
+#facebook .text .techs li,
+#blog .text .techs li,
+#battleship .text .techs li {
+  position: relative;
+}
+
+#facebook .text .techs li span,
+#blog .text .techs li span,
+#battleship .text .techs li span {
+  position: absolute;
+  bottom: 5px;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  background-color: #393d3f;
+  color: #ebebeb;
+  font-size: 0.7rem;
+  padding: 0.2em 0.5em;
+  border-radius: 25px;
+  display: inline-block;
+  opacity: 0;
+  -webkit-transition: opacity 250ms ease-in;
+  transition: opacity 250ms ease-in;
+}
+
+#facebook .text .techs li:hover span,
+#blog .text .techs li:hover span,
+#battleship .text .techs li:hover span {
+  opacity: 1;
+}
+
+#facebook .text .techs li.passport img,
+#blog .text .techs li.passport img,
+#battleship .text .techs li.passport img {
+  height: 90%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
 #facebook .text > div,
 #blog .text > div,
 #battleship .text > div {
   width: 75%;
   margin-bottom: 4.5em;
-  color: #454849;
+  color: #4b4d4e;
 }
 
 #facebook .images,
@@ -731,29 +769,24 @@ main {
 }
 
 #battleship .text .techs li {
-  width: 11.5%;
+  width: 6%;
   position: relative;
+  min-width: 42px;
+  max-width: 70px;
 }
 
 #battleship .text .techs li img {
   width: 100%;
 }
 
-#battleship .text .techs li span {
-  position: absolute;
-  bottom: 0;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
-  background-color: #393d3f;
-  color: #ebebeb;
-  font-size: 0.7rem;
-  padding: 0.2em 0.5em;
-  border-radius: 25px;
-  display: inline-block;
+#battleship .text .techs li:last-child {
+  width: 8%;
 }
 
-#battleship .text .techs li:last-child {
-  width: 9.5%;
+#battleship .text .techs li:last-child img {
+  -ms-flex-item-align: self-end;
+      -ms-grid-row-align: self-end;
+      align-self: self-end;
 }
 
 .live {
