@@ -6,9 +6,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -55,6 +54,22 @@ body {
 nav.hide {
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
+}
+
+.fab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav {
@@ -193,6 +208,172 @@ nav .selector {
           box-shadow: 0 0 6px #393d3f;
 }
 
+.confetti {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.confetti .colors {
+  position: fixed;
+  margin: 0;
+}
+
+.box-1 {
+  background-color: #ff0000;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-2 {
+  background-color: #ff7f00;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-3 {
+  background-color: #ffff00;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-4 {
+  background-color: #00ff00;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-5 {
+  background-color: #0000ff;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-6 {
+  background-color: #2e2b5f;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-7 {
+  background-color: #8b00ff;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-1 {
+  background-color: #ff0000;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-2 {
+  background-color: #ff7f00;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-3 {
+  background-color: #ffff00;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-4 {
+  background-color: #00ff00;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-5 {
+  background-color: #0000ff;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-6 {
+  background-color: #2e2b5f;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-7 {
+  background-color: #8b00ff;
+  opacity: 0.1;
+  z-index: -5;
+}
+
+.box-1 {
+  top: calc(1 * 75px);
+  left: calc(1 * 64px);
+  height: calc(1* 2px);
+  width: calc(1* 2px);
+}
+
+.box-2 {
+  top: calc(2 * 58px);
+  left: calc(2 * 95px);
+  height: calc(2* 3px);
+  width: calc(2* 1px);
+}
+
+.box-3 {
+  top: calc(3 * 78px);
+  left: calc(3 * 31px);
+  height: calc(3* 3px);
+  width: calc(3* 2px);
+}
+
+.box-4 {
+  top: calc(4 * 59px);
+  left: calc(4 * 71px);
+  height: calc(4* 1px);
+  width: calc(4* 2px);
+}
+
+.box-5 {
+  top: calc(5 * 31px);
+  left: calc(5 * 92px);
+  height: calc(5* 1px);
+  width: calc(5* 1px);
+}
+
+.box-6 {
+  top: calc(6 * 76px);
+  left: calc(6 * 59px);
+  height: calc(6* 3px);
+  width: calc(6* 3px);
+}
+
+.box-7 {
+  top: calc(7 * 43px);
+  left: calc(7 * 14px);
+  height: calc(7* 4px);
+  width: calc(7* 1px);
+}
+
+.box-8 {
+  top: calc(8 * 24px);
+  left: calc(8 * 24px);
+  height: calc(8* 3px);
+  width: calc(8* 1px);
+}
+
+.box-9 {
+  top: calc(9 * 16px);
+  left: calc(9 * 34px);
+  height: calc(9* 5px);
+  width: calc(9* 2px);
+}
+
+.box-10 {
+  top: calc(10 * 50px);
+  left: calc(10 * 75px);
+  height: calc(10* 2px);
+  width: calc(10* 1px);
+}
+
 main {
   -ms-scroll-snap-type: y mandatory;
       scroll-snap-type: y mandatory;
@@ -293,10 +474,296 @@ main {
   width: 120%;
   position: absolute;
   top: 0;
-  background-color: #dfdfdfd0;
+  background-color: #dfdfdf9d;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 27%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 27%);
   z-index: -10;
+}
+
+#about {
+  color: #ebebeb;
+  background-color: #393d3f;
+}
+
+.project-title, #facebook .text h2,
+#blog .text h2,
+#battleship .text h2 {
+  font-family: 'Kalam', cursive;
+  font-size: 3rem;
+  color: #393d3f;
+  margin: 0.5em 2em 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-title div, #facebook .text h2 div, #blog .text h2 div, #battleship .text h2 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.project-title div a, #facebook .text h2 div a, #blog .text h2 div a, #battleship .text h2 div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #393d3f;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-left: 25px;
+  position: relative;
+}
+
+.project-title div a i, #facebook .text h2 div a i, #blog .text h2 div a i, #battleship .text h2 div a i {
+  width: 26px;
+  height: 26px;
+  margin-left: 10px;
+}
+
+.project-title div a:after, #facebook .text h2 div a:after, #blog .text h2 div a:after, #battleship .text h2 div a:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  display: inline-block;
+  height: 2px;
+  width: 0;
+  -webkit-transition: width 200ms ease-in-out;
+  transition: width 200ms ease-in-out;
+  background-color: #393d3f;
+}
+
+.project-title div a:hover:after, #facebook .text h2 div a:hover:after, #blog .text h2 div a:hover:after, #battleship .text h2 div a:hover:after {
+  width: 100%;
+}
+
+.video, #facebook .images figure video,
+#blog .images figure video,
+#battleship .images figure video {
+  cursor: pointer;
+  display: block;
+  max-width: 90%;
+  max-height: 260px;
+  -webkit-box-shadow: 0 2px 35px -20px #393d3f;
+          box-shadow: 0 2px 35px -20px #393d3f;
+}
+
+.techs-items, #facebook .text .techs li,
+#blog .text .techs li,
+#battleship .text .techs li {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0 15px;
+  width: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.techs-items img, #facebook .text .techs li img, #blog .text .techs li img, #battleship .text .techs li img {
+  max-width: 100%;
+}
+
+.techs-items#express, #facebook .text .techs li#express,
+#blog .text .techs li#express,
+#battleship .text .techs li#express, .techs-items#mongo, #facebook .text .techs li#mongo,
+#blog .text .techs li#mongo,
+#battleship .text .techs li#mongo {
+  width: 17%;
+}
+
+#facebook,
+#blog,
+#battleship {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  position: relative;
+}
+
+#facebook .text,
+#blog .text,
+#battleship .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 4em;
+  font-size: 1.1rem;
+}
+
+#facebook .text .techs,
+#blog .text .techs,
+#battleship .text .techs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 60%;
+}
+
+#facebook .text > div,
+#blog .text > div,
+#battleship .text > div {
+  width: 75%;
+  margin-bottom: 4.5em;
+  color: #454849;
+}
+
+#facebook .images,
+#blog .images,
+#battleship .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+#facebook .images figure,
+#blog .images figure,
+#battleship .images figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#facebook .images figure:first-child,
+#blog .images figure:first-child,
+#battleship .images figure:first-child {
+  margin-left: 4em;
+}
+
+#facebook .bg-color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1876f211;
+  z-index: -15;
+}
+
+#blog .images {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#battleship .images {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#battleship .text .techs li {
+  width: 11.5%;
+  position: relative;
+}
+
+#battleship .text .techs li img {
+  width: 100%;
+}
+
+#battleship .text .techs li span {
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  background-color: #393d3f;
+  color: #ebebeb;
+  font-size: 0.7rem;
+  padding: 0.2em 0.5em;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+#battleship .text .techs li:last-child {
+  width: 9.5%;
+}
+
+.live {
+  background: url("./imgs/view-in-browser.png");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @-webkit-keyframes slideIn {
@@ -367,163 +834,5 @@ main {
   to {
     opacity: 1;
   }
-}
-
-#about {
-  color: #ebebeb;
-  background-color: #393d3f;
-}
-
-.project-title, #facebook .text h2,
-#blog .text h2,
-#battleship .text h2 {
-  font-family: 'Kalam', cursive;
-  font-size: 3rem;
-  color: #393d3f;
-  margin-bottom: 1.5em;
-  width: 100%;
-}
-
-.project-title a, #facebook .text h2 a, #blog .text h2 a, #battleship .text h2 a {
-  color: #393d3f;
-  font-size: 1rem;
-  text-decoration: none;
-}
-
-.video, #facebook .images figure video,
-#blog .images figure video,
-#battleship .images figure video {
-  cursor: pointer;
-  display: block;
-  max-width: 90%;
-  max-height: 270px;
-  -webkit-box-shadow: 0 2px 35px -20px #393d3f;
-          box-shadow: 0 2px 35px -20px #393d3f;
-}
-
-.techs-items, #facebook .text .techs li,
-#blog .text .techs li,
-#battleship .text .techs li {
-  width: 48%;
-  text-align: center;
-  text-indent: 5px;
-  font-size: 1.2rem;
-}
-
-.live {
-  background: url("./imgs/live.png");
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#facebook,
-#blog,
-#battleship {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-}
-
-#facebook .text,
-#blog .text,
-#battleship .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-left: 4em;
-  font-size: 1.1rem;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-#facebook .text .techs,
-#blog .text .techs,
-#battleship .text .techs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  list-style: none;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-#facebook .text > div,
-#blog .text > div,
-#battleship .text > div {
-  width: 48%;
-}
-
-#facebook .images,
-#blog .images,
-#battleship .images {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 100%;
-}
-
-#facebook .images figure,
-#blog .images figure,
-#battleship .images figure {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-#facebook .images figure:first-child,
-#blog .images figure:first-child,
-#battleship .images figure:first-child {
-  margin-left: 4em;
-}
-
-#blog .images {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-#battleship .images {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 /*# sourceMappingURL=style.css.map */
