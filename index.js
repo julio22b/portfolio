@@ -43,3 +43,22 @@ const heroObserver = new IntersectionObserver(function (entries, heroObserver) {
 }, heroObserverOpts);
 
 heroObserver.observe(heroSection);
+
+const videoModal = document.querySelector('.video-modal');
+const videoModalVideo = document.querySelector('.video-modal video');
+const videoModalSource = document.querySelector('.video-modal source');
+const videos = document.querySelectorAll('video');
+videos.forEach((video) => {
+    video.addEventListener('click', (e) => {
+        const src = e.target.children[0].getAttribute('src');
+        videoModal.classList.add('open');
+        videoModalSource.setAttribute('src', src);
+        videoModalVideo.load();
+    });
+});
+
+videoModal.addEventListener('click', (e) => {
+    if (e.target.classList.contains('video-modal')) {
+        videoModal.classList.remove('open');
+    }
+});
