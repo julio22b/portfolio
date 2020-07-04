@@ -27,3 +27,19 @@ const observer = new IntersectionObserver((entries, observer) => {
 sections.forEach((section) => {
     observer.observe(section);
 });
+
+const heroSection = document.querySelector('#hero');
+const confetti = document.querySelector('.confetti');
+const heroObserverOpts = {};
+
+const heroObserver = new IntersectionObserver(function (entries, heroObserver) {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            confetti.classList.add('show');
+        } else {
+            confetti.classList.remove('show');
+        }
+    });
+}, heroObserverOpts);
+
+heroObserver.observe(heroSection);

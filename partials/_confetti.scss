@@ -1,0 +1,174 @@
+.confetti {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    .colors {
+        position: fixed;
+        margin: 0;
+    }
+}
+
+.confetti.show {
+    opacity: 1;
+}
+
+$rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000, #ff7f00, #ffff00,
+    #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f,
+    #8b00ff, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff;
+
+@each $color in $rainbow {
+    $i: index(
+        $list: $rainbow,
+        $value: $color,
+    );
+    .box-#{$i},
+    .dox-#{$i},
+    .fox-#{$i},
+    .rox-#{$i},
+    .uox-#{$i} {
+        background-color: $color;
+        opacity: 0.25;
+        z-index: -5;
+    }
+}
+
+@for $i from 1 to 11 {
+    $t: random(
+        $limit: 120,
+    );
+    $l: random(
+        $limit: 200,
+    );
+    $h: random(
+        $limit: 5,
+    );
+    $w: random(
+        $limit: 3,
+    );
+    $r: random(
+        $limit: 360,
+    );
+    .box-#{$i} {
+        top: calc(#{$i} * #{$t}px);
+        left: calc(#{$i} * #{$l}px);
+        height: calc(#{$i}* #{$h}px);
+        width: calc(#{$i}* #{$w}px);
+        transform: rotate(#{$r}deg);
+        animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+    }
+}
+
+@for $i from 1 to 11 {
+    $t: random(
+        $limit: 100,
+    );
+    $l: random(
+        $limit: 200,
+    );
+    $h: random(
+        $limit: 5,
+    );
+    $w: random(
+        $limit: 3,
+    );
+    $r: random(
+        $limit: 360,
+    );
+    .dox-#{$i} {
+        top: calc(#{$i} * #{$t}px);
+        left: calc(#{$i} * #{$l}px);
+        height: calc(#{$i}* #{$h}px);
+        width: calc(#{$i}* #{$w}px);
+        transform: rotate(#{$r}deg);
+        animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+    }
+}
+
+@for $i from 1 to 11 {
+    $t: random(
+        $limit: 150,
+    );
+    $l: random(
+        $limit: 250,
+    );
+    $h: random(
+        $limit: 5,
+    );
+    $w: random(
+        $limit: 3,
+    );
+    $r: random(
+        $limit: 360,
+    );
+    .fox-#{$i} {
+        top: calc(#{$i} * #{$t}px);
+        left: calc(#{$i} * #{$l}px);
+        height: calc(#{$i}* #{$h}px);
+        width: calc(#{$i}* #{$w}px);
+        transform: rotate(#{$r}deg);
+        animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+    }
+}
+
+@for $i from 1 to 11 {
+    $b: random(
+        $limit: 150,
+    );
+    $r: random(
+        $limit: 250,
+    );
+    $h: random(
+        $limit: 5,
+    );
+    $w: random(
+        $limit: 3,
+    );
+    $t: random(
+        $limit: 360,
+    );
+    .rox-#{$i} {
+        bottom: calc(#{$i} * #{$b}px);
+        right: calc(#{$i} * #{$r}px);
+        height: calc(#{$i}* #{$h}px);
+        width: calc(#{$i}* #{$w}px);
+        transform: rotate(#{$t}deg);
+        animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+    }
+}
+
+@for $i from 1 to 11 {
+    $b: random(
+        $limit: 150,
+    );
+    $r: random(
+        $limit: 250,
+    );
+    $h: random(
+        $limit: 5,
+    );
+    $w: random(
+        $limit: 3,
+    );
+    $t: random(
+        $limit: 360,
+    );
+    .uox-#{$i} {
+        bottom: calc(#{$i} * #{$b}px);
+        right: calc(#{$i} * #{$r}px);
+        height: calc(#{$i}* #{$h}px);
+        width: calc(#{$i}* #{$w}px);
+        transform: rotate(#{$t}deg);
+        animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+    }
+}
+
+@keyframes FALLCONTETTI {
+    0% {
+        transform: translateY(-2000%);
+    }
+    100% {
+        transform: translateY(2000%);
+    }
+}
