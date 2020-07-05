@@ -12,6 +12,7 @@ $blue: #536979;
 
 @import './partials/confetti';
 @import './partials/videos';
+@import './partials/contact';
 
 .section {
     min-height: 100vh;
@@ -24,6 +25,24 @@ $blue: #536979;
 
 .black-text {
     color: $black !important;
+}
+
+.anchor-bar {
+    &:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: $white;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        transform: scaleX(0);
+        transform-origin: 0%;
+        transition: transform 250ms ease-in-out;
+    }
+    &:hover:after {
+        transform: scaleX(100%);
+    }
 }
 
 * {
@@ -80,21 +99,9 @@ nav {
                 font-weight: bold;
                 text-decoration: none;
                 display: inline-block;
-                @include flex(center, space-evenly);
                 position: relative;
-                &:after {
-                    content: '';
-                    position: absolute;
-                    height: 2px;
-                    width: 0%;
-                    background-color: $white;
-                    bottom: 10px;
-                    left: 0;
-                    transition: width 250ms ease;
-                }
-                &:hover:after {
-                    width: 100%;
-                }
+                @include flex(center, space-evenly);
+                @extend .anchor-bar;
                 i {
                     margin-right: 10px;
                     display: flex;
@@ -150,6 +157,7 @@ main {
     @extend .section;
     width: 60%;
     justify-content: center;
+    margin-left: 9%;
     & > div {
         margin-top: -150px;
     }
@@ -160,16 +168,7 @@ main {
         @include flex(row, center);
         align-items: baseline;
         width: 100%;
-        .hello {
-            font-size: 2rem;
-            color: $black;
-            text-shadow: none;
-            display: inline-block;
-            transform: scale(5) translateX(100%);
-            animation: hello 0.8s cubic-bezier(0.6, -0.28, 0.74, 0.05) forwards;
-            animation-delay: 1s;
-            margin-right: 5px;
-        }
+        padding-top: 150px;
         .slide-in {
             @include flex(row, center);
             align-items: center;
@@ -178,11 +177,6 @@ main {
             animation-delay: 1.3s;
             opacity: 0;
             font-family: 'Kalam', cursive;
-            span {
-                color: $black;
-                font-size: 2rem;
-                font-weight: normal;
-            }
         }
     }
     .subtitle {
@@ -193,6 +187,7 @@ main {
         color: $black;
         text-align: end;
         letter-spacing: 5px;
+        margin-top: 1em;
         span {
             letter-spacing: 5px;
         }
@@ -207,6 +202,48 @@ main {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 27%);
         z-index: -10;
     }
+    .contact-links {
+        @include flex(row, space-between);
+        width: 250px;
+        list-style: none;
+        padding-top: 150px;
+        li {
+            @include flex(row, center);
+            align-items: center;
+            opacity: 0;
+            position: relative;
+            animation: fadeIn 500ms ease-in-out forwards;
+            overflow-x: hidden;
+            &:after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 3px;
+                background-color: $black;
+                transform: translateX(-100%);
+                transition: transform 250ms ease-in-out;
+            }
+            &:hover:after {
+                transform: translateX(0);
+            }
+        }
+        li:first-child {
+            animation-delay: 3.5s;
+        }
+        li:nth-child(2) {
+            animation-delay: 4s;
+        }
+        li:last-child {
+            animation-delay: 4.5s;
+        }
+        a {
+            color: $black;
+            text-decoration: none;
+            font-size: 3rem;
+        }
+    }
 }
 
 #about {
@@ -218,7 +255,8 @@ main {
 #facebook,
 #blog,
 #battleship,
-#other-projects {
+#other-projects,
+#contact {
     @extend .section;
 }
 
@@ -238,26 +276,17 @@ main {
             color: $black;
             font-size: 1rem;
             text-decoration: none;
-            margin-left: 25px;
+            margin-left: 30px;
             position: relative;
             i {
                 width: 26px;
                 height: 26px;
                 margin-left: 10px;
+                font-size: 1.5rem;
             }
+            @extend .anchor-bar;
             &:after {
-                content: '';
-                position: absolute;
-                bottom: -5px;
-                left: 0;
-                display: inline-block;
-                height: 2px;
-                width: 0;
-                transition: width 200ms ease-in-out;
                 background-color: $black;
-            }
-            &:hover:after {
-                width: 100%;
             }
         }
     }
@@ -338,7 +367,7 @@ main {
         }
     }
     .images {
-        @include flex(row, flex-end);
+        @include flex(row, space-around);
         width: 100%;
         figure {
             @include flex();
@@ -352,26 +381,7 @@ main {
     }
 }
 
-#facebook {
-    .bg-color {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: #1876f211;
-        z-index: -15;
-    }
-}
-
-#blog {
-    .images {
-        justify-content: space-around;
-    }
-}
-
 #battleship {
-    .images {
-        justify-content: space-around;
-    }
     .text {
         .techs li {
             width: 6%;
@@ -452,20 +462,30 @@ main {
                     @include flex(row, center);
                     align-items: center;
                     color: $white;
+                    text-decoration: none;
+                    i {
+                        font-size: 2rem;
+                        position: relative;
+                        &:after {
+                            content: '';
+                            width: 100%;
+                            height: 2px;
+                            background-color: $white;
+                            position: absolute;
+                            bottom: -5px;
+                            left: 0;
+                            transform: scaleX(0);
+                            transform-origin: 0%;
+                            transition: transform 250ms ease-in-out;
+                        }
+                        &:hover:after {
+                            transform: scaleX(100%);
+                        }
+                    }
                 }
             }
         }
     }
-}
-
-.live {
-    background: url('./imgs/view-in-browser.png');
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 @keyframes slideIn {

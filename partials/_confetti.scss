@@ -27,9 +27,10 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
     .dox-#{$i},
     .fox-#{$i},
     .rox-#{$i},
-    .uox-#{$i} {
+    .uox-#{$i},
+    .vox-#{$i} {
         background-color: $color;
-        opacity: 0.25;
+        opacity: 0;
         z-index: -5;
     }
 }
@@ -56,7 +57,8 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$r}deg);
-        animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation-delay: 3s;
     }
 }
 
@@ -82,7 +84,8 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$r}deg);
-        animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation-delay: 2.5s;
     }
 }
 
@@ -108,7 +111,8 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$r}deg);
-        animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation-delay: 2s;
     }
 }
 
@@ -129,12 +133,13 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         $limit: 360,
     );
     .rox-#{$i} {
-        bottom: calc(#{$i} * #{$b}px);
+        top: calc(#{$i} * #{$t}px);
         right: calc(#{$i} * #{$r}px);
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$t}deg);
-        animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation-delay: 1.5s;
     }
 }
 
@@ -155,20 +160,53 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         $limit: 360,
     );
     .uox-#{$i} {
-        bottom: calc(#{$i} * #{$b}px);
+        top: calc(#{$i} * #{$t}px);
         right: calc(#{$i} * #{$r}px);
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$t}deg);
-        animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation-delay: 1s;
     }
 }
 
-@keyframes FALLCONTETTI {
+@for $i from 1 to 11 {
+    $b: random(
+        $limit: 150,
+    );
+    $r: random(
+        $limit: 250,
+    );
+    $h: random(
+        $limit: 5,
+    );
+    $w: random(
+        $limit: 3,
+    );
+    $t: random(
+        $limit: 360,
+    );
+    .vox-#{$i} {
+        top: calc(#{$i} * #{$t}px);
+        right: calc(#{$i} * #{$r}px);
+        height: calc(#{$i}* #{$h}px);
+        width: calc(#{$i}* #{$w}px);
+        transform: rotate(#{$t}deg);
+        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation-delay: 0.5s;
+    }
+}
+
+@keyframes FALLCONFETTI {
     0% {
         transform: translateY(-3000%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.25;
     }
     100% {
         transform: translateY(3000%);
+        opacity: 0;
     }
 }

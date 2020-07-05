@@ -13,13 +13,14 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="style.css" />
-        <title>Julio Bermudez</title>
+        <title>Julio Bermúdez</title>
     </head>
     <body>
         <div class="video-modal">
             <video autoplay disablePictureInPicture loop muted>
                 <source src="" type="video/webm" />
             </video>
+            <p></p>
         </div>
         <main>
             <div id="wrapper">
@@ -44,12 +45,12 @@
                             </ul>
                         </li>
                         <li>
-                            <a data-section="resume" href="#"
+                            <a data-section="resume" href="#resume"
                                 ><i class="far fa-file-alt"></i>Resume</a
                             >
                         </li>
                         <li>
-                            <a data-section="contact" href="#"
+                            <a data-section="contact" href="#contact"
                                 ><i class="far fa-paper-plane"></i>Contact</a
                             >
                         </li>
@@ -59,17 +60,29 @@
                 <section id="hero">
                     <div>
                         <h1>
-                            <span class="hello">Hi.</span>
-                            <div class="slide-in"><span> I'm</span>&ThinSpace;Julio Bermudez</div>
+                            <div class="slide-in">&ThinSpace;Julio Bermúdez</div>
                         </h1>
                         <p class="subtitle">A self-taught <span>web developer</span></p>
                     </div>
-                    <!-- <div>
-                        <span>github</span>
-                        <span>something</span>
-                        <span>something</span>
-                        <span>something</span>
-                    </div> -->
+                    <ul class="contact-links">
+                        <li>
+                            <a
+                                href="https://www.linkedin.com/in/julio-berm%C3%BAdez-bba1ba1b2/"
+                                target="_blank"
+                                ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/julio22b" target="_blank"
+                                ><i class="fab fa-github"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="mailto: jbermudezfc90@gmail.com" target="_blank"
+                                ><i class="far fa-envelope"></i
+                            ></a>
+                        </li>
+                    </ul>
                 </section>
             </div>
             <section id="about">
@@ -83,7 +96,7 @@
                             <a
                                 href="https://facebook-clone-odin.herokuapp.com/users/log-in"
                                 target="_blank"
-                                >Live <i class="live"></i></a
+                                >Live <i class="far fa-window-maximize"></i></a
                             ><a
                                 href="https://github.com/julio22b/facebook-clone-api"
                                 target="_blank"
@@ -123,19 +136,36 @@
                 </article>
                 <article class="images">
                     <figure>
-                        <video autoplay disablePictureInPicture loop muted>
+                        <video
+                            autoplay
+                            disablePictureInPicture
+                            loop
+                            muted
+                            data-desc="Creating a post with an image. Adding a reaction and a comment. Editing the post's content."
+                        >
                             <source src="./imgs/timeline.webm" type="video/webm" />
                         </video>
-                        <figcaption></figcaption>
                     </figure>
                     <figure>
-                        <video autoplay disablePictureInPicture loop muted>
+                        <video
+                            autoplay
+                            disablePictureInPicture
+                            loop
+                            muted
+                            data-desc="Shows the user's profile page where they can edit their information, including the images."
+                        >
                             <source src="./imgs/profile.webm" type="video/webm" />
                         </video>
                         <figcaption></figcaption>
                     </figure>
                     <figure>
-                        <video autoplay disablePictureInPicture loop muted>
+                        <video
+                            autoplay
+                            disablePictureInPicture
+                            loop
+                            muted
+                            data-desc="Live feed. Posts created are shared in real time to all friends. Also shows private messaging between two users."
+                        >
                             <source src="./imgs/sockets.webm" />
                         </video>
                         <figcaption></figcaption>
@@ -148,11 +178,11 @@
                         Blog
                         <div>
                             <a href="https://julio22b.github.io/blog-frontend/home" target="_blank"
-                                >Live - Users <i class="live"></i></a
+                                >Live - Users <i class="far fa-window-maximize"></i></a
                             ><a
                                 href="https://julio22b.github.io/blog-admin-frontend/home"
                                 target="_blank"
-                                >Live - Admin <i class="live"></i>
+                                >Live - Admin <i class="far fa-window-maximize"></i>
                             </a>
                             <a
                                 href="https://github.com/julio22b/facebook-clone-frontend"
@@ -184,13 +214,25 @@
                 </article>
                 <article class="images">
                     <figure>
-                        <video autoplay disablePictureInPicture loop muted>
+                        <video
+                            autoplay
+                            disablePictureInPicture
+                            loop
+                            muted
+                            data-desc="Creating a post with Toast UI Editor which allows the user to write markdown that will be saved to the database"
+                        >
                             <source src="./imgs/admin-blog.webm" type="video/webm" />
                         </video>
                         <figcaption></figcaption>
                     </figure>
                     <figure>
-                        <video autoplay disablePictureInPicture loop muted>
+                        <video
+                            autoplay
+                            disablePictureInPicture
+                            loop
+                            muted
+                            data-desc="The users' page where all posts are displayed. Users can read a post and comment on it."
+                        >
                             <source src="./imgs/users-blog.webm" />
                         </video>
                         <figcaption></figcaption>
@@ -203,7 +245,7 @@
                         Battleship
                         <div>
                             <a href="https://julio22b.github.io/battleship" target="_blank"
-                                >Live<i class="live"></i
+                                >Live<i class="far fa-window-maximize"></i
                             ></a>
                             <a href="https://github.com/julio22b/battleship" target="_blank"
                                 >Code<i class="fab fa-github"></i
@@ -230,13 +272,25 @@
                 </article>
                 <article class="images">
                     <figure>
-                        <video autoplay disablePictureInPicture loop muted>
+                        <video
+                            autoplay
+                            disablePictureInPicture
+                            loop
+                            muted
+                            data-desc="Ship placement. It can be done by clicking or typing a coordinate."
+                        >
                             <source src="./imgs/battleship-placing.webm" type="video/webm" />
                         </video>
                         <figcaption></figcaption>
                     </figure>
                     <figure>
-                        <video autoplay disablePictureInPicture loop muted>
+                        <video
+                            autoplay
+                            disablePictureInPicture
+                            loop
+                            muted
+                            data-desc="Gameplay against the computer is shown. Notice how the UI keeps track of sunk ships."
+                        >
                             <source src="./imgs/battleship.webm" type="video/webm" />
                         </video>
                         <figcaption></figcaption>
@@ -255,7 +309,7 @@
                                             <a
                                                 target="_blank"
                                                 href="https://inventory-app-top.herokuapp.com/catalog/"
-                                                ><i class="live"></i
+                                                ><i class="far fa-window-maximize"></i
                                             ></a>
                                         </li>
                                         <li>
@@ -290,7 +344,7 @@
                                             <a
                                                 target="_blank"
                                                 href="https://julio22b.github.io/letterboxd-home/"
-                                                ><i class="live"></i
+                                                ><i class="far fa-window-maximize"></i
                                             ></a>
                                         </li>
                                         <li>
@@ -322,7 +376,7 @@
                                             <a
                                                 target="_blank"
                                                 href="https://julio22b.github.io/newsweek-bootstrap/"
-                                                ><i class="live"></i
+                                                ><i class="far fa-window-maximize"></i
                                             ></a>
                                         </li>
                                         <li>
@@ -352,7 +406,7 @@
                                             <a
                                                 target="_blank"
                                                 href="https://members-only-odin.herokuapp.com/home"
-                                                ><i class="live"></i
+                                                ><i class="far fa-window-maximize"></i
                                             ></a>
                                         </li>
                                         <li>
@@ -381,7 +435,7 @@
                                             <a
                                                 target="_blank"
                                                 href="https://julio22b.github.io/tic-tac-toe/"
-                                                ><i class="live"></i
+                                                ><i class="far fa-window-maximize"></i
                                             ></a>
                                         </li>
                                         <li>
@@ -410,7 +464,7 @@
                                             <a
                                                 target="_blank"
                                                 href="https://julio22b.github.io/etch-a-sketch/"
-                                                ><i class="live"></i
+                                                ><i class="far fa-window-maximize"></i
                                             ></a>
                                         </li>
                                         <li>
@@ -431,6 +485,27 @@
                             </figcaption>
                         </figure>
                     </article>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="text">
+                    <h2 class="project-title">You can send me an email from here</h2>
+                    <form action="">
+                        <div class="form-field">
+                            <input type="text" name="name" required placeholder=" " />
+                            <label for="name">Name </label>
+                        </div>
+                        <div class="form-field">
+                            <input type="email" name="email" required placeholder=" " />
+                            <label for="email">Email </label>
+                        </div>
+                        <textarea
+                            name="message"
+                            cols="30"
+                            rows="10"
+                            placeholder="And your message..."
+                        ></textarea>
+                    </form>
                 </div>
             </section>
         </main>
@@ -485,6 +560,16 @@
             <div class="colors uox-8"></div>
             <div class="colors uox-9"></div>
             <div class="colors uox-10"></div>
+            <div class="colors vox-1"></div>
+            <div class="colors vox-2"></div>
+            <div class="colors vox-3"></div>
+            <div class="colors vox-4"></div>
+            <div class="colors vox-5"></div>
+            <div class="colors vox-6"></div>
+            <div class="colors vox-7"></div>
+            <div class="colors vox-8"></div>
+            <div class="colors vox-9"></div>
+            <div class="colors vox-10"></div>
         </div>
         <script src="./index.js"></script>
     </body>

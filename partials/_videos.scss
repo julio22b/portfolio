@@ -6,16 +6,22 @@
     pointer-events: none;
     opacity: 0;
     transition: all 250ms ease-in-out;
-    @include flex(row, center);
+    @include flex(column, center);
     align-items: center;
     video {
         width: 65%;
         height: 65vh;
     }
+    p {
+        color: $white;
+        margin-top: 1.5em;
+        text-shadow: 0px 0px $black;
+        font-weight: bold;
+    }
 }
 
 .video-modal.open {
-    background-color: #393d3faf;
+    background-color: #393d3fde;
     opacity: 1;
     pointer-events: all;
 }

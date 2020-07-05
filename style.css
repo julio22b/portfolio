@@ -19,9 +19,10 @@
 .dox-1,
 .fox-1,
 .rox-1,
-.uox-1 {
+.uox-1,
+.vox-1 {
   background-color: #ff0000;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -29,9 +30,10 @@
 .dox-2,
 .fox-2,
 .rox-2,
-.uox-2 {
+.uox-2,
+.vox-2 {
   background-color: #ff7f00;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -39,9 +41,10 @@
 .dox-3,
 .fox-3,
 .rox-3,
-.uox-3 {
+.uox-3,
+.vox-3 {
   background-color: #ffff00;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -49,9 +52,10 @@
 .dox-4,
 .fox-4,
 .rox-4,
-.uox-4 {
+.uox-4,
+.vox-4 {
   background-color: #00ff00;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -59,9 +63,10 @@
 .dox-5,
 .fox-5,
 .rox-5,
-.uox-5 {
+.uox-5,
+.vox-5 {
   background-color: #0000ff;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -69,9 +74,10 @@
 .dox-6,
 .fox-6,
 .rox-6,
-.uox-6 {
+.uox-6,
+.vox-6 {
   background-color: #2e2b5f;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -79,9 +85,10 @@
 .dox-7,
 .fox-7,
 .rox-7,
-.uox-7 {
+.uox-7,
+.vox-7 {
   background-color: #8b00ff;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -89,9 +96,10 @@
 .dox-1,
 .fox-1,
 .rox-1,
-.uox-1 {
+.uox-1,
+.vox-1 {
   background-color: #ff0000;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -99,9 +107,10 @@
 .dox-2,
 .fox-2,
 .rox-2,
-.uox-2 {
+.uox-2,
+.vox-2 {
   background-color: #ff7f00;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -109,9 +118,10 @@
 .dox-3,
 .fox-3,
 .rox-3,
-.uox-3 {
+.uox-3,
+.vox-3 {
   background-color: #ffff00;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -119,9 +129,10 @@
 .dox-4,
 .fox-4,
 .rox-4,
-.uox-4 {
+.uox-4,
+.vox-4 {
   background-color: #00ff00;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -129,9 +140,10 @@
 .dox-5,
 .fox-5,
 .rox-5,
-.uox-5 {
+.uox-5,
+.vox-5 {
   background-color: #0000ff;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -139,9 +151,10 @@
 .dox-6,
 .fox-6,
 .rox-6,
-.uox-6 {
+.uox-6,
+.vox-6 {
   background-color: #2e2b5f;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -149,9 +162,10 @@
 .dox-7,
 .fox-7,
 .rox-7,
-.uox-7 {
+.uox-7,
+.vox-7 {
   background-color: #8b00ff;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -159,9 +173,10 @@
 .dox-1,
 .fox-1,
 .rox-1,
-.uox-1 {
+.uox-1,
+.vox-1 {
   background-color: #ff0000;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -169,9 +184,10 @@
 .dox-2,
 .fox-2,
 .rox-2,
-.uox-2 {
+.uox-2,
+.vox-2 {
   background-color: #ff7f00;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -179,9 +195,10 @@
 .dox-3,
 .fox-3,
 .rox-3,
-.uox-3 {
+.uox-3,
+.vox-3 {
   background-color: #ffff00;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -189,9 +206,10 @@
 .dox-4,
 .fox-4,
 .rox-4,
-.uox-4 {
+.uox-4,
+.vox-4 {
   background-color: #00ff00;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -199,9 +217,10 @@
 .dox-5,
 .fox-5,
 .rox-5,
-.uox-5 {
+.uox-5,
+.vox-5 {
   background-color: #0000ff;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -209,9 +228,10 @@
 .dox-6,
 .fox-6,
 .rox-6,
-.uox-6 {
+.uox-6,
+.vox-6 {
   background-color: #2e2b5f;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -219,9 +239,10 @@
 .dox-7,
 .fox-7,
 .rox-7,
-.uox-7 {
+.uox-7,
+.vox-7 {
   background-color: #8b00ff;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -229,9 +250,10 @@
 .dox-1,
 .fox-1,
 .rox-1,
-.uox-1 {
+.uox-1,
+.vox-1 {
   background-color: #ff0000;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -239,9 +261,10 @@
 .dox-2,
 .fox-2,
 .rox-2,
-.uox-2 {
+.uox-2,
+.vox-2 {
   background-color: #ff7f00;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -249,9 +272,10 @@
 .dox-3,
 .fox-3,
 .rox-3,
-.uox-3 {
+.uox-3,
+.vox-3 {
   background-color: #ffff00;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -259,9 +283,10 @@
 .dox-4,
 .fox-4,
 .rox-4,
-.uox-4 {
+.uox-4,
+.vox-4 {
   background-color: #00ff00;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -269,9 +294,10 @@
 .dox-5,
 .fox-5,
 .rox-5,
-.uox-5 {
+.uox-5,
+.vox-5 {
   background-color: #0000ff;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -279,9 +305,10 @@
 .dox-6,
 .fox-6,
 .rox-6,
-.uox-6 {
+.uox-6,
+.vox-6 {
   background-color: #2e2b5f;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
@@ -289,581 +316,822 @@
 .dox-7,
 .fox-7,
 .rox-7,
-.uox-7 {
+.uox-7,
+.vox-7 {
   background-color: #8b00ff;
-  opacity: 0.25;
+  opacity: 0;
   z-index: -5;
 }
 
 .box-1 {
-  top: calc(1 * 107px);
-  left: calc(1 * 82px);
-  height: calc(1* 5px);
-  width: calc(1* 3px);
-  -webkit-transform: rotate(289deg);
-          transform: rotate(289deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(1 * 53px);
+  left: calc(1 * 74px);
+  height: calc(1* 2px);
+  width: calc(1* 1px);
+  -webkit-transform: rotate(326deg);
+          transform: rotate(326deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .box-2 {
-  top: calc(2 * 14px);
-  left: calc(2 * 9px);
-  height: calc(2* 3px);
+  top: calc(2 * 24px);
+  left: calc(2 * 136px);
+  height: calc(2* 4px);
   width: calc(2* 3px);
-  -webkit-transform: rotate(130deg);
-          transform: rotate(130deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(300deg);
+          transform: rotate(300deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .box-3 {
-  top: calc(3 * 45px);
-  left: calc(3 * 193px);
-  height: calc(3* 5px);
-  width: calc(3* 3px);
-  -webkit-transform: rotate(183deg);
-          transform: rotate(183deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(3 * 27px);
+  left: calc(3 * 13px);
+  height: calc(3* 4px);
+  width: calc(3* 2px);
+  -webkit-transform: rotate(39deg);
+          transform: rotate(39deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .box-4 {
-  top: calc(4 * 84px);
-  left: calc(4 * 47px);
-  height: calc(4* 2px);
+  top: calc(4 * 80px);
+  left: calc(4 * 171px);
+  height: calc(4* 3px);
   width: calc(4* 2px);
-  -webkit-transform: rotate(84deg);
-          transform: rotate(84deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(67deg);
+          transform: rotate(67deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .box-5 {
-  top: calc(5 * 112px);
-  left: calc(5 * 35px);
-  height: calc(5* 5px);
-  width: calc(5* 3px);
-  -webkit-transform: rotate(332deg);
-          transform: rotate(332deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(5 * 23px);
+  left: calc(5 * 121px);
+  height: calc(5* 1px);
+  width: calc(5* 1px);
+  -webkit-transform: rotate(272deg);
+          transform: rotate(272deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .box-6 {
-  top: calc(6 * 29px);
-  left: calc(6 * 148px);
+  top: calc(6 * 1px);
+  left: calc(6 * 16px);
   height: calc(6* 4px);
-  width: calc(6* 3px);
-  -webkit-transform: rotate(274deg);
-          transform: rotate(274deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  width: calc(6* 2px);
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .box-7 {
-  top: calc(7 * 38px);
-  left: calc(7 * 92px);
-  height: calc(7* 4px);
-  width: calc(7* 3px);
-  -webkit-transform: rotate(208deg);
-          transform: rotate(208deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(7 * 76px);
+  left: calc(7 * 158px);
+  height: calc(7* 5px);
+  width: calc(7* 1px);
+  -webkit-transform: rotate(310deg);
+          transform: rotate(310deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .box-8 {
-  top: calc(8 * 106px);
-  left: calc(8 * 23px);
-  height: calc(8* 5px);
-  width: calc(8* 2px);
-  -webkit-transform: rotate(242deg);
-          transform: rotate(242deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(8 * 35px);
+  left: calc(8 * 139px);
+  height: calc(8* 2px);
+  width: calc(8* 1px);
+  -webkit-transform: rotate(98deg);
+          transform: rotate(98deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .box-9 {
-  top: calc(9 * 23px);
-  left: calc(9 * 75px);
-  height: calc(9* 1px);
+  top: calc(9 * 39px);
+  left: calc(9 * 43px);
+  height: calc(9* 4px);
   width: calc(9* 2px);
-  -webkit-transform: rotate(51deg);
-          transform: rotate(51deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(82deg);
+          transform: rotate(82deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .box-10 {
-  top: calc(10 * 95px);
-  left: calc(10 * 136px);
+  top: calc(10 * 3px);
+  left: calc(10 * 189px);
   height: calc(10* 4px);
   width: calc(10* 3px);
-  -webkit-transform: rotate(159deg);
-          transform: rotate(159deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(111deg);
+          transform: rotate(111deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .dox-1 {
-  top: calc(1 * 79px);
-  left: calc(1 * 173px);
-  height: calc(1* 2px);
-  width: calc(1* 2px);
-  -webkit-transform: rotate(3deg);
-          transform: rotate(3deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(1 * 71px);
+  left: calc(1 * 127px);
+  height: calc(1* 1px);
+  width: calc(1* 1px);
+  -webkit-transform: rotate(319deg);
+          transform: rotate(319deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .dox-2 {
-  top: calc(2 * 7px);
-  left: calc(2 * 131px);
-  height: calc(2* 4px);
-  width: calc(2* 1px);
-  -webkit-transform: rotate(355deg);
-          transform: rotate(355deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(2 * 57px);
+  left: calc(2 * 41px);
+  height: calc(2* 3px);
+  width: calc(2* 3px);
+  -webkit-transform: rotate(296deg);
+          transform: rotate(296deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .dox-3 {
-  top: calc(3 * 89px);
-  left: calc(3 * 97px);
-  height: calc(3* 5px);
-  width: calc(3* 2px);
-  -webkit-transform: rotate(230deg);
-          transform: rotate(230deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(3 * 71px);
+  left: calc(3 * 182px);
+  height: calc(3* 3px);
+  width: calc(3* 3px);
+  -webkit-transform: rotate(65deg);
+          transform: rotate(65deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .dox-4 {
-  top: calc(4 * 64px);
-  left: calc(4 * 182px);
-  height: calc(4* 2px);
-  width: calc(4* 2px);
-  -webkit-transform: rotate(4deg);
-          transform: rotate(4deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(4 * 7px);
+  left: calc(4 * 96px);
+  height: calc(4* 3px);
+  width: calc(4* 1px);
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .dox-5 {
-  top: calc(5 * 16px);
-  left: calc(5 * 135px);
+  top: calc(5 * 34px);
+  left: calc(5 * 105px);
   height: calc(5* 1px);
-  width: calc(5* 1px);
-  -webkit-transform: rotate(213deg);
-          transform: rotate(213deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  width: calc(5* 2px);
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .dox-6 {
-  top: calc(6 * 26px);
-  left: calc(6 * 191px);
-  height: calc(6* 3px);
-  width: calc(6* 3px);
-  -webkit-transform: rotate(189deg);
-          transform: rotate(189deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(6 * 6px);
+  left: calc(6 * 65px);
+  height: calc(6* 2px);
+  width: calc(6* 1px);
+  -webkit-transform: rotate(38deg);
+          transform: rotate(38deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .dox-7 {
-  top: calc(7 * 11px);
-  left: calc(7 * 187px);
+  top: calc(7 * 25px);
+  left: calc(7 * 111px);
   height: calc(7* 2px);
-  width: calc(7* 1px);
-  -webkit-transform: rotate(37deg);
-          transform: rotate(37deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  width: calc(7* 3px);
+  -webkit-transform: rotate(197deg);
+          transform: rotate(197deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .dox-8 {
-  top: calc(8 * 42px);
-  left: calc(8 * 7px);
+  top: calc(8 * 2px);
+  left: calc(8 * 53px);
   height: calc(8* 3px);
-  width: calc(8* 2px);
-  -webkit-transform: rotate(208deg);
-          transform: rotate(208deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  width: calc(8* 1px);
+  -webkit-transform: rotate(139deg);
+          transform: rotate(139deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .dox-9 {
-  top: calc(9 * 12px);
-  left: calc(9 * 190px);
-  height: calc(9* 2px);
-  width: calc(9* 3px);
-  -webkit-transform: rotate(304deg);
-          transform: rotate(304deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(9 * 19px);
+  left: calc(9 * 6px);
+  height: calc(9* 3px);
+  width: calc(9* 1px);
+  -webkit-transform: rotate(29deg);
+          transform: rotate(29deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .dox-10 {
-  top: calc(10 * 42px);
-  left: calc(10 * 31px);
-  height: calc(10* 3px);
-  width: calc(10* 3px);
-  -webkit-transform: rotate(57deg);
-          transform: rotate(57deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(10 * 74px);
+  left: calc(10 * 94px);
+  height: calc(10* 1px);
+  width: calc(10* 2px);
+  -webkit-transform: rotate(134deg);
+          transform: rotate(134deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .fox-1 {
-  top: calc(1 * 147px);
-  left: calc(1 * 157px);
+  top: calc(1 * 4px);
+  left: calc(1 * 24px);
   height: calc(1* 5px);
   width: calc(1* 1px);
-  -webkit-transform: rotate(310deg);
-          transform: rotate(310deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(165deg);
+          transform: rotate(165deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .fox-2 {
-  top: calc(2 * 2px);
-  left: calc(2 * 142px);
-  height: calc(2* 2px);
-  width: calc(2* 3px);
-  -webkit-transform: rotate(161deg);
-          transform: rotate(161deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(2 * 129px);
+  left: calc(2 * 22px);
+  height: calc(2* 5px);
+  width: calc(2* 2px);
+  -webkit-transform: rotate(100deg);
+          transform: rotate(100deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .fox-3 {
-  top: calc(3 * 45px);
-  left: calc(3 * 90px);
-  height: calc(3* 3px);
+  top: calc(3 * 129px);
+  left: calc(3 * 33px);
+  height: calc(3* 2px);
   width: calc(3* 2px);
-  -webkit-transform: rotate(109deg);
-          transform: rotate(109deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(341deg);
+          transform: rotate(341deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .fox-4 {
-  top: calc(4 * 119px);
-  left: calc(4 * 125px);
-  height: calc(4* 1px);
-  width: calc(4* 2px);
-  -webkit-transform: rotate(119deg);
-          transform: rotate(119deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(4 * 57px);
+  left: calc(4 * 227px);
+  height: calc(4* 4px);
+  width: calc(4* 1px);
+  -webkit-transform: rotate(261deg);
+          transform: rotate(261deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .fox-5 {
-  top: calc(5 * 129px);
-  left: calc(5 * 193px);
-  height: calc(5* 4px);
+  top: calc(5 * 119px);
+  left: calc(5 * 245px);
+  height: calc(5* 2px);
   width: calc(5* 1px);
-  -webkit-transform: rotate(115deg);
-          transform: rotate(115deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(273deg);
+          transform: rotate(273deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .fox-6 {
-  top: calc(6 * 117px);
-  left: calc(6 * 114px);
-  height: calc(6* 5px);
+  top: calc(6 * 46px);
+  left: calc(6 * 135px);
+  height: calc(6* 3px);
   width: calc(6* 2px);
-  -webkit-transform: rotate(238deg);
-          transform: rotate(238deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(250deg);
+          transform: rotate(250deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .fox-7 {
-  top: calc(7 * 21px);
-  left: calc(7 * 69px);
-  height: calc(7* 3px);
+  top: calc(7 * 52px);
+  left: calc(7 * 5px);
+  height: calc(7* 2px);
   width: calc(7* 1px);
-  -webkit-transform: rotate(169deg);
-          transform: rotate(169deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(206deg);
+          transform: rotate(206deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .fox-8 {
-  top: calc(8 * 62px);
-  left: calc(8 * 38px);
+  top: calc(8 * 28px);
+  left: calc(8 * 191px);
   height: calc(8* 3px);
-  width: calc(8* 1px);
-  -webkit-transform: rotate(284deg);
-          transform: rotate(284deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  width: calc(8* 2px);
+  -webkit-transform: rotate(241deg);
+          transform: rotate(241deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .fox-9 {
-  top: calc(9 * 17px);
-  left: calc(9 * 175px);
+  top: calc(9 * 42px);
+  left: calc(9 * 37px);
   height: calc(9* 5px);
-  width: calc(9* 2px);
-  -webkit-transform: rotate(46deg);
-          transform: rotate(46deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  width: calc(9* 3px);
+  -webkit-transform: rotate(211deg);
+          transform: rotate(211deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .fox-10 {
-  top: calc(10 * 146px);
-  left: calc(10 * 59px);
-  height: calc(10* 4px);
-  width: calc(10* 3px);
-  -webkit-transform: rotate(354deg);
-          transform: rotate(354deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(10 * 3px);
+  left: calc(10 * 234px);
+  height: calc(10* 2px);
+  width: calc(10* 1px);
+  -webkit-transform: rotate(39deg);
+          transform: rotate(39deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .rox-1 {
-  bottom: calc(1 * 37px);
-  right: calc(1 * 53px);
-  height: calc(1* 1px);
-  width: calc(1* 2px);
-  -webkit-transform: rotate(348deg);
-          transform: rotate(348deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(1 * 41px);
+  right: calc(1 * 74px);
+  height: calc(1* 3px);
+  width: calc(1* 1px);
+  -webkit-transform: rotate(41deg);
+          transform: rotate(41deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .rox-2 {
-  bottom: calc(2 * 19px);
-  right: calc(2 * 185px);
-  height: calc(2* 3px);
-  width: calc(2* 3px);
-  -webkit-transform: rotate(139deg);
-          transform: rotate(139deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(2 * 67px);
+  right: calc(2 * 3px);
+  height: calc(2* 1px);
+  width: calc(2* 2px);
+  -webkit-transform: rotate(67deg);
+          transform: rotate(67deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .rox-3 {
-  bottom: calc(3 * 95px);
-  right: calc(3 * 249px);
-  height: calc(3* 5px);
-  width: calc(3* 3px);
-  -webkit-transform: rotate(106deg);
-          transform: rotate(106deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(3 * 52px);
+  right: calc(3 * 101px);
+  height: calc(3* 4px);
+  width: calc(3* 2px);
+  -webkit-transform: rotate(52deg);
+          transform: rotate(52deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .rox-4 {
-  bottom: calc(4 * 7px);
-  right: calc(4 * 141px);
-  height: calc(4* 5px);
-  width: calc(4* 3px);
-  -webkit-transform: rotate(262deg);
-          transform: rotate(262deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(4 * 275px);
+  right: calc(4 * 29px);
+  height: calc(4* 2px);
+  width: calc(4* 2px);
+  -webkit-transform: rotate(275deg);
+          transform: rotate(275deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .rox-5 {
-  bottom: calc(5 * 138px);
-  right: calc(5 * 99px);
-  height: calc(5* 2px);
-  width: calc(5* 2px);
-  -webkit-transform: rotate(115deg);
-          transform: rotate(115deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(5 * 173px);
+  right: calc(5 * 33px);
+  height: calc(5* 4px);
+  width: calc(5* 3px);
+  -webkit-transform: rotate(173deg);
+          transform: rotate(173deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .rox-6 {
-  bottom: calc(6 * 72px);
-  right: calc(6 * 215px);
-  height: calc(6* 2px);
+  top: calc(6 * 342px);
+  right: calc(6 * 13px);
+  height: calc(6* 1px);
   width: calc(6* 2px);
-  -webkit-transform: rotate(83deg);
-          transform: rotate(83deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(342deg);
+          transform: rotate(342deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .rox-7 {
-  bottom: calc(7 * 49px);
-  right: calc(7 * 40px);
-  height: calc(7* 4px);
-  width: calc(7* 3px);
-  -webkit-transform: rotate(327deg);
-          transform: rotate(327deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(7 * 194px);
+  right: calc(7 * 85px);
+  height: calc(7* 3px);
+  width: calc(7* 2px);
+  -webkit-transform: rotate(194deg);
+          transform: rotate(194deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .rox-8 {
-  bottom: calc(8 * 121px);
-  right: calc(8 * 175px);
-  height: calc(8* 3px);
-  width: calc(8* 2px);
-  -webkit-transform: rotate(201deg);
-          transform: rotate(201deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(8 * 235px);
+  right: calc(8 * 211px);
+  height: calc(8* 1px);
+  width: calc(8* 3px);
+  -webkit-transform: rotate(235deg);
+          transform: rotate(235deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .rox-9 {
-  bottom: calc(9 * 70px);
-  right: calc(9 * 166px);
-  height: calc(9* 2px);
-  width: calc(9* 1px);
-  -webkit-transform: rotate(179deg);
-          transform: rotate(179deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(9 * 298px);
+  right: calc(9 * 101px);
+  height: calc(9* 4px);
+  width: calc(9* 2px);
+  -webkit-transform: rotate(298deg);
+          transform: rotate(298deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .rox-10 {
-  bottom: calc(10 * 126px);
-  right: calc(10 * 43px);
-  height: calc(10* 2px);
-  width: calc(10* 3px);
-  -webkit-transform: rotate(70deg);
-          transform: rotate(70deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(10 * 207px);
+  right: calc(10 * 4px);
+  height: calc(10* 1px);
+  width: calc(10* 2px);
+  -webkit-transform: rotate(207deg);
+          transform: rotate(207deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .uox-1 {
-  bottom: calc(1 * 78px);
-  right: calc(1 * 226px);
-  height: calc(1* 1px);
-  width: calc(1* 2px);
-  -webkit-transform: rotate(290deg);
-          transform: rotate(290deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(1 * 188px);
+  right: calc(1 * 93px);
+  height: calc(1* 3px);
+  width: calc(1* 1px);
+  -webkit-transform: rotate(188deg);
+          transform: rotate(188deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .uox-2 {
-  bottom: calc(2 * 23px);
-  right: calc(2 * 161px);
-  height: calc(2* 3px);
+  top: calc(2 * 213px);
+  right: calc(2 * 190px);
+  height: calc(2* 5px);
   width: calc(2* 3px);
-  -webkit-transform: rotate(60deg);
-          transform: rotate(60deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(213deg);
+          transform: rotate(213deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .uox-3 {
-  bottom: calc(3 * 102px);
-  right: calc(3 * 66px);
-  height: calc(3* 3px);
+  top: calc(3 * 295px);
+  right: calc(3 * 215px);
+  height: calc(3* 1px);
   width: calc(3* 1px);
-  -webkit-transform: rotate(197deg);
-          transform: rotate(197deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(295deg);
+          transform: rotate(295deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .uox-4 {
-  bottom: calc(4 * 128px);
-  right: calc(4 * 91px);
-  height: calc(4* 5px);
-  width: calc(4* 1px);
-  -webkit-transform: rotate(271deg);
-          transform: rotate(271deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(4 * 62px);
+  right: calc(4 * 86px);
+  height: calc(4* 3px);
+  width: calc(4* 2px);
+  -webkit-transform: rotate(62deg);
+          transform: rotate(62deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .uox-5 {
-  bottom: calc(5 * 36px);
-  right: calc(5 * 153px);
-  height: calc(5* 1px);
+  top: calc(5 * 127px);
+  right: calc(5 * 40px);
+  height: calc(5* 2px);
   width: calc(5* 1px);
-  -webkit-transform: rotate(320deg);
-          transform: rotate(320deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(127deg);
+          transform: rotate(127deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .uox-6 {
-  bottom: calc(6 * 28px);
-  right: calc(6 * 189px);
+  top: calc(6 * 35px);
+  right: calc(6 * 162px);
   height: calc(6* 1px);
-  width: calc(6* 3px);
-  -webkit-transform: rotate(22deg);
-          transform: rotate(22deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  width: calc(6* 2px);
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .uox-7 {
-  bottom: calc(7 * 140px);
-  right: calc(7 * 240px);
-  height: calc(7* 2px);
-  width: calc(7* 2px);
-  -webkit-transform: rotate(266deg);
-          transform: rotate(266deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(7 * 313px);
+  right: calc(7 * 15px);
+  height: calc(7* 3px);
+  width: calc(7* 1px);
+  -webkit-transform: rotate(313deg);
+          transform: rotate(313deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .uox-8 {
-  bottom: calc(8 * 106px);
-  right: calc(8 * 240px);
-  height: calc(8* 2px);
-  width: calc(8* 3px);
-  -webkit-transform: rotate(83deg);
-          transform: rotate(83deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(8 * 30px);
+  right: calc(8 * 63px);
+  height: calc(8* 5px);
+  width: calc(8* 2px);
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .uox-9 {
-  bottom: calc(9 * 95px);
-  right: calc(9 * 49px);
-  height: calc(9* 4px);
-  width: calc(9* 1px);
-  -webkit-transform: rotate(168deg);
-          transform: rotate(168deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  top: calc(9 * 175px);
+  right: calc(9 * 188px);
+  height: calc(9* 2px);
+  width: calc(9* 3px);
+  -webkit-transform: rotate(175deg);
+          transform: rotate(175deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .uox-10 {
-  bottom: calc(10 * 40px);
-  right: calc(10 * 247px);
-  height: calc(10* 3px);
+  top: calc(10 * 101px);
+  right: calc(10 * 139px);
+  height: calc(10* 4px);
   width: calc(10* 2px);
-  -webkit-transform: rotate(228deg);
-          transform: rotate(228deg);
-  -webkit-animation: FALLCONTETTI 6s ease-in-out infinite alternate;
-          animation: FALLCONTETTI 6s ease-in-out infinite alternate;
+  -webkit-transform: rotate(101deg);
+          transform: rotate(101deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
-@-webkit-keyframes FALLCONTETTI {
+.vox-1 {
+  top: calc(1 * 243px);
+  right: calc(1 * 245px);
+  height: calc(1* 5px);
+  width: calc(1* 3px);
+  -webkit-transform: rotate(243deg);
+          transform: rotate(243deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.vox-2 {
+  top: calc(2 * 70px);
+  right: calc(2 * 177px);
+  height: calc(2* 3px);
+  width: calc(2* 2px);
+  -webkit-transform: rotate(70deg);
+          transform: rotate(70deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.vox-3 {
+  top: calc(3 * 79px);
+  right: calc(3 * 246px);
+  height: calc(3* 2px);
+  width: calc(3* 1px);
+  -webkit-transform: rotate(79deg);
+          transform: rotate(79deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.vox-4 {
+  top: calc(4 * 52px);
+  right: calc(4 * 32px);
+  height: calc(4* 5px);
+  width: calc(4* 1px);
+  -webkit-transform: rotate(52deg);
+          transform: rotate(52deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.vox-5 {
+  top: calc(5 * 260px);
+  right: calc(5 * 217px);
+  height: calc(5* 2px);
+  width: calc(5* 2px);
+  -webkit-transform: rotate(260deg);
+          transform: rotate(260deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.vox-6 {
+  top: calc(6 * 62px);
+  right: calc(6 * 187px);
+  height: calc(6* 3px);
+  width: calc(6* 1px);
+  -webkit-transform: rotate(62deg);
+          transform: rotate(62deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.vox-7 {
+  top: calc(7 * 153px);
+  right: calc(7 * 188px);
+  height: calc(7* 4px);
+  width: calc(7* 2px);
+  -webkit-transform: rotate(153deg);
+          transform: rotate(153deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.vox-8 {
+  top: calc(8 * 236px);
+  right: calc(8 * 225px);
+  height: calc(8* 3px);
+  width: calc(8* 3px);
+  -webkit-transform: rotate(236deg);
+          transform: rotate(236deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.vox-9 {
+  top: calc(9 * 229px);
+  right: calc(9 * 157px);
+  height: calc(9* 3px);
+  width: calc(9* 1px);
+  -webkit-transform: rotate(229deg);
+          transform: rotate(229deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.vox-10 {
+  top: calc(10 * 216px);
+  right: calc(10 * 56px);
+  height: calc(10* 1px);
+  width: calc(10* 3px);
+  -webkit-transform: rotate(216deg);
+          transform: rotate(216deg);
+  -webkit-animation: FALLCONFETTI 10s ease-in-out infinite;
+          animation: FALLCONFETTI 10s ease-in-out infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@-webkit-keyframes FALLCONFETTI {
   0% {
     -webkit-transform: translateY(-3000%);
             transform: translateY(-3000%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.25;
   }
   100% {
     -webkit-transform: translateY(3000%);
             transform: translateY(3000%);
+    opacity: 0;
   }
 }
 
-@keyframes FALLCONTETTI {
+@keyframes FALLCONFETTI {
   0% {
     -webkit-transform: translateY(-3000%);
             transform: translateY(-3000%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.25;
   }
   100% {
     -webkit-transform: translateY(3000%);
             transform: translateY(3000%);
+    opacity: 0;
   }
 }
 
@@ -882,10 +1150,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -896,16 +1164,137 @@
   height: 65vh;
 }
 
+.video-modal p {
+  color: #ebebeb;
+  margin-top: 1.5em;
+  text-shadow: 0px 0px #393d3f;
+  font-weight: bold;
+}
+
 .video-modal.open {
-  background-color: #393d3faf;
+  background-color: #393d3fde;
   opacity: 1;
   pointer-events: all;
+}
+
+#contact {
+  -webkit-box-align: stretch !important;
+      -ms-flex-align: stretch !important;
+          align-items: stretch !important;
+}
+
+#contact h2 {
+  margin-top: 0;
+}
+
+#contact .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 4em;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  min-width: 330px;
+}
+
+form textarea {
+  resize: none;
+  background-color: transparent;
+  border: 1px solid #393d3f;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+form textarea:not(:focus) {
+  background-color: #393d3f10;
+}
+
+.form-field {
+  position: relative;
+  overflow-x: hidden;
+  padding-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.form-field:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #393d3f;
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.form-field:focus-within:after {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  z-index: 21;
+}
+
+.form-field:focus-within label,
+.form-field input:not(:placeholder-shown) + label {
+  -webkit-transform: translateY(-150%);
+          transform: translateY(-150%);
+  opacity: 0.5;
+}
+
+.form-field input {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  border-bottom: 1px solid #706e5c;
+  padding-top: 1.5em;
+}
+
+.form-field input:invalid {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form-field label {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 
 .section, nav, #hero, #about, #facebook,
 #blog,
 #battleship,
-#other-projects {
+#other-projects,
+#contact {
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -928,6 +1317,29 @@
 
 .black-text {
   color: #393d3f !important;
+}
+
+.anchor-bar:after, nav .outer-menu > li a:after, .project-title div a:after, #facebook .text h2 div a:after, #blog .text h2 div a:after, #battleship .text h2 div a:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #ebebeb;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: 0%;
+          transform-origin: 0%;
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+.anchor-bar:hover:after, nav .outer-menu > li a:hover:after, .project-title div a:hover:after, #facebook .text h2 div a:hover:after, #blog .text h2 div a:hover:after, #battleship .text h2 div a:hover:after {
+  -webkit-transform: scaleX(100%);
+          transform: scaleX(100%);
 }
 
 * {
@@ -1018,6 +1430,7 @@ nav .outer-menu > li a {
   font-weight: bold;
   text-decoration: none;
   display: inline-block;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1028,23 +1441,6 @@ nav .outer-menu > li a {
   -webkit-box-direction: normal;
       -ms-flex-direction: center;
           flex-direction: center;
-  position: relative;
-}
-
-nav .outer-menu > li a:after {
-  content: '';
-  position: absolute;
-  height: 2px;
-  width: 0%;
-  background-color: #ebebeb;
-  bottom: 10px;
-  left: 0;
-  -webkit-transition: width 250ms ease;
-  transition: width 250ms ease;
-}
-
-nav .outer-menu > li a:hover:after {
-  width: 100%;
 }
 
 nav .outer-menu > li a i {
@@ -1121,6 +1517,7 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-left: 9%;
 }
 
 #hero > div {
@@ -1145,20 +1542,7 @@ main {
       -ms-flex-align: baseline;
           align-items: baseline;
   width: 100%;
-}
-
-#hero h1 .hello {
-  font-size: 2rem;
-  color: #393d3f;
-  text-shadow: none;
-  display: inline-block;
-  -webkit-transform: scale(5) translateX(100%);
-          transform: scale(5) translateX(100%);
-  -webkit-animation: hello 0.8s cubic-bezier(0.6, -0.28, 0.74, 0.05) forwards;
-          animation: hello 0.8s cubic-bezier(0.6, -0.28, 0.74, 0.05) forwards;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  margin-right: 5px;
+  padding-top: 150px;
 }
 
 #hero h1 .slide-in {
@@ -1185,12 +1569,6 @@ main {
   font-family: 'Kalam', cursive;
 }
 
-#hero h1 .slide-in span {
-  color: #393d3f;
-  font-size: 2rem;
-  font-weight: normal;
-}
-
 #hero .subtitle {
   font-size: 1.5rem;
   opacity: 0;
@@ -1201,6 +1579,7 @@ main {
   color: #393d3f;
   text-align: end;
   letter-spacing: 5px;
+  margin-top: 1em;
 }
 
 #hero .subtitle span {
@@ -1217,6 +1596,85 @@ main {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 27%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 27%);
   z-index: -10;
+}
+
+#hero .contact-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 250px;
+  list-style: none;
+  padding-top: 150px;
+}
+
+#hero .contact-links li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  position: relative;
+  -webkit-animation: fadeIn 500ms ease-in-out forwards;
+          animation: fadeIn 500ms ease-in-out forwards;
+  overflow-x: hidden;
+}
+
+#hero .contact-links li:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #393d3f;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+#hero .contact-links li:hover:after {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+#hero .contact-links li:first-child {
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
+}
+
+#hero .contact-links li:nth-child(2) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+#hero .contact-links li:last-child {
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+
+#hero .contact-links a {
+  color: #393d3f;
+  text-decoration: none;
+  font-size: 3rem;
 }
 
 #about {
@@ -1278,7 +1736,7 @@ main {
   color: #393d3f;
   font-size: 1rem;
   text-decoration: none;
-  margin-left: 25px;
+  margin-left: 30px;
   position: relative;
 }
 
@@ -1286,23 +1744,11 @@ main {
   width: 26px;
   height: 26px;
   margin-left: 10px;
+  font-size: 1.5rem;
 }
 
 .project-title div a:after, #facebook .text h2 div a:after, #blog .text h2 div a:after, #battleship .text h2 div a:after {
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  display: inline-block;
-  height: 2px;
-  width: 0;
-  -webkit-transition: width 200ms ease-in-out;
-  transition: width 200ms ease-in-out;
   background-color: #393d3f;
-}
-
-.project-title div a:hover:after, #facebook .text h2 div a:hover:after, #blog .text h2 div a:hover:after, #battleship .text h2 div a:hover:after {
-  width: 100%;
 }
 
 .video, #facebook .images figure video,
@@ -1458,9 +1904,8 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -1487,24 +1932,6 @@ main {
 #blog .images figure:first-child,
 #battleship .images figure:first-child {
   margin-left: 4em;
-}
-
-#facebook .bg-color {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #1876f211;
-  z-index: -15;
-}
-
-#blog .images {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-#battleship .images {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 #battleship .text .techs li {
@@ -1657,16 +2084,35 @@ main {
       -ms-flex-align: center;
           align-items: center;
   color: #ebebeb;
+  text-decoration: none;
 }
 
-.live {
-  background: url("./imgs/view-in-browser.png");
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#other-projects > div .project-links li a i {
+  font-size: 2rem;
+  position: relative;
+}
+
+#other-projects > div .project-links li a i:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #ebebeb;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: 0%;
+          transform-origin: 0%;
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+#other-projects > div .project-links li a i:hover:after {
+  -webkit-transform: scaleX(100%);
+          transform: scaleX(100%);
 }
 
 @-webkit-keyframes slideIn {
