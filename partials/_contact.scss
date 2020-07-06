@@ -1,12 +1,27 @@
 #contact {
     align-items: stretch !important;
+    position: relative;
     h2 {
         margin-top: 0;
+        margin-right: 0;
+        justify-content: center;
     }
     .text {
         @include flex(column, center);
         align-items: center;
         margin-left: 4em;
+    }
+    & > p {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 2px 5px;
+        color: $brown;
+        opacity: 0.8;
+        background-color: #706e5c1c;
+        width: 100%;
+        text-align: right;
+        font-size: 0.9rem;
     }
 }
 
@@ -22,6 +37,20 @@ form {
         margin-top: 2em;
         &:not(:focus) {
             background-color: #393d3f10;
+        }
+    }
+    button {
+        margin-top: 1em;
+        background-color: $black;
+        color: $white;
+        font-weight: bold;
+        font-size: 1.2rem;
+        cursor: pointer;
+        border: none;
+        padding: 0.2em 0;
+        &:active {
+            transform: scale(0.98);
+            background-color: #393d3fe1;
         }
     }
 }
@@ -55,9 +84,12 @@ form {
         background-color: transparent;
         width: 100%;
         border-bottom: 1px solid $brown;
-        padding-top: 1.5em;
+        padding-top: 0.5em;
+        font-weight: bold;
+        font-size: 1.3rem;
         &:invalid {
             box-shadow: none;
+            color: rgba(201, 61, 61, 0.822);
         }
     }
     label {

@@ -107,16 +107,21 @@
                     </h2>
                     <div>
                         <p>
-                            Social media app where users can create an account and add friends by
-                            sending them requests which the receiver must accept to become friends.
+                            My attempt at creating a social media app with its basic functionality
+                            like
+                            <span class="highlight"
+                                >profiles, friends, posts and private chats.</span
+                            >
+                            Some Mongoose queries were a bit challenging, but thankfully their docs
+                            have a lot of information which helped me advance.
                             <br />
                             <br />
-                            They can create posts to share with friends through the live feed, posts
-                            can have reactions and comments. Users can edit or delete their own
-                            posts. Each user has a profile page where they can see all their posts
-                            and edit their profile information. <br />
+                            Implementing <span class="highlight">private messaging</span> was
+                            another challenge. Socket.io doesn't have a explicit method for this,
+                            but with the available methods and some Javascript I was able to put
+                            together a working solution.
                             <br />
-                            Friends can chat with each other through private messaging.
+                            <br />
                         </p>
                     </div>
                     <ul class="techs">
@@ -180,6 +185,9 @@
                                 target="_blank"
                                 >Live - Admin <i class="far fa-window-maximize"></i>
                             </a>
+                            <a href="https://github.com/julio22b/blog-api" target="_blank"
+                                >API code <i class="fab fa-github"></i
+                            ></a>
                             <a
                                 href="https://github.com/julio22b/facebook-clone-frontend"
                                 target="_blank"
@@ -189,12 +197,15 @@
                     </h2>
                     <div>
                         <p>
-                            A blog app I made for myself. On the admin page I can create, edit and
-                            delete posts. As well as manage the comments for each post.
+                            A blog app I made for myself. It consists of
+                            <span class="highlight">2 frontends and an API.</span> On the admin
+                            frontend I can create, edit and delete posts. As well as manage the
+                            comments for each post. While on the users frontend people can see my
+                            posts and add comments.
                             <br />
                             <br />
-                            On the users page everyone is able to look at the posts and comment on
-                            them. <br />
+                            This was my first fullstack app and truthfully deploying was much
+                            different than what I expected. <br />
                             <br />
                         </p>
                     </div>
@@ -250,12 +261,16 @@
                     </h2>
                     <div>
                         <p>
-                            The classic game with player vs computer and player vs player modes. The
-                            objective was to practice OOP and TDD with Jest.
+                            The classic game with player vs computer and player vs player modes. I
+                            made this to learn about
+                            <span class="highlight">Test-Driven Development</span> and better my
+                            understanding of
+                            <span class="highlight">Object Oriented Programming.</span>
                             <br />
                             <br />
-                            I also feel like building this made Javascript finally
-                            <em>click</em> for me.<br />
+                            This project has a lot of DOM manipulation which was tricky to do some
+                            times, particularly for the player vs player mode where a different
+                            gameflow is necessary.
                             <br />
                         </p>
                     </div>
@@ -418,7 +433,7 @@
                             </div>
                             <figcaption>
                                 <span>Members Only</span> - Message board with different user roles.
-                                Uses <strong>Express, Handlebars and TailwindCSS</strong>
+                                Uses <strong>Express, Handlebars and TailwindCSS</strong>.
                             </figcaption>
                         </figure>
                     </article>
@@ -447,7 +462,7 @@
                             </div>
                             <figcaption>
                                 <span>Tic-Tac-Toe</span> - Made with the objective of learning
-                                <strong>Object Oriented Programming</strong>
+                                <strong>Object Oriented Programming</strong>.
                             </figcaption>
                         </figure>
                     </article>
@@ -477,7 +492,7 @@
                             <figcaption>
                                 <span>Etch-A-Sketch</span> - Drawing app where users can
                                 <strong>download their drawings</strong>
-                                as jpgs
+                                as jpgs.
                             </figcaption>
                         </figure>
                     </article>
@@ -485,8 +500,8 @@
             </section>
             <section id="contact">
                 <div class="text">
-                    <h2 class="project-title">You can send me an email from here</h2>
-                    <form action="">
+                    <h2 class="project-title">You can quickly send me message here</h2>
+                    <form action="https://formspree.io/xjvaaevz" method="POST">
                         <div class="form-field">
                             <input type="text" name="name" required placeholder=" " />
                             <label for="name">Name </label>
@@ -498,11 +513,13 @@
                         <textarea
                             name="message"
                             cols="30"
-                            rows="10"
+                            rows="6"
                             placeholder="And your message..."
                         ></textarea>
+                        <button>Send message</button>
                     </form>
                 </div>
+                <p>Designed and developed by me :)</p>
             </section>
         </main>
         <div class="confetti">
@@ -566,6 +583,16 @@
             <div class="colors vox-8"></div>
             <div class="colors vox-9"></div>
             <div class="colors vox-10"></div>
+            <div class="colors zox-1"></div>
+            <div class="colors zox-2"></div>
+            <div class="colors zox-3"></div>
+            <div class="colors zox-4"></div>
+            <div class="colors zox-5"></div>
+            <div class="colors zox-6"></div>
+            <div class="colors zox-7"></div>
+            <div class="colors zox-8"></div>
+            <div class="colors zox-9"></div>
+            <div class="colors zox-10"></div>
         </div>
         <script src="./index.js"></script>
     </body>

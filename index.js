@@ -30,7 +30,7 @@ sections.forEach((section) => {
 
 const heroSection = document.querySelector('#hero');
 const confetti = document.querySelector('.confetti');
-const heroObserverOpts = {};
+const heroObserverOpts = { threshold: 0.25 };
 
 const heroObserver = new IntersectionObserver(function (entries, heroObserver) {
     entries.forEach((entry) => {
@@ -62,3 +62,19 @@ videos.forEach((video) => {
 videoModal.addEventListener('click', (e) => {
     videoModal.classList.remove('open');
 });
+
+const contactSection = document.querySelector('#contact');
+const contactObserverOpts = {
+    threshold: 0.25,
+};
+
+const contactObserver = new IntersectionObserver(function (entries) {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            return confetti.classList.add('show');
+        }
+        confetti.classList.remove('show');
+    });
+}, contactObserverOpts);
+
+contactObserver.observe(contactSection);

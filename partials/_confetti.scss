@@ -28,7 +28,8 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
     .fox-#{$i},
     .rox-#{$i},
     .uox-#{$i},
-    .vox-#{$i} {
+    .vox-#{$i},
+    .zox-#{$i} {
         background-color: $color;
         opacity: 0;
         z-index: -5;
@@ -37,10 +38,10 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
 
 @for $i from 1 to 11 {
     $t: random(
-        $limit: 120,
+        $limit: 40,
     );
     $l: random(
-        $limit: 200,
+        $limit: 98,
     );
     $h: random(
         $limit: 5,
@@ -52,8 +53,8 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         $limit: 360,
     );
     .box-#{$i} {
-        top: calc(#{$i} * #{$t}px);
-        left: calc(#{$i} * #{$l}px);
+        top: #{$t}vh;
+        left: #{$l}vw;
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$r}deg);
@@ -63,10 +64,10 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
 
 @for $i from 1 to 11 {
     $t: random(
-        $limit: 100,
+        $limit: 40,
     );
     $l: random(
-        $limit: 200,
+        $limit: 98,
     );
     $h: random(
         $limit: 5,
@@ -78,22 +79,22 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         $limit: 360,
     );
     .dox-#{$i} {
-        top: calc(#{$i} * #{$t}px);
-        left: calc(#{$i} * #{$l}px);
+        top: #{$t}vh;
+        left: #{$l}vw;
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$r}deg);
         animation: FALLCONFETTI 10s ease-in-out infinite;
-        animation-delay: 3s;
+        animation-delay: 2s;
     }
 }
 
 @for $i from 1 to 11 {
     $t: random(
-        $limit: 150,
+        $limit: 40,
     );
     $l: random(
-        $limit: 250,
+        $limit: 98,
     );
     $h: random(
         $limit: 5,
@@ -105,22 +106,49 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         $limit: 360,
     );
     .fox-#{$i} {
-        top: calc(#{$i} * #{$t}px);
-        left: calc(#{$i} * #{$l}px);
+        top: #{$t}vh;
+        left: #{$l}vw;
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$r}deg);
+        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation-delay: 4s;
+    }
+}
+
+@for $i from 1 to 11 {
+    $t: random(
+        $limit: 40,
+    );
+    $r: random(
+        $limit: 98,
+    );
+    $h: random(
+        $limit: 5,
+    );
+    $w: random(
+        $limit: 3,
+    );
+    $rotate: random(
+        $limit: 360,
+    );
+    .rox-#{$i} {
+        top: #{$t}vh;
+        right: #{$r}vw;
+        height: calc(#{$i}* #{$h}px);
+        width: calc(#{$i}* #{$w}px);
+        transform: rotate(#{$rotate}deg);
         animation: FALLCONFETTI 10s ease-in-out infinite;
         animation-delay: 6s;
     }
 }
 
 @for $i from 1 to 11 {
-    $b: random(
-        $limit: 150,
+    $t: random(
+        $limit: 40,
     );
     $r: random(
-        $limit: 250,
+        $limit: 98,
     );
     $h: random(
         $limit: 5,
@@ -128,53 +156,26 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
     $w: random(
         $limit: 3,
     );
-    $t: random(
-        $limit: 360,
-    );
-    .rox-#{$i} {
-        top: calc(#{$i} * #{$t}px);
-        right: calc(#{$i} * #{$r}px);
-        height: calc(#{$i}* #{$h}px);
-        width: calc(#{$i}* #{$w}px);
-        transform: rotate(#{$t}deg);
-        animation: FALLCONFETTI 10s ease-in-out infinite;
-        animation-delay: 9s;
-    }
-}
-
-@for $i from 1 to 11 {
-    $b: random(
-        $limit: 150,
-    );
-    $r: random(
-        $limit: 250,
-    );
-    $h: random(
-        $limit: 5,
-    );
-    $w: random(
-        $limit: 3,
-    );
-    $t: random(
+    $transform: random(
         $limit: 360,
     );
     .uox-#{$i} {
-        top: calc(#{$i} * #{$t}px);
-        right: calc(#{$i} * #{$r}px);
+        top: #{$t}vh;
+        right: #{$r}vw;
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
-        transform: rotate(#{$t}deg);
+        transform: rotate(#{$transform}deg);
         animation: FALLCONFETTI 10s ease-in-out infinite;
-        animation-delay: 12s;
+        animation-delay: 8s;
     }
 }
 
 @for $i from 1 to 11 {
-    $b: random(
-        $limit: 150,
+    $t: random(
+        $limit: 40,
     );
     $r: random(
-        $limit: 250,
+        $limit: 98,
     );
     $h: random(
         $limit: 5,
@@ -182,17 +183,44 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
     $w: random(
         $limit: 3,
     );
-    $t: random(
+    $transform: random(
         $limit: 360,
     );
     .vox-#{$i} {
-        top: calc(#{$i} * #{$t}px);
-        right: calc(#{$i} * #{$r}px);
+        top: #{$t}vh;
+        right: #{$r}vw;
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
-        transform: rotate(#{$t}deg);
+        transform: rotate(#{$transform}deg);
         animation: FALLCONFETTI 10s ease-in-out infinite;
-        animation-delay: 15s;
+        animation-delay: 10s;
+    }
+}
+
+@for $i from 1 to 11 {
+    $t: random(
+        $limit: 40,
+    );
+    $r: random(
+        $limit: 98,
+    );
+    $h: random(
+        $limit: 5,
+    );
+    $w: random(
+        $limit: 3,
+    );
+    $transform: random(
+        $limit: 360,
+    );
+    .zox-#{$i} {
+        top: #{$t}vh;
+        right: #{$r}vw;
+        height: calc(#{$i}* #{$h}px);
+        width: calc(#{$i}* #{$w}px);
+        transform: rotate(#{$transform}deg);
+        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation-delay: 12s;
     }
 }
 

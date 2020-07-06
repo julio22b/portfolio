@@ -1,0 +1,86 @@
+#other-projects {
+    & > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 50px;
+        row-gap: 40px;
+        margin: 0 1em 0 4em;
+        padding-bottom: 1em;
+        h2 {
+            grid-column: span 3;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        figure {
+            & > div {
+                position: relative;
+                overflow: hidden;
+                max-width: 400px;
+                box-shadow: 0 0 40px -20px $black;
+                @include flex();
+                .blanket {
+                    @include flex();
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #393d3faf;
+                    transform: translateY(100%);
+                    transition: transform 250ms ease-in;
+                }
+                &:hover .blanket {
+                    transform: translateX(0);
+                }
+            }
+            img {
+                width: 100%;
+            }
+            figcaption {
+                font-size: 0.9rem;
+                margin-top: 1em;
+                span {
+                    color: $brown;
+                    font-size: 1rem;
+                }
+                strong {
+                    font-weight: 600;
+                }
+            }
+        }
+        .project-links {
+            list-style: none;
+            margin-top: 1em;
+            width: 150px;
+            margin: 0 auto;
+            @include flex(row, space-around);
+            li {
+                @include flex(row, center);
+                align-items: center;
+                a {
+                    @include flex(row, center);
+                    align-items: center;
+                    color: $white;
+                    text-decoration: none;
+                    i {
+                        font-size: 2rem;
+                        position: relative;
+                        &:after {
+                            content: '';
+                            width: 100%;
+                            height: 2px;
+                            background-color: $white;
+                            position: absolute;
+                            bottom: -5px;
+                            left: 0;
+                            transform: scaleX(0);
+                            transform-origin: 0%;
+                            transition: transform 250ms ease-in-out;
+                        }
+                        &:hover:after {
+                            transform: scaleX(100%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
