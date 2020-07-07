@@ -8,6 +8,10 @@ nav {
     box-shadow: 0 2px 10px $black;
     margin-left: 0;
     opacity: 1;
+    transition: transform 250ms ease-in-out;
+    @media screen and (max-width: 1100px) {
+        transform: translateX(-100%);
+    }
     .outer-menu {
         @include flex(column, center);
         list-style: none;

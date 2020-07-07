@@ -21,6 +21,9 @@ $blue: #536979;
     flex: 1;
     margin-left: 12%;
     scroll-snap-align: start;
+    @media screen and (max-width: 1100px) {
+        margin-left: 0;
+    }
 }
 
 .black-text {
@@ -78,6 +81,9 @@ main {
     scroll-snap-type: y mandatory;
     max-height: 100vh;
     overflow-y: scroll;
+    @media screen and (max-width: 1100px) {
+        scroll-snap-type: none;
+    }
 }
 
 #hero {
@@ -85,8 +91,31 @@ main {
     width: 60%;
     justify-content: center;
     margin-left: 9%;
+    @media screen and (max-width: 1100px) {
+        margin-left: 0;
+    }
     & > div {
         margin-top: -150px;
+    }
+    .to-projects {
+        margin: 0 auto;
+        font-size: 2rem;
+        color: $black;
+        position: absolute;
+        bottom: 50px;
+        opacity: 0;
+        animation: direction 0.7s linear infinite alternate, fadeIn 1s ease-in-out forwards;
+        cursor: pointer;
+        display: none;
+        i {
+            transition: transform 250ms ease-in-out;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+    .to-projects.show {
+        @include flex(row, center);
     }
     h1 {
         font-size: 7rem;
@@ -95,7 +124,15 @@ main {
         @include flex(row, center);
         align-items: baseline;
         width: 100%;
-        padding-top: 150px;
+        padding-top: 200px;
+        @media screen and (max-width: 820px) {
+            font-size: 5rem;
+            padding-top: 150px;
+        }
+        @media screen and (max-width: 580px) {
+            padding-top: 75px;
+            font-size: 3.5rem;
+        }
         .slide-in {
             @include flex(row, center);
             align-items: center;
@@ -113,6 +150,9 @@ main {
         text-align: end;
         letter-spacing: 5px;
         margin-top: 1em;
+        @media screen and (max-width: 820px) {
+            font-size: 1rem;
+        }
         span {
             letter-spacing: 5px;
         }
@@ -131,7 +171,10 @@ main {
         @include flex(row, space-between);
         width: 250px;
         list-style: none;
-        padding-top: 150px;
+        padding-top: 100px;
+        @media screen and (max-width: 820px) {
+            padding-top: 75px;
+        }
         li {
             @include flex(row, center);
             align-items: center;
@@ -167,6 +210,9 @@ main {
             color: $black;
             text-decoration: none;
             font-size: 3rem;
+            @media screen and (max-width: 820px) {
+                font-size: 2rem;
+            }
         }
     }
 }
@@ -193,8 +239,18 @@ main {
     @include flex(row, space-between);
     align-self: stretch;
     align-items: center;
+    @media screen and (max-width: 1100px) {
+        margin: 0.5em 20px 20px 20px;
+    }
+    @media screen and (max-width: 580px) {
+        margin: 1em 0 0 0;
+    }
     div {
         @include flex();
+        @media screen and (max-width: 820px) {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
         a {
             @include flex(row, center);
             align-items: center;
@@ -232,6 +288,14 @@ main {
     width: 8%;
     @include flex(row, center);
     align-items: center;
+    @media screen and (max-width: 820px) {
+        flex-wrap: nowrap;
+        max-height: 50px;
+        min-width: 110px;
+        img {
+            max-height: 50px;
+        }
+    }
     img {
         max-width: 100%;
     }
@@ -247,13 +311,27 @@ main {
     @include flex(column, space-around);
     align-items: stretch;
     position: relative;
+    @media screen and (max-width: 820px) {
+        padding-bottom: 2em;
+    }
     .text {
         @include flex(column, space-between);
         align-items: center;
         margin-left: 4em;
         font-size: 1.1rem;
+        @media screen and (max-width: 1100px) {
+            margin-left: 0;
+        }
         h2 {
             @extend .project-title;
+            @media screen and (max-width: 820px) {
+                flex-direction: column;
+                margin-top: 0.5em;
+                a {
+                    justify-content: flex-end;
+                    font-size: 0.9rem !important;
+                }
+            }
         }
         .highlight {
             color: $brown;
@@ -262,8 +340,17 @@ main {
         .techs {
             @include flex(row, space-around);
             list-style: none;
-            flex-wrap: wrap;
             width: 60%;
+            @media screen and (max-width: 1100px) {
+                width: 80%;
+                li {
+                    margin-bottom: 2em;
+                }
+            }
+            @media screen and (max-width: 820px) {
+                width: 100%;
+                flex-wrap: wrap;
+            }
             li {
                 @extend .techs-items;
                 position: relative;
@@ -279,6 +366,9 @@ main {
                     display: inline-block;
                     opacity: 0;
                     transition: opacity 250ms ease-in;
+                    @media screen and (max-width: 820px) {
+                        bottom: 0;
+                    }
                 }
                 &:hover span {
                     opacity: 1;
@@ -293,20 +383,45 @@ main {
             width: 75%;
             margin-bottom: 4.5em;
             color: #4b4d4e;
+            @media screen and (max-width: 820px) {
+                margin: 1.5em 0;
+                font-size: 1rem;
+                width: 90%;
+            }
         }
     }
     .images {
         @include flex(row, space-around);
         width: 100%;
+        @media screen and (max-width: 1100px) {
+            flex-wrap: wrap;
+        }
         figure {
             @include flex();
+            @media screen and (max-width: 1100px) {
+                justify-content: center;
+                width: 49%;
+                margin-bottom: 2em;
+            }
+            @media screen and (max-width: 820px) {
+                width: 100%;
+            }
             video {
                 @extend .video;
             }
         }
         figure:first-child {
             margin-left: 4em;
+            @media screen and (max-width: 1100px) {
+                margin-left: 0;
+            }
         }
+    }
+}
+
+#facebook figure:nth-child(2) {
+    @media screen and (max-width: 820px) {
+        display: none;
     }
 }
 
@@ -349,5 +464,14 @@ main {
 @keyframes fadeIn {
     to {
         opacity: 1;
+    }
+}
+
+@keyframes direction {
+    from {
+        transform: translateY(-20%);
+    }
+    to {
+        transform: translateY(20%);
     }
 }
