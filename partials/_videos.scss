@@ -11,10 +11,13 @@
     video {
         width: 65%;
         height: 65vh;
+        @media screen and (max-width: 1100px) {
+            width: 95%;
+        }
     }
     p {
         color: $white;
-        margin-top: 1.5em;
+        margin: 1.5em 20px 0 20px;
         text-shadow: 0px 0px $black;
         font-weight: bold;
     }
