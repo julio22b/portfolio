@@ -73,7 +73,7 @@ videoModal.addEventListener('click', (e) => {
 
 const contactSection = document.querySelector('#contact');
 const contactObserverOpts = {
-    threshold: 0.25,
+    threshold: 0.15,
 };
 
 const contactObserver = new IntersectionObserver(function (entries) {
@@ -81,8 +81,18 @@ const contactObserver = new IntersectionObserver(function (entries) {
         if (entry.isIntersecting) {
             return confetti.classList.add('show');
         }
-        confetti.classList.remove('show');
     });
 }, contactObserverOpts);
 
 contactObserver.observe(contactSection);
+
+const aboutSection = document.querySelector('#about');
+const aboutObserver = new IntersectionObserver(function (entries) {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            return confetti.classList.remove('show');
+        }
+    });
+}, contactObserverOpts);
+
+aboutObserver.observe(aboutSection);

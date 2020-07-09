@@ -85,7 +85,7 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$r}deg);
         animation: FALLCONFETTI 10s ease-in-out infinite;
-        animation-delay: 2s;
+        animation-delay: 1.5s;
     }
 }
 
