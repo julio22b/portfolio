@@ -31,6 +31,24 @@
         text-align: right;
         font-size: 0.9rem;
     }
+    .back-to-top {
+        position: absolute;
+        bottom: 5.5%;
+        right: 2.5%;
+        font-size: 1.5rem;
+        animation: fadeIn 1s ease-in-out forwards;
+        cursor: pointer;
+        transition: transform 150ms ease-in-out;
+        @include flex();
+        align-items: center;
+        &:hover {
+            transform: scale(1.15);
+        }
+        span {
+            font-size: 0.8rem;
+            margin-left: 10px;
+        }
+    }
 }
 
 form {

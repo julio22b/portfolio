@@ -96,3 +96,8 @@ const aboutObserver = new IntersectionObserver(function (entries) {
 }, contactObserverOpts);
 
 aboutObserver.observe(aboutSection);
+
+const toTop = document.querySelector('.back-to-top');
+toTop.addEventListener('click', () => {
+    heroSection.scrollIntoView({ behavior: 'smooth' });
+});

@@ -1,6 +1,6 @@
-$black: #393d3f;
-$white: #ebebeb;
-$brown: #706e5c;
+$black: #272b2b;
+$white: #ece9e9;
+$brown: #5a5849;
 $teal: #62929e;
 $blue: #536979;
 
@@ -163,7 +163,7 @@ main {
         width: 120%;
         position: absolute;
         top: 0;
-        background-color: #dfdfdf9d;
+        background-color: #e0e0e0;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 27%);
         z-index: -10;
     }
@@ -232,8 +232,8 @@ main {
 }
 
 .project-title {
-    font-family: 'Kalam', cursive;
-    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
     color: $black;
     margin: 0.5em 2em 1em 0;
     @include flex(row, space-between);
