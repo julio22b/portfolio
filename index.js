@@ -10,8 +10,9 @@ const observerOpts = { threshold: 0.1 };
 
 const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
-        const li = document.querySelector(`[data-section=${entry.target.id}]`);
-        const link = document.querySelector(`[data-section=${entry.target.id}] a`);
+        const li = document.querySelector(`[data-section=${entry.target.dataset.section}]`);
+        let link = document.querySelector(`[data-section=${entry.target.id}] a`);
+
         const dimensions = li.getBoundingClientRect();
         if (entry.isIntersecting) {
             links.forEach((link) => link.classList.remove('black-text'));
@@ -19,6 +20,10 @@ const observer = new IntersectionObserver((entries, observer) => {
             selector.style.height = `${dimensions.height}px`;
             selector.style.top = `${dimensions.top}px`;
             selector.style.left = `${dimensions.left}px`;
+            if (link === null) {
+                link = document.querySelector(`[data-section=${entry.target.dataset.section}]`);
+            }
+            console.log(link);
             link.classList.add('black-text');
         }
     });
@@ -49,7 +54,7 @@ heroObserver.observe(heroSection);
 
 const projectsSection = document.querySelector('#facebook');
 goToProjects.addEventListener('click', () => {
-    projectsSection.scrollIntoView({ behavior: 'smooth' });
+    projectsSection.scrollIntoView();
 });
 
 const videoModal = document.querySelector('.video-modal');
@@ -99,5 +104,5 @@ aboutObserver.observe(aboutSection);
 
 const toTop = document.querySelector('.back-to-top');
 toTop.addEventListener('click', () => {
-    heroSection.scrollIntoView({ behavior: 'smooth' });
+    heroSection.scrollIntoView();
 });

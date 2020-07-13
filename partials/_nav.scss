@@ -41,8 +41,17 @@ nav {
         }
         .has-menu {
             flex-direction: column;
+            margin-bottom: 10px;
             a {
                 align-self: center;
+            }
+            & > a {
+                margin-bottom: 10px;
+                width: 100%;
+                justify-content: center;
+                &:after {
+                    content: none;
+                }
             }
             .inner-menu {
                 margin-top: -10px;
@@ -59,7 +68,7 @@ nav {
             justify-content: center;
             a {
                 padding: 10px 0;
-                font-size: 0.85rem;
+                font-size: 0.8rem;
             }
         }
     }

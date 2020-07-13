@@ -38,17 +38,19 @@
                         <li data-section="hero">
                             <a href="#hero"><i class="fas fa-user-alt"></i>About</a>
                         </li>
-                        <li class="has-menu" data-section="projects">
-                            <a href="#facebook"><i class="far fa-folder-open"></i>Projects</a>
+                        <li class="has-menu">
+                            <a href="#facebook" data-section="projects"
+                                ><i class="far fa-folder-open"></i>Projects</a
+                            >
                             <ul class="inner-menu">
-                                <li data-section="facebook">
+                                <li>
                                     <a href="#facebook">Facebook Clone</a>
                                 </li>
-                                <li data-section="blog"><a href="#blog">Blog</a></li>
-                                <li data-section="battleship">
+                                <li><a href="#blog">Blog</a></li>
+                                <li>
                                     <a href="#battleship">Battleship</a>
                                 </li>
-                                <li data-section="other-projects">
+                                <li>
                                     <a href="#other-projects">More...</a>
                                 </li>
                             </ul>
@@ -62,7 +64,7 @@
                         <div class="selector"></div>
                     </ul>
                 </nav>
-                <section id="hero">
+                <section id="hero" data-section="hero">
                     <div>
                         <h1>
                             <div class="slide-in">&ThinSpace;Julio Bermúdez</div>
@@ -71,21 +73,26 @@
                     </div>
                     <ul class="contact-links">
                         <li>
-                            <a
-                                href="https://www.linkedin.com/in/julio-berm%C3%BAdez-bba1ba1b2/"
-                                target="_blank"
-                                ><i class="fab fa-linkedin-in"></i
-                            ></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/julio22b" target="_blank"
+                            <a href="https://github.com/julio22b" target="_blank" title="GitHub"
                                 ><i class="fab fa-github"></i
                             ></a>
                         </li>
                         <li>
-                            <a href="mailto: jbermudezfc90@gmail.com" target="_blank"
+                            <a
+                                href="https://www.linkedin.com/in/julio-berm%C3%BAdez-bba1ba1b2/"
+                                target="_blank"
+                                title="LinkedIn"
+                                ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="mailto: jbermudezfc90@gmail.com" target="_blank" title="Email"
                                 ><i class="far fa-envelope"></i
                             ></a>
+                        </li>
+                        <li>
+                            <a href="resume" target="_blank" title="Resume"
+                                ><i class="far fa-file-alt"></i></a>
                         </li>
                     </ul>
                     <div class="to-projects show">
@@ -93,7 +100,7 @@
                     </div>
                 </section>
             </div>
-            <section id="facebook">
+            <section id="facebook" data-section="projects">
                 <article class="text">
                     <h2>
                         Facebook Clone
@@ -180,7 +187,7 @@
                     </figure>
                 </article>
             </section>
-            <section id="blog">
+            <section id="blog" data-section="projects">
                 <article class="text">
                     <h2>
                         Blog
@@ -252,7 +259,7 @@
                     </figure>
                 </article>
             </section>
-            <section id="battleship">
+            <section id="battleship" data-section="projects">
                 <article class="text">
                     <h2>
                         Battleship
@@ -313,7 +320,7 @@
                     </figure>
                 </article>
             </section>
-            <section id="other-projects">
+            <section id="other-projects" data-section="projects">
                 <h2 class="project-title">I've built a few other things...</h2>
                 <div>
                     <article>
@@ -503,10 +510,10 @@
                     </article>
                 </div>
             </section>
-            <section id="about">
+            <section id="about" data-section="about">
                 this is abouyt section
             </section>
-            <section id="contact">
+            <section id="contact" data-section="contact">
                 <div class="text">
                     <h2 class="project-title">You can quickly send me a message here</h2>
                     <form action="https://formspree.io/xjvaaevz" method="POST">
