@@ -13,6 +13,7 @@ $blue: #536979;
 @import './partials/confetti';
 @import './partials/videos';
 @import './partials/contact';
+@import './partials//about';
 
 .black-text {
     color: $black !important;
@@ -32,7 +33,7 @@ $blue: #536979;
         transition: transform 250ms ease-in-out;
     }
     &:hover:after {
-        transform: scaleX(100%);
+        transform: scaleX(1);
     }
 }
 
@@ -45,9 +46,13 @@ $blue: #536979;
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: $white;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #wrapper {
@@ -214,22 +219,17 @@ main {
     }
 }
 
-#about {
-    @extend .section;
-    color: $white;
-    background-color: $black;
-}
-
 #facebook,
 #blog,
 #battleship,
 #other-projects,
+#about,
 #contact {
     @extend .section;
 }
 
 .project-title {
-    font-family: 'Merriweather', serif;
+    font-family: 'Kalam', cursive;
     font-size: 2.5rem;
     color: $black;
     margin: 0.5em 2em 1em 0;
@@ -304,7 +304,8 @@ main {
 
 #facebook,
 #blog,
-#battleship {
+#battleship,
+#about {
     @include flex(column, space-around);
     align-items: stretch;
     position: relative;

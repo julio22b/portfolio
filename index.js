@@ -6,7 +6,7 @@ const navBar = document.querySelector('nav');
 const black = '#393d3f';
 const white = '#ebebeb';
 
-const observerOpts = { threshold: 0.1 };
+const observerOpts = { threshold: 0.25 };
 
 const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
@@ -23,7 +23,6 @@ const observer = new IntersectionObserver((entries, observer) => {
             if (link === null) {
                 link = document.querySelector(`[data-section=${entry.target.dataset.section}]`);
             }
-            console.log(link);
             link.classList.add('black-text');
         }
     });
