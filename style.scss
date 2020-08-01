@@ -86,6 +86,42 @@ main {
 
 @import './partials/nav';
 
+$lengths: 121.52619934082031, 122.76060485839844, 83.15902709960938, 80.75180053710938,
+    105.00300598144531, 186.551513671875, 118.1707992553711, 73.31317901611328, 199.94654846191406,
+    156.72842407226562, 145.99688720703125, 118.17072296142578, 117.36453247070312;
+
+#name-svg {
+    animation: fill 1s ease forwards 2s;
+    transform: translateX(25%);
+}
+
+@each $length in $lengths {
+    $i: index(
+        $list: $lengths,
+        $value: $length,
+    );
+    #name-svg > path:nth-of-type(#{$i}) {
+        stroke-dasharray: $length;
+        stroke-dashoffset: $length;
+        animation: svgAnim 3s ease forwards;
+    }
+}
+
+@keyframes svgAnim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: $black;
+    }
+}
+
 #hero {
     @extend .section;
     width: 60%;
@@ -132,16 +168,10 @@ main {
             padding-top: 75px;
             font-size: 3.5rem;
         }
-        .slide-in {
-            @include flex(row, center);
-            align-items: center;
-            opacity: 0;
-            animation: fadeIn 700ms linear forwards;
-            font-family: 'Kalam', cursive;
-        }
     }
     .subtitle {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
+        width: 80%;
         opacity: 0;
         animation: fadeIn 700ms ease-in forwards;
         animation-delay: 700ms;
@@ -149,11 +179,20 @@ main {
         text-align: end;
         letter-spacing: 5px;
         margin-top: 1em;
+        position: relative;
+        overflow: hidden;
         @media screen and (max-width: 820px) {
             font-size: 1rem;
         }
         span {
-            letter-spacing: 5px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            background-color: $white;
+            animation: slideRight 3s ease forwards 2s;
         }
     }
     &:after {
@@ -179,7 +218,7 @@ main {
             align-items: center;
             opacity: 0;
             position: relative;
-            animation: fadeIn 500ms ease-in-out forwards;
+            animation: fadeIn 750ms ease-in-out forwards;
             overflow-x: hidden;
             &:after {
                 content: '';
@@ -197,16 +236,16 @@ main {
             }
         }
         li:first-child {
-            animation-delay: 1.5s;
+            animation-delay: 2.7s;
         }
         li:nth-child(2) {
-            animation-delay: 2s;
+            animation-delay: 3.2s;
         }
         li:nth-child(3) {
-            animation-delay: 2.5s;
+            animation-delay: 3.7s;
         }
         li:last-child {
-            animation-delay: 3s;
+            animation-delay: 4.2s;
         }
         a {
             color: $black;
@@ -216,6 +255,12 @@ main {
                 font-size: 2rem;
             }
         }
+    }
+}
+
+@keyframes slideRight {
+    to {
+        transform: translateX(100%);
     }
 }
 
@@ -457,20 +502,6 @@ main {
 }
 
 @import './partials/other-projects';
-
-@keyframes slideIn {
-    0% {
-        transform: translateX(-200%);
-        opacity: 0;
-    }
-    80% {
-        transform: translateX(2%);
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
 
 @keyframes fadeIn {
     to {

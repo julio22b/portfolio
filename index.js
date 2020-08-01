@@ -105,3 +105,10 @@ const toTop = document.querySelector('.back-to-top');
 toTop.addEventListener('click', () => {
     heroSection.scrollIntoView();
 });
+
+const name = document.querySelectorAll('#name-svg > path');
+const lengths = [];
+for (let i = 0; i < name.length; i++) {
+    lengths.push(name[i].getTotalLength());
+}
+console.log(lengths);

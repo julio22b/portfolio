@@ -44,11 +44,11 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         $limit: 98,
     );
     $h: random(
-            $limit: 4,
+            $limit: 5,
         ) +
         1;
     $w: random(
-            $limit: 3,
+            $limit: 4,
         ) +
         1;
     $r: random(
@@ -72,10 +72,10 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         $limit: 98,
     );
     $h: random(
-        $limit: 5,
+        $limit: 6,
     );
     $w: random(
-        $limit: 3,
+        $limit: 5,
     );
     $r: random(
         $limit: 360,
@@ -99,11 +99,11 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         $limit: 98,
     );
     $h: random(
-            $limit: 4,
+            $limit: 6,
         ) +
         1;
     $w: random(
-            $limit: 3,
+            $limit: 5,
         ) +
         1;
     $r: random(
@@ -155,10 +155,10 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         $limit: 98,
     );
     $h: random(
-        $limit: 5,
+        $limit: 6,
     );
     $w: random(
-        $limit: 3,
+        $limit: 4,
     );
     $transform: random(
         $limit: 360,
@@ -185,7 +185,7 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         $limit: 5,
     );
     $w: random(
-        $limit: 3,
+        $limit: 8,
     );
     $transform: random(
         $limit: 360,
@@ -209,11 +209,11 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         $limit: 98,
     );
     $h: random(
-            $limit: 4,
+            $limit: 6,
         ) +
         1;
     $w: random(
-            $limit: 3,
+            $limit: 6,
         ) +
         1;
     $transform: random(
