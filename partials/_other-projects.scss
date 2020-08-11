@@ -52,9 +52,11 @@
                 span {
                     color: $brown;
                     font-size: 1rem;
+                    font-weight: bold;
                 }
                 strong {
                     font-weight: 600;
+                    opacity: 0.8;
                 }
             }
         }
