@@ -65,11 +65,7 @@ body {
 }
 
 main {
-    scroll-snap-type: y mandatory;
     max-height: 100vh;
-    @media screen and (max-width: 1100px) {
-        scroll-snap-type: none;
-    }
 }
 
 .section {
@@ -78,9 +74,30 @@ main {
     align-items: center;
     flex: 1;
     margin-left: 12%;
-    scroll-snap-align: start;
     @media screen and (max-width: 1100px) {
         margin-left: 0;
+    }
+}
+
+.tech-list-words {
+    display: none;
+    list-style: none;
+    margin: 1em;
+    opacity: 0.9;
+    @media screen and (max-width: 820px) {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    li {
+        background-color: #272b2b;
+        color: white;
+        padding: 0.3em;
+        border-radius: 25px;
+        width: max-content;
+        padding: 0.3em 0.7em;
+        font-size: 0.9rem;
+        margin: 0 20px 30px 0;
     }
 }
 
@@ -219,6 +236,7 @@ $lengths: 121.52619934082031, 122.76060485839844, 83.15902709960938, 80.75180053
             padding-top: 75px;
         }
         @media screen and (max-width: 500px) {
+            margin-top: 70px;
             width: 300px;
         }
         li {
@@ -401,6 +419,7 @@ $lengths: 121.52619934082031, 122.76060485839844, 83.15902709960938, 80.75180053
             @media screen and (max-width: 820px) {
                 width: 100%;
                 flex-wrap: wrap;
+                display: none;
             }
             li {
                 @extend .techs-items;
@@ -478,18 +497,23 @@ $lengths: 121.52619934082031, 122.76060485839844, 83.15902709960938, 80.75180053
 
 #battleship {
     .text {
-        .techs li {
-            width: 6%;
-            position: relative;
-            min-width: 42px;
-            max-width: 70px;
-            img {
-                width: 100%;
+        .techs {
+            @media screen and (max-width: 820px) {
+                display: flex;
             }
-            &:last-child {
-                width: 8%;
+            li {
+                width: 6%;
+                position: relative;
+                min-width: 42px;
+                max-width: 70px;
                 img {
-                    align-self: self-end;
+                    width: 100%;
+                }
+                &:last-child {
+                    width: 8%;
+                    img {
+                        align-self: self-end;
+                    }
                 }
             }
         }

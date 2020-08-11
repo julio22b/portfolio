@@ -10,6 +10,10 @@
             margin: 1em 0;
             text-align: center;
         }
+        @media screen and (max-width: 500px) {
+            margin-left: 0.5em;
+            margin-right: 0.5em;
+        }
     }
     .text {
         @include flex(column, center);
@@ -30,6 +34,9 @@
         width: 100%;
         text-align: right;
         font-size: 0.9rem;
+        @media screen and (max-width: 600px) {
+            text-align: center;
+        }
     }
     .back-to-top {
         position: absolute;
