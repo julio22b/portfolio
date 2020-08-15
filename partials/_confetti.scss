@@ -11,12 +11,11 @@
 }
 
 .confetti.show {
-    opacity: 1;
+    opacity: 0.9;
+    z-index: -10;
 }
 
-$rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000, #ff7f00, #ffff00,
-    #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f,
-    #8b00ff, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff;
+$rainbow: #f2de03, #fc6801, #ea2365, #de022b, #6b1eaa, #0069e8, #02a4de, #019d7e, #00707a;
 
 @each $color in $rainbow {
     $i: index(
@@ -60,7 +59,7 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$r}deg);
-        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation: FALLCONFETTI 13s ease-in-out infinite;
     }
 }
 
@@ -86,7 +85,7 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$r}deg);
-        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation: FALLCONFETTI 13s ease-in-out infinite;
         animation-delay: 1.5s;
     }
 }
@@ -115,7 +114,7 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$r}deg);
-        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation: FALLCONFETTI 13s ease-in-out infinite;
         animation-delay: 4s;
     }
 }
@@ -142,7 +141,7 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$rotate}deg);
-        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation: FALLCONFETTI 13s ease-in-out infinite;
         animation-delay: 6s;
     }
 }
@@ -169,7 +168,7 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$transform}deg);
-        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation: FALLCONFETTI 13s ease-in-out infinite;
         animation-delay: 8s;
     }
 }
@@ -196,7 +195,7 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$transform}deg);
-        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation: FALLCONFETTI 13s ease-in-out infinite;
         animation-delay: 10s;
     }
 }
@@ -209,7 +208,7 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         $limit: 98,
     );
     $h: random(
-            $limit: 6,
+            $limit: 3,
         ) +
         1;
     $w: random(
@@ -225,7 +224,7 @@ $rainbow: #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #2e2b5f, #8b00ff, #ff0000
         height: calc(#{$i}* #{$h}px);
         width: calc(#{$i}* #{$w}px);
         transform: rotate(#{$transform}deg);
-        animation: FALLCONFETTI 10s ease-in-out infinite;
+        animation: FALLCONFETTI 13s ease-in-out infinite;
         animation-delay: 12s;
     }
 }

@@ -45,6 +45,9 @@ $blue: #536979;
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
 }
+a {
+    color: $black;
+}
 
 html {
     scroll-behavior: smooth;
@@ -107,9 +110,29 @@ $lengths: 121.52619934082031, 122.76060485839844, 83.15902709960938, 80.75180053
     105.00300598144531, 186.551513671875, 118.1707992553711, 73.31317901611328, 199.94654846191406,
     156.72842407226562, 145.99688720703125, 118.17072296142578, 117.36453247070312;
 
+.text-name {
+    font-family: 'Kalam', cursive;
+    display: none;
+}
+
 #name-svg {
     animation: fill 1s ease forwards 2s;
-    transform: translateX(25%);
+    transform: translate(25%);
+}
+
+@media screen and (max-width: 800px) {
+    .text-name {
+        display: flex;
+    }
+    #name-svg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .text-name {
+        word-break: break-all;
+    }
 }
 
 @each $length in $lengths {
@@ -162,6 +185,7 @@ $lengths: 121.52619934082031, 122.76060485839844, 83.15902709960938, 80.75180053
         bottom: 50px;
         opacity: 0;
         animation: direction 0.7s linear infinite alternate, fadeIn 1s ease-in-out forwards;
+        animation-delay: 3s;
         cursor: pointer;
         display: none;
         i {
@@ -178,7 +202,6 @@ $lengths: 121.52619934082031, 122.76060485839844, 83.15902709960938, 80.75180053
         font-size: 7rem;
         color: $black;
         text-shadow: 0 0 1px $black;
-        @include flex(row, center);
         align-items: baseline;
         width: 100%;
         padding-top: 200px;
@@ -291,7 +314,7 @@ $lengths: 121.52619934082031, 122.76060485839844, 83.15902709960938, 80.75180053
 }
 
 #facebook,
-#blog,
+#filmly,
 #battleship,
 #other-projects,
 #about,
@@ -374,7 +397,7 @@ $lengths: 121.52619934082031, 122.76060485839844, 83.15902709960938, 80.75180053
 }
 
 #facebook,
-#blog,
+#filmly,
 #battleship,
 #about {
     @include flex(column, space-around);
@@ -521,7 +544,7 @@ $lengths: 121.52619934082031, 122.76060485839844, 83.15902709960938, 80.75180053
 }
 
 @media screen and (max-width: 820px) {
-    #blog .text h2 div {
+    #filmly .text h2 div {
         flex-wrap: wrap;
         margin-bottom: 0;
         justify-content: space-evenly;
