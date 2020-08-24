@@ -1,6 +1,9 @@
 #contact {
     align-items: stretch !important;
     position: relative;
+    @media screen and (max-width: 820px) {
+        padding-bottom: 3em;
+    }
     h2 {
         margin-top: 0;
         margin-right: 0;

@@ -13,6 +13,7 @@
 .confetti.show {
     opacity: 0.9;
     z-index: -10;
+    pointer-events: none;
 }
 
 $rainbow: #f2de03, #fc6801, #ea2365, #de022b, #6b1eaa, #0069e8, #02a4de, #019d7e, #00707a;
@@ -87,6 +88,9 @@ $rainbow: #f2de03, #fc6801, #ea2365, #de022b, #6b1eaa, #0069e8, #02a4de, #019d7e
         transform: rotate(#{$r}deg);
         animation: FALLCONFETTI 13s ease-in-out infinite;
         animation-delay: 1.5s;
+        @media screen and (max-width: 820px) {
+            animation-delay: 0s;
+        }
     }
 }
 
@@ -116,6 +120,9 @@ $rainbow: #f2de03, #fc6801, #ea2365, #de022b, #6b1eaa, #0069e8, #02a4de, #019d7e
         transform: rotate(#{$r}deg);
         animation: FALLCONFETTI 13s ease-in-out infinite;
         animation-delay: 4s;
+        @media screen and (max-width: 820px) {
+            animation-delay: 2s;
+        }
     }
 }
 
@@ -143,6 +150,9 @@ $rainbow: #f2de03, #fc6801, #ea2365, #de022b, #6b1eaa, #0069e8, #02a4de, #019d7e
         transform: rotate(#{$rotate}deg);
         animation: FALLCONFETTI 13s ease-in-out infinite;
         animation-delay: 6s;
+        @media screen and (max-width: 820px) {
+            animation-delay: 4s;
+        }
     }
 }
 
@@ -170,6 +180,9 @@ $rainbow: #f2de03, #fc6801, #ea2365, #de022b, #6b1eaa, #0069e8, #02a4de, #019d7e
         transform: rotate(#{$transform}deg);
         animation: FALLCONFETTI 13s ease-in-out infinite;
         animation-delay: 8s;
+        @media screen and (max-width: 820px) {
+            animation-delay: 6s;
+        }
     }
 }
 
@@ -197,6 +210,9 @@ $rainbow: #f2de03, #fc6801, #ea2365, #de022b, #6b1eaa, #0069e8, #02a4de, #019d7e
         transform: rotate(#{$transform}deg);
         animation: FALLCONFETTI 13s ease-in-out infinite;
         animation-delay: 10s;
+        @media screen and (max-width: 820px) {
+            animation-delay: 8s;
+        }
     }
 }
 
@@ -226,6 +242,9 @@ $rainbow: #f2de03, #fc6801, #ea2365, #de022b, #6b1eaa, #0069e8, #02a4de, #019d7e
         transform: rotate(#{$transform}deg);
         animation: FALLCONFETTI 13s ease-in-out infinite;
         animation-delay: 12s;
+        @media screen and (max-width: 820px) {
+            animation-delay: 10s;
+        }
     }
 }
 

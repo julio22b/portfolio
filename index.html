@@ -46,7 +46,7 @@
                                 <li>
                                     <a href="#facebook">Fakebook</a>
                                 </li>
-                                <li><a href="#filmly">Filmly</a></li>
+                                <li><a href="#filmly">Letterboxd</a></li>
                                 <li>
                                     <a href="#battleship">Battleship</a>
                                 </li>
@@ -248,7 +248,7 @@
                                 href="https://github.com/julio22b/facebook-clone-api"
                                 target="_blank"
                                 rel="noopener"
-                                >Api code <i class="fab fa-github"></i
+                                >API code <i class="fab fa-github"></i
                             ></a>
                             <a
                                 href="https://github.com/julio22b/facebook-clone-frontend"
@@ -276,22 +276,21 @@
                         </p>
                     </div>
                     <ul class="techs">
-                        <li><img src="./imgs/react.png" alt="" /> <span>React</span></li>
-                        <li id="express"><img src="./imgs/express.png" alt="" /></li>
-                        <li id="mongo"><img src="./imgs/mongodb.png" alt="" /></li>
-                        <li><img src="./imgs/sass.png" alt="" /></li>
-                        <li><img src="./imgs/socket.png" alt="" /> <span>Socket.io</span></li>
-                        <li class="passport">
-                            <img src="./imgs/passportJS.png" alt="" /><span>PassportJS</span>
+                        <li><img src="./imgs/react.png" alt="React logo" /> <span>React</span></li>
+                        <li id="express"><img src="./imgs/express.png" alt="Express logo" /></li>
+                        <li id="mongo"><img src="./imgs/mongodb.png" alt="MongoDB logo" /></li>
+                        <li>
+                            <img src="./imgs/socket.png" alt="Socket.io logo" />
+                            <span>Socket.io</span>
                         </li>
+                        <li><img src="./imgs/sass.png" alt="Sass logo" /></li>
                     </ul>
                     <ul class="tech-list-words">
                         <li>React</li>
                         <li>Express</li>
                         <li>MongoDB</li>
-                        <li>Sass</li>
                         <li>Socket.io</li>
-                        <li>PassportJS</li>
+                        <li>Sass</li>
                     </ul>
                 </article>
                 <article class="images">
@@ -335,9 +334,12 @@
             <section id="filmly" data-section="projects">
                 <article class="text">
                     <h2>
-                        Filmly
+                        Letterboxd
                         <div>
-                            <a href="" target="_blank" rel="noopener"
+                            <a
+                                href="https://letterboxd-film.herokuapp.com/"
+                                target="_blank"
+                                rel="noopener"
                                 >Live <i class="far fa-window-maximize"></i
                             ></a>
                             <a
@@ -357,33 +359,55 @@
                     <div>
                         <p>
                             A film reviewing app. It uses
-                            <span class="highlight"
-                                ><a href="" rel="noopener" title="TMDB's website" target="_blank"
-                                    >TMDB</a
-                                ></span
+                            <a
+                                href=""
+                                rel="noopener"
+                                title="TMDB's website"
+                                target="_blank"
+                                class="highlight"
+                                >TMDB</a
                             >
                             and
-                            <span class="highlight">
-                                <a href="" title="OMDB's website" rel="noopener" target="_blank"
-                                    >OMDB's</a
-                                >
-                            </span>
-                            APIs to get the films data so users can review, rate, like and keep
-                            track of their watched films in a diary. <br /><br />
-                            Users can also add films to their watchlist and create custom lists,
-                            edit their profile, follow other users and check their profiles.
+                            <a
+                                href=""
+                                title="OMDB's website"
+                                rel="noopener"
+                                target="_blank"
+                                class="highlight"
+                                >OMDB's</a
+                            >
+                            APIs to get the films' data so users can review, rate, like, make lists
+                            and keep a diary of their watched films.<br /><br />
+                            I found <span class="highlight">Redux</span> to be extremely helpful
+                            once I got the hang of it. I felt my components were cleaner and I was
+                            able to build new functionality much faster than I would without it. And
+                            <span class="highlight">Typescript</span>? It helped me catch a lot of
+                            errors <em>while</em> I was writing code. It's an amazing tool!
                         </p>
                     </div>
                     <ul class="techs">
-                        <li><img src="./imgs/react.png" alt="" /><span>React</span></li>
-                        <li><img src="./imgs/react.png" alt="" /><span>Redux</span></li>
-                        <li><img src="./imgs/react.png" alt="" /><span>TypeScript</span></li>
-                        <li id="express"><img src="./imgs/express.png" alt="" /></li>
-                        <li id="mongo"><img src="./imgs/mongodb.png" alt="" /></li>
-                        <li><img src="./imgs/sass.png" alt="" /></li>
-                        <li class="passport">
-                            <img src="./imgs/passportJS.png" alt="" /><span>PassportJS</span>
+                        <li><img src="./imgs/react.png" alt="React logo" /><span>React</span></li>
+                        <li>
+                            <img src="./imgs/redux-logo.png" alt="Redux logo" /><span>Redux</span>
                         </li>
+                        <li>
+                            <img src="./imgs/typescript.png" alt="TypeScript logo" /><span
+                                >TypeScript</span
+                            >
+                        </li>
+                        <li id="express"><img src="./imgs/express.png" alt="Express logo" /></li>
+                        <li id="mongo"><img src="./imgs/mongodb.png" alt="MongoDB logo" /></li>
+                        <li><img src="./imgs/jest.png" alt="Jest logo" /></li>
+                        <li><img src="./imgs/sass.png" alt="Sass logo" /></li>
+                    </ul>
+                    <ul class="tech-list-words">
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>TypeScript</li>
+                        <li>Express</li>
+                        <li>MongoDB</li>
+                        <li>Jest</li>
+                        <li>Sass</li>
                     </ul>
                 </article>
                 <article class="images">
@@ -393,9 +417,9 @@
                             disablePictureInPicture
                             loop
                             muted
-                            data-desc="Creating a post with Toast UI Editor which allows the user to write markdown that will be saved to the database"
+                            data-desc="Shows the home page and the film's page where its data is displayed, including reviews by users."
                         >
-                            <source src="./imgs/admin-blog.webm" type="video/webm" />
+                            <source src="./imgs/letterboxd.webm" type="video/webm" />
                         </video>
                         <figcaption></figcaption>
                     </figure>
@@ -405,9 +429,9 @@
                             disablePictureInPicture
                             loop
                             muted
-                            data-desc="The users' page where all posts are displayed. Users can read a post and comment on it."
+                            data-desc="Searching for a film to review it, while adding a like, rating and the date it was watched."
                         >
-                            <source src="./imgs/users-blog.webm" />
+                            <source src="./imgs/adding-review.webm" />
                         </video>
                         <figcaption></figcaption>
                     </figure>
@@ -530,8 +554,8 @@
                                         <li>
                                             <a
                                                 target="_blank"
-                                                href="https://julio22b.github.io/letterboxd-home/"
-                                                aria-label="Link to Letterboxd home live page"
+                                                href="https://julio22b.github.io/blog-frontend/home"
+                                                aria-label="Link to Blog live page"
                                                 rel="noopener"
                                                 ><i class="far fa-window-maximize"></i
                                             ></a>
@@ -539,22 +563,20 @@
                                         <li>
                                             <a
                                                 target="_blank"
-                                                href="https://github.com/julio22b/letterboxd-home"
-                                                aria-label="Link to Letterboxd home code on GitHub"
+                                                href="https://github.com/julio22b/blog-frontend"
+                                                aria-label="Link to Blog's code on GitHub"
                                                 rel="noopener"
                                                 ><i class="fab fa-github"></i
                                             ></a>
                                         </li>
                                     </ul>
                                 </div>
-                                <img
-                                    src="./imgs/letterboxd.png"
-                                    alt="homepage of the letterboxd clone I built"
-                                />
+                                <img src="./imgs/blog.png" alt="Homepage of my blog" />
                             </div>
                             <figcaption>
-                                <span>Letterboxd Homepage</span>
-                                - Used a <strong>responsive CSS framework</strong> built by myself.
+                                <span>A blog</span>
+                                - Made with <strong>React/Express</strong>, has 2 frontends: one for
+                                displaying blogs, and another as an admin panel.
                             </figcaption>
                         </figure>
                     </article>
@@ -754,7 +776,7 @@
                     <span>Back to top</span>
                 </div>
                 <p>Designed and developed by me :)</p>
-                <svg
+                <!--  <svg
                     id="name-svg"
                     width="100%"
                     height="100%"
@@ -892,7 +914,7 @@
                         stroke-width="2"
                         mask="url(#path-1-inside-1)"
                     />
-                </svg>
+                </svg> -->
             </section>
         </main>
         <div class="confetti show">
