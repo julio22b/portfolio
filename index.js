@@ -35,7 +35,7 @@ sections.forEach((section) => {
 const heroSection = document.querySelector('#hero');
 const confetti = document.querySelector('.confetti');
 const goToProjects = document.querySelector('.to-projects');
-const heroObserverOpts = { threshold: 0.25 };
+const heroObserverOpts = { threshold: 0.8 };
 
 const heroObserver = new IntersectionObserver(function (entries, heroObserver) {
     entries.forEach((entry) => {
