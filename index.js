@@ -6,9 +6,10 @@ const navBar = document.querySelector('nav');
 const black = '#393d3f';
 const white = '#ebebeb';
 
-const observerOpts = { threshold: 0.25 };
+console.log(sections)
 
-const observer = new IntersectionObserver((entries, observer) => {
+const observerOpts = { threshold: 0.25 };
+const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         const li = document.querySelector(`[data-section=${entry.target.dataset.section}]`);
         let link = document.querySelector(`[data-section=${entry.target.id}] a`);
@@ -51,9 +52,9 @@ const heroObserver = new IntersectionObserver(function (entries, heroObserver) {
 
 heroObserver.observe(heroSection);
 
-const projectsSection = document.querySelector('#facebook');
+const workExperienceSection = document.querySelector('#work-experience');
 goToProjects.addEventListener('click', () => {
-    projectsSection.scrollIntoView();
+    workExperienceSection.scrollIntoView();
 });
 
 const videoModal = document.querySelector('.video-modal');

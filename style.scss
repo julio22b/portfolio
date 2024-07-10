@@ -13,7 +13,6 @@ $blue: #536979;
 @import './partials/confetti';
 @import './partials/videos';
 @import './partials/contact';
-@import './partials//about';
 
 .black-text {
     color: $black !important;
@@ -352,8 +351,9 @@ $lengths: 121.52619934082031, 122.76060485839844, 83.15902709960938, 80.75180053
     }
 }
 
-#facebook,
+#work-experience,
 #filmly,
+#facebook,
 #battleship,
 #other-projects,
 #about,
@@ -446,6 +446,7 @@ $lengths: 121.52619934082031, 122.76060485839844, 83.15902709960938, 80.75180053
     }
 }
 
+#work-experience,
 #facebook,
 #filmly,
 #battleship,

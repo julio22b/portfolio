@@ -4,10 +4,8 @@
   top: 0;
   width: 100%;
   opacity: 0;
-  -webkit-transition: opacity 1s ease;
   transition: opacity 1s ease;
 }
-
 .confetti .colors {
   position: fixed;
   margin: 0;
@@ -128,1347 +126,1008 @@
 }
 
 .box-1 {
-  top: 34vh;
-  left: 54vw;
-  height: calc(1* 4px);
-  width: calc(1* 5px);
-  -webkit-transform: rotate(68deg);
-          transform: rotate(68deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
+  top: 35vh;
+  left: 27vw;
+  height: calc(1 * 3px);
+  width: calc(1 * 3px);
+  transform: rotate(332deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
 }
 
 .box-2 {
-  top: 15vh;
-  left: 94vw;
-  height: calc(2* 4px);
-  width: calc(2* 2px);
-  -webkit-transform: rotate(215deg);
-          transform: rotate(215deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
+  top: 23vh;
+  left: 7vw;
+  height: calc(2 * 6px);
+  width: calc(2 * 2px);
+  transform: rotate(102deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
 }
 
 .box-3 {
-  top: 14vh;
-  left: 63vw;
-  height: calc(3* 4px);
-  width: calc(3* 4px);
-  -webkit-transform: rotate(119deg);
-          transform: rotate(119deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
+  top: 9vh;
+  left: 22vw;
+  height: calc(3 * 5px);
+  width: calc(3 * 5px);
+  transform: rotate(353deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
 }
 
 .box-4 {
-  top: 33vh;
-  left: 64vw;
-  height: calc(4* 2px);
-  width: calc(4* 3px);
-  -webkit-transform: rotate(280deg);
-          transform: rotate(280deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
+  top: 19vh;
+  left: 2vw;
+  height: calc(4 * 4px);
+  width: calc(4 * 4px);
+  transform: rotate(76deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
 }
 
 .box-5 {
-  top: 35vh;
-  left: 20vw;
-  height: calc(5* 2px);
-  width: calc(5* 5px);
-  -webkit-transform: rotate(301deg);
-          transform: rotate(301deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
+  top: 21vh;
+  left: 47vw;
+  height: calc(5 * 3px);
+  width: calc(5 * 2px);
+  transform: rotate(338deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
 }
 
 .box-6 {
-  top: 2vh;
-  left: 86vw;
-  height: calc(6* 5px);
-  width: calc(6* 2px);
-  -webkit-transform: rotate(232deg);
-          transform: rotate(232deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
+  top: 38vh;
+  left: 56vw;
+  height: calc(6 * 6px);
+  width: calc(6 * 4px);
+  transform: rotate(100deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
 }
 
 .box-7 {
-  top: 11vh;
-  left: 3vw;
-  height: calc(7* 5px);
-  width: calc(7* 4px);
-  -webkit-transform: rotate(147deg);
-          transform: rotate(147deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
+  top: 29vh;
+  left: 89vw;
+  height: calc(7 * 2px);
+  width: calc(7 * 3px);
+  transform: rotate(53deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
 }
 
 .box-8 {
-  top: 34vh;
-  left: 27vw;
-  height: calc(8* 4px);
-  width: calc(8* 4px);
-  -webkit-transform: rotate(225deg);
-          transform: rotate(225deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
+  top: 2vh;
+  left: 70vw;
+  height: calc(8 * 6px);
+  width: calc(8 * 3px);
+  transform: rotate(342deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
 }
 
 .box-9 {
-  top: 27vh;
-  left: 25vw;
-  height: calc(9* 6px);
-  width: calc(9* 5px);
-  -webkit-transform: rotate(178deg);
-          transform: rotate(178deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
+  top: 12vh;
+  left: 51vw;
+  height: calc(9 * 6px);
+  width: calc(9 * 3px);
+  transform: rotate(129deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
 }
 
 .box-10 {
-  top: 31vh;
-  left: 23vw;
-  height: calc(10* 2px);
-  width: calc(10* 2px);
-  -webkit-transform: rotate(233deg);
-          transform: rotate(233deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
+  top: 5vh;
+  left: 84vw;
+  height: calc(10 * 6px);
+  width: calc(10 * 2px);
+  transform: rotate(35deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
 }
 
 .dox-1 {
-  top: 10vh;
-  left: 61vw;
-  height: calc(1* 3px);
-  width: calc(1* 1px);
-  -webkit-transform: rotate(115deg);
-          transform: rotate(115deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  top: 27vh;
+  left: 12vw;
+  height: calc(1 * 4px);
+  width: calc(1 * 4px);
+  transform: rotate(209deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 1.5s;
 }
-
 @media screen and (max-width: 820px) {
   .dox-1 {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    animation-delay: 0s;
   }
 }
 
 .dox-2 {
-  top: 21vh;
-  left: 22vw;
-  height: calc(2* 6px);
-  width: calc(2* 2px);
-  -webkit-transform: rotate(217deg);
-          transform: rotate(217deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  top: 16vh;
+  left: 1vw;
+  height: calc(2 * 6px);
+  width: calc(2 * 1px);
+  transform: rotate(194deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 1.5s;
 }
-
 @media screen and (max-width: 820px) {
   .dox-2 {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    animation-delay: 0s;
   }
 }
 
 .dox-3 {
-  top: 18vh;
-  left: 91vw;
-  height: calc(3* 1px);
-  width: calc(3* 3px);
-  -webkit-transform: rotate(54deg);
-          transform: rotate(54deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  top: 5vh;
+  left: 48vw;
+  height: calc(3 * 2px);
+  width: calc(3 * 3px);
+  transform: rotate(357deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 1.5s;
 }
-
 @media screen and (max-width: 820px) {
   .dox-3 {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    animation-delay: 0s;
   }
 }
 
 .dox-4 {
-  top: 26vh;
-  left: 26vw;
-  height: calc(4* 3px);
-  width: calc(4* 4px);
-  -webkit-transform: rotate(18deg);
-          transform: rotate(18deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  top: 22vh;
+  left: 95vw;
+  height: calc(4 * 1px);
+  width: calc(4 * 2px);
+  transform: rotate(139deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 1.5s;
 }
-
 @media screen and (max-width: 820px) {
   .dox-4 {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    animation-delay: 0s;
   }
 }
 
 .dox-5 {
-  top: 10vh;
-  left: 32vw;
-  height: calc(5* 4px);
-  width: calc(5* 4px);
-  -webkit-transform: rotate(183deg);
-          transform: rotate(183deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  top: 31vh;
+  left: 15vw;
+  height: calc(5 * 3px);
+  width: calc(5 * 2px);
+  transform: rotate(209deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 1.5s;
 }
-
 @media screen and (max-width: 820px) {
   .dox-5 {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    animation-delay: 0s;
   }
 }
 
 .dox-6 {
-  top: 38vh;
-  left: 75vw;
-  height: calc(6* 2px);
-  width: calc(6* 2px);
-  -webkit-transform: rotate(267deg);
-          transform: rotate(267deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  top: 21vh;
+  left: 31vw;
+  height: calc(6 * 3px);
+  width: calc(6 * 1px);
+  transform: rotate(144deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 1.5s;
 }
-
 @media screen and (max-width: 820px) {
   .dox-6 {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    animation-delay: 0s;
   }
 }
 
 .dox-7 {
-  top: 22vh;
-  left: 50vw;
-  height: calc(7* 1px);
-  width: calc(7* 1px);
-  -webkit-transform: rotate(159deg);
-          transform: rotate(159deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  top: 24vh;
+  left: 25vw;
+  height: calc(7 * 3px);
+  width: calc(7 * 2px);
+  transform: rotate(280deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 1.5s;
 }
-
 @media screen and (max-width: 820px) {
   .dox-7 {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    animation-delay: 0s;
   }
 }
 
 .dox-8 {
-  top: 35vh;
-  left: 28vw;
-  height: calc(8* 4px);
-  width: calc(8* 4px);
-  -webkit-transform: rotate(312deg);
-          transform: rotate(312deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  top: 3vh;
+  left: 25vw;
+  height: calc(8 * 1px);
+  width: calc(8 * 3px);
+  transform: rotate(177deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 1.5s;
 }
-
 @media screen and (max-width: 820px) {
   .dox-8 {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    animation-delay: 0s;
   }
 }
 
 .dox-9 {
-  top: 24vh;
-  left: 65vw;
-  height: calc(9* 1px);
-  width: calc(9* 4px);
-  -webkit-transform: rotate(294deg);
-          transform: rotate(294deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  top: 23vh;
+  left: 49vw;
+  height: calc(9 * 4px);
+  width: calc(9 * 1px);
+  transform: rotate(155deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 1.5s;
 }
-
 @media screen and (max-width: 820px) {
   .dox-9 {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    animation-delay: 0s;
   }
 }
 
 .dox-10 {
-  top: 2vh;
-  left: 82vw;
-  height: calc(10* 1px);
-  width: calc(10* 2px);
-  -webkit-transform: rotate(185deg);
-          transform: rotate(185deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  top: 38vh;
+  left: 46vw;
+  height: calc(10 * 1px);
+  width: calc(10 * 3px);
+  transform: rotate(282deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 1.5s;
 }
-
 @media screen and (max-width: 820px) {
   .dox-10 {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    animation-delay: 0s;
   }
 }
 
 .fox-1 {
-  top: 33vh;
-  left: 59vw;
-  height: calc(1* 7px);
-  width: calc(1* 5px);
-  -webkit-transform: rotate(133deg);
-          transform: rotate(133deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  top: 13vh;
+  left: 87vw;
+  height: calc(1 * 5px);
+  width: calc(1 * 6px);
+  transform: rotate(277deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 4s;
 }
-
 @media screen and (max-width: 820px) {
   .fox-1 {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    animation-delay: 2s;
   }
 }
 
 .fox-2 {
-  top: 34vh;
-  left: 20vw;
-  height: calc(2* 2px);
-  width: calc(2* 3px);
-  -webkit-transform: rotate(189deg);
-          transform: rotate(189deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  top: 35vh;
+  left: 28vw;
+  height: calc(2 * 2px);
+  width: calc(2 * 2px);
+  transform: rotate(289deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 4s;
 }
-
 @media screen and (max-width: 820px) {
   .fox-2 {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    animation-delay: 2s;
   }
 }
 
 .fox-3 {
-  top: 39vh;
-  left: 24vw;
-  height: calc(3* 2px);
-  width: calc(3* 6px);
-  -webkit-transform: rotate(188deg);
-          transform: rotate(188deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  top: 37vh;
+  left: 92vw;
+  height: calc(3 * 2px);
+  width: calc(3 * 5px);
+  transform: rotate(81deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 4s;
 }
-
 @media screen and (max-width: 820px) {
   .fox-3 {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    animation-delay: 2s;
   }
 }
 
 .fox-4 {
-  top: 12vh;
-  left: 93vw;
-  height: calc(4* 2px);
-  width: calc(4* 4px);
-  -webkit-transform: rotate(344deg);
-          transform: rotate(344deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  top: 30vh;
+  left: 52vw;
+  height: calc(4 * 5px);
+  width: calc(4 * 4px);
+  transform: rotate(256deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 4s;
 }
-
 @media screen and (max-width: 820px) {
   .fox-4 {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    animation-delay: 2s;
   }
 }
 
 .fox-5 {
-  top: 37vh;
-  left: 3vw;
-  height: calc(5* 7px);
-  width: calc(5* 6px);
-  -webkit-transform: rotate(257deg);
-          transform: rotate(257deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  top: 1vh;
+  left: 96vw;
+  height: calc(5 * 2px);
+  width: calc(5 * 2px);
+  transform: rotate(65deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 4s;
 }
-
 @media screen and (max-width: 820px) {
   .fox-5 {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    animation-delay: 2s;
   }
 }
 
 .fox-6 {
-  top: 31vh;
-  left: 67vw;
-  height: calc(6* 3px);
-  width: calc(6* 3px);
-  -webkit-transform: rotate(292deg);
-          transform: rotate(292deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  top: 38vh;
+  left: 43vw;
+  height: calc(6 * 6px);
+  width: calc(6 * 4px);
+  transform: rotate(218deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 4s;
 }
-
 @media screen and (max-width: 820px) {
   .fox-6 {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    animation-delay: 2s;
   }
 }
 
 .fox-7 {
-  top: 20vh;
-  left: 82vw;
-  height: calc(7* 6px);
-  width: calc(7* 4px);
-  -webkit-transform: rotate(270deg);
-          transform: rotate(270deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  top: 18vh;
+  left: 59vw;
+  height: calc(7 * 6px);
+  width: calc(7 * 6px);
+  transform: rotate(332deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 4s;
 }
-
 @media screen and (max-width: 820px) {
   .fox-7 {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    animation-delay: 2s;
   }
 }
 
 .fox-8 {
-  top: 26vh;
-  left: 58vw;
-  height: calc(8* 3px);
-  width: calc(8* 2px);
-  -webkit-transform: rotate(160deg);
-          transform: rotate(160deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  top: 3vh;
+  left: 26vw;
+  height: calc(8 * 2px);
+  width: calc(8 * 2px);
+  transform: rotate(25deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 4s;
 }
-
 @media screen and (max-width: 820px) {
   .fox-8 {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    animation-delay: 2s;
   }
 }
 
 .fox-9 {
-  top: 34vh;
-  left: 2vw;
-  height: calc(9* 4px);
-  width: calc(9* 2px);
-  -webkit-transform: rotate(1deg);
-          transform: rotate(1deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  top: 37vh;
+  left: 79vw;
+  height: calc(9 * 6px);
+  width: calc(9 * 2px);
+  transform: rotate(343deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 4s;
 }
-
 @media screen and (max-width: 820px) {
   .fox-9 {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    animation-delay: 2s;
   }
 }
 
 .fox-10 {
-  top: 12vh;
-  left: 4vw;
-  height: calc(10* 5px);
-  width: calc(10* 4px);
-  -webkit-transform: rotate(239deg);
-          transform: rotate(239deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  top: 34vh;
+  left: 30vw;
+  height: calc(10 * 3px);
+  width: calc(10 * 4px);
+  transform: rotate(306deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 4s;
 }
-
 @media screen and (max-width: 820px) {
   .fox-10 {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    animation-delay: 2s;
   }
 }
 
 .rox-1 {
-  top: 16vh;
-  right: 87vw;
-  height: calc(1* 5px);
-  width: calc(1* 1px);
-  -webkit-transform: rotate(176deg);
-          transform: rotate(176deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  top: 25vh;
+  right: 5vw;
+  height: calc(1 * 4px);
+  width: calc(1 * 1px);
+  transform: rotate(279deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 6s;
 }
-
 @media screen and (max-width: 820px) {
   .rox-1 {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    animation-delay: 4s;
   }
 }
 
 .rox-2 {
-  top: 39vh;
-  right: 30vw;
-  height: calc(2* 3px);
-  width: calc(2* 1px);
-  -webkit-transform: rotate(179deg);
-          transform: rotate(179deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  top: 4vh;
+  right: 43vw;
+  height: calc(2 * 2px);
+  width: calc(2 * 3px);
+  transform: rotate(235deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 6s;
 }
-
 @media screen and (max-width: 820px) {
   .rox-2 {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    animation-delay: 4s;
   }
 }
 
 .rox-3 {
-  top: 9vh;
-  right: 83vw;
-  height: calc(3* 4px);
-  width: calc(3* 2px);
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  top: 13vh;
+  right: 27vw;
+  height: calc(3 * 3px);
+  width: calc(3 * 3px);
+  transform: rotate(136deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 6s;
 }
-
 @media screen and (max-width: 820px) {
   .rox-3 {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    animation-delay: 4s;
   }
 }
 
 .rox-4 {
-  top: 40vh;
-  right: 95vw;
-  height: calc(4* 1px);
-  width: calc(4* 1px);
-  -webkit-transform: rotate(40deg);
-          transform: rotate(40deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  top: 22vh;
+  right: 27vw;
+  height: calc(4 * 1px);
+  width: calc(4 * 1px);
+  transform: rotate(308deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 6s;
 }
-
 @media screen and (max-width: 820px) {
   .rox-4 {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    animation-delay: 4s;
   }
 }
 
 .rox-5 {
-  top: 20vh;
-  right: 27vw;
-  height: calc(5* 1px);
-  width: calc(5* 2px);
-  -webkit-transform: rotate(170deg);
-          transform: rotate(170deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  top: 30vh;
+  right: 90vw;
+  height: calc(5 * 1px);
+  width: calc(5 * 1px);
+  transform: rotate(130deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 6s;
 }
-
 @media screen and (max-width: 820px) {
   .rox-5 {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    animation-delay: 4s;
   }
 }
 
 .rox-6 {
-  top: 4vh;
-  right: 62vw;
-  height: calc(6* 4px);
-  width: calc(6* 1px);
-  -webkit-transform: rotate(253deg);
-          transform: rotate(253deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  top: 37vh;
+  right: 8vw;
+  height: calc(6 * 4px);
+  width: calc(6 * 1px);
+  transform: rotate(247deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 6s;
 }
-
 @media screen and (max-width: 820px) {
   .rox-6 {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    animation-delay: 4s;
   }
 }
 
 .rox-7 {
-  top: 30vh;
-  right: 5vw;
-  height: calc(7* 2px);
-  width: calc(7* 3px);
-  -webkit-transform: rotate(156deg);
-          transform: rotate(156deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  top: 23vh;
+  right: 17vw;
+  height: calc(7 * 1px);
+  width: calc(7 * 3px);
+  transform: rotate(74deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 6s;
 }
-
 @media screen and (max-width: 820px) {
   .rox-7 {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    animation-delay: 4s;
   }
 }
 
 .rox-8 {
-  top: 9vh;
-  right: 20vw;
-  height: calc(8* 1px);
-  width: calc(8* 3px);
-  -webkit-transform: rotate(345deg);
-          transform: rotate(345deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  top: 20vh;
+  right: 71vw;
+  height: calc(8 * 3px);
+  width: calc(8 * 2px);
+  transform: rotate(23deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 6s;
 }
-
 @media screen and (max-width: 820px) {
   .rox-8 {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    animation-delay: 4s;
   }
 }
 
 .rox-9 {
-  top: 28vh;
-  right: 59vw;
-  height: calc(9* 2px);
-  width: calc(9* 2px);
-  -webkit-transform: rotate(215deg);
-          transform: rotate(215deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  top: 3vh;
+  right: 74vw;
+  height: calc(9 * 1px);
+  width: calc(9 * 2px);
+  transform: rotate(301deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 6s;
 }
-
 @media screen and (max-width: 820px) {
   .rox-9 {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    animation-delay: 4s;
   }
 }
 
 .rox-10 {
-  top: 7vh;
-  right: 15vw;
-  height: calc(10* 3px);
-  width: calc(10* 1px);
-  -webkit-transform: rotate(265deg);
-          transform: rotate(265deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  top: 11vh;
+  right: 59vw;
+  height: calc(10 * 5px);
+  width: calc(10 * 2px);
+  transform: rotate(49deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 6s;
 }
-
 @media screen and (max-width: 820px) {
   .rox-10 {
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
+    animation-delay: 4s;
   }
 }
 
 .uox-1 {
-  top: 13vh;
-  right: 28vw;
-  height: calc(1* 4px);
-  width: calc(1* 3px);
-  -webkit-transform: rotate(41deg);
-          transform: rotate(41deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
+  top: 28vh;
+  right: 36vw;
+  height: calc(1 * 4px);
+  width: calc(1 * 1px);
+  transform: rotate(262deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 8s;
 }
-
 @media screen and (max-width: 820px) {
   .uox-1 {
-    -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    animation-delay: 6s;
   }
 }
 
 .uox-2 {
-  top: 11vh;
-  right: 3vw;
-  height: calc(2* 5px);
-  width: calc(2* 1px);
-  -webkit-transform: rotate(175deg);
-          transform: rotate(175deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
+  top: 33vh;
+  right: 98vw;
+  height: calc(2 * 2px);
+  width: calc(2 * 3px);
+  transform: rotate(263deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 8s;
 }
-
 @media screen and (max-width: 820px) {
   .uox-2 {
-    -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    animation-delay: 6s;
   }
 }
 
 .uox-3 {
-  top: 16vh;
-  right: 92vw;
-  height: calc(3* 2px);
-  width: calc(3* 1px);
-  -webkit-transform: rotate(16deg);
-          transform: rotate(16deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
+  top: 1vh;
+  right: 68vw;
+  height: calc(3 * 5px);
+  width: calc(3 * 3px);
+  transform: rotate(309deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 8s;
 }
-
 @media screen and (max-width: 820px) {
   .uox-3 {
-    -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    animation-delay: 6s;
   }
 }
 
 .uox-4 {
-  top: 22vh;
-  right: 70vw;
-  height: calc(4* 1px);
-  width: calc(4* 2px);
-  -webkit-transform: rotate(42deg);
-          transform: rotate(42deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
+  top: 28vh;
+  right: 60vw;
+  height: calc(4 * 2px);
+  width: calc(4 * 2px);
+  transform: rotate(212deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 8s;
 }
-
 @media screen and (max-width: 820px) {
   .uox-4 {
-    -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    animation-delay: 6s;
   }
 }
 
 .uox-5 {
-  top: 27vh;
-  right: 39vw;
-  height: calc(5* 1px);
-  width: calc(5* 4px);
-  -webkit-transform: rotate(309deg);
-          transform: rotate(309deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
+  top: 25vh;
+  right: 11vw;
+  height: calc(5 * 6px);
+  width: calc(5 * 1px);
+  transform: rotate(146deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 8s;
 }
-
 @media screen and (max-width: 820px) {
   .uox-5 {
-    -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    animation-delay: 6s;
   }
 }
 
 .uox-6 {
-  top: 38vh;
-  right: 57vw;
-  height: calc(6* 2px);
-  width: calc(6* 3px);
-  -webkit-transform: rotate(49deg);
-          transform: rotate(49deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
+  top: 2vh;
+  right: 66vw;
+  height: calc(6 * 6px);
+  width: calc(6 * 3px);
+  transform: rotate(138deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 8s;
 }
-
 @media screen and (max-width: 820px) {
   .uox-6 {
-    -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    animation-delay: 6s;
   }
 }
 
 .uox-7 {
-  top: 26vh;
-  right: 28vw;
-  height: calc(7* 6px);
-  width: calc(7* 4px);
-  -webkit-transform: rotate(287deg);
-          transform: rotate(287deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
+  top: 18vh;
+  right: 98vw;
+  height: calc(7 * 5px);
+  width: calc(7 * 4px);
+  transform: rotate(75deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 8s;
 }
-
 @media screen and (max-width: 820px) {
   .uox-7 {
-    -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    animation-delay: 6s;
   }
 }
 
 .uox-8 {
-  top: 29vh;
-  right: 20vw;
-  height: calc(8* 6px);
-  width: calc(8* 1px);
-  -webkit-transform: rotate(312deg);
-          transform: rotate(312deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
+  top: 8vh;
+  right: 59vw;
+  height: calc(8 * 1px);
+  width: calc(8 * 3px);
+  transform: rotate(139deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 8s;
 }
-
 @media screen and (max-width: 820px) {
   .uox-8 {
-    -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    animation-delay: 6s;
   }
 }
 
 .uox-9 {
-  top: 9vh;
-  right: 53vw;
-  height: calc(9* 5px);
-  width: calc(9* 1px);
-  -webkit-transform: rotate(272deg);
-          transform: rotate(272deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
+  top: 20vh;
+  right: 94vw;
+  height: calc(9 * 1px);
+  width: calc(9 * 2px);
+  transform: rotate(180deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 8s;
 }
-
 @media screen and (max-width: 820px) {
   .uox-9 {
-    -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    animation-delay: 6s;
   }
 }
 
 .uox-10 {
-  top: 15vh;
-  right: 58vw;
-  height: calc(10* 3px);
-  width: calc(10* 2px);
-  -webkit-transform: rotate(185deg);
-          transform: rotate(185deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
+  top: 3vh;
+  right: 32vw;
+  height: calc(10 * 2px);
+  width: calc(10 * 4px);
+  transform: rotate(120deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 8s;
 }
-
 @media screen and (max-width: 820px) {
   .uox-10 {
-    -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    animation-delay: 6s;
   }
 }
 
 .vox-1 {
-  top: 33vh;
-  right: 74vw;
-  height: calc(1* 2px);
-  width: calc(1* 6px);
-  -webkit-transform: rotate(69deg);
-          transform: rotate(69deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  top: 1vh;
+  right: 82vw;
+  height: calc(1 * 2px);
+  width: calc(1 * 6px);
+  transform: rotate(272deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 10s;
 }
-
 @media screen and (max-width: 820px) {
   .vox-1 {
-    -webkit-animation-delay: 8s;
-            animation-delay: 8s;
+    animation-delay: 8s;
   }
 }
 
 .vox-2 {
-  top: 2vh;
-  right: 27vw;
-  height: calc(2* 3px);
-  width: calc(2* 4px);
-  -webkit-transform: rotate(345deg);
-          transform: rotate(345deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  top: 13vh;
+  right: 45vw;
+  height: calc(2 * 5px);
+  width: calc(2 * 2px);
+  transform: rotate(149deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 10s;
 }
-
 @media screen and (max-width: 820px) {
   .vox-2 {
-    -webkit-animation-delay: 8s;
-            animation-delay: 8s;
+    animation-delay: 8s;
   }
 }
 
 .vox-3 {
-  top: 38vh;
-  right: 49vw;
-  height: calc(3* 1px);
-  width: calc(3* 5px);
-  -webkit-transform: rotate(320deg);
-          transform: rotate(320deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  top: 27vh;
+  right: 30vw;
+  height: calc(3 * 3px);
+  width: calc(3 * 5px);
+  transform: rotate(85deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 10s;
 }
-
 @media screen and (max-width: 820px) {
   .vox-3 {
-    -webkit-animation-delay: 8s;
-            animation-delay: 8s;
+    animation-delay: 8s;
   }
 }
 
 .vox-4 {
-  top: 14vh;
-  right: 6vw;
-  height: calc(4* 4px);
-  width: calc(4* 7px);
-  -webkit-transform: rotate(331deg);
-          transform: rotate(331deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  top: 6vh;
+  right: 21vw;
+  height: calc(4 * 2px);
+  width: calc(4 * 8px);
+  transform: rotate(62deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 10s;
 }
-
 @media screen and (max-width: 820px) {
   .vox-4 {
-    -webkit-animation-delay: 8s;
-            animation-delay: 8s;
+    animation-delay: 8s;
   }
 }
 
 .vox-5 {
-  top: 31vh;
-  right: 75vw;
-  height: calc(5* 5px);
-  width: calc(5* 1px);
-  -webkit-transform: rotate(258deg);
-          transform: rotate(258deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  top: 13vh;
+  right: 1vw;
+  height: calc(5 * 4px);
+  width: calc(5 * 4px);
+  transform: rotate(89deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 10s;
 }
-
 @media screen and (max-width: 820px) {
   .vox-5 {
-    -webkit-animation-delay: 8s;
-            animation-delay: 8s;
+    animation-delay: 8s;
   }
 }
 
 .vox-6 {
-  top: 35vh;
-  right: 58vw;
-  height: calc(6* 5px);
-  width: calc(6* 5px);
-  -webkit-transform: rotate(327deg);
-          transform: rotate(327deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  top: 17vh;
+  right: 23vw;
+  height: calc(6 * 2px);
+  width: calc(6 * 6px);
+  transform: rotate(357deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 10s;
 }
-
 @media screen and (max-width: 820px) {
   .vox-6 {
-    -webkit-animation-delay: 8s;
-            animation-delay: 8s;
+    animation-delay: 8s;
   }
 }
 
 .vox-7 {
-  top: 23vh;
-  right: 6vw;
-  height: calc(7* 5px);
-  width: calc(7* 6px);
-  -webkit-transform: rotate(289deg);
-          transform: rotate(289deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  top: 31vh;
+  right: 45vw;
+  height: calc(7 * 1px);
+  width: calc(7 * 2px);
+  transform: rotate(348deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 10s;
 }
-
 @media screen and (max-width: 820px) {
   .vox-7 {
-    -webkit-animation-delay: 8s;
-            animation-delay: 8s;
+    animation-delay: 8s;
   }
 }
 
 .vox-8 {
-  top: 13vh;
-  right: 20vw;
-  height: calc(8* 5px);
-  width: calc(8* 2px);
-  -webkit-transform: rotate(185deg);
-          transform: rotate(185deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  top: 33vh;
+  right: 84vw;
+  height: calc(8 * 3px);
+  width: calc(8 * 1px);
+  transform: rotate(139deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 10s;
 }
-
 @media screen and (max-width: 820px) {
   .vox-8 {
-    -webkit-animation-delay: 8s;
-            animation-delay: 8s;
+    animation-delay: 8s;
   }
 }
 
 .vox-9 {
   top: 40vh;
-  right: 97vw;
-  height: calc(9* 2px);
-  width: calc(9* 3px);
-  -webkit-transform: rotate(289deg);
-          transform: rotate(289deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  right: 17vw;
+  height: calc(9 * 5px);
+  width: calc(9 * 3px);
+  transform: rotate(316deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 10s;
 }
-
 @media screen and (max-width: 820px) {
   .vox-9 {
-    -webkit-animation-delay: 8s;
-            animation-delay: 8s;
+    animation-delay: 8s;
   }
 }
 
 .vox-10 {
-  top: 14vh;
-  right: 38vw;
-  height: calc(10* 1px);
-  width: calc(10* 8px);
-  -webkit-transform: rotate(56deg);
-          transform: rotate(56deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  top: 17vh;
+  right: 20vw;
+  height: calc(10 * 3px);
+  width: calc(10 * 1px);
+  transform: rotate(31deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 10s;
 }
-
 @media screen and (max-width: 820px) {
   .vox-10 {
-    -webkit-animation-delay: 8s;
-            animation-delay: 8s;
+    animation-delay: 8s;
   }
 }
 
 .zox-1 {
-  top: 37vh;
-  right: 81vw;
-  height: calc(1* 3px);
-  width: calc(1* 6px);
-  -webkit-transform: rotate(333deg);
-          transform: rotate(333deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  top: 36vh;
+  right: 79vw;
+  height: calc(1 * 3px);
+  width: calc(1 * 4px);
+  transform: rotate(329deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 12s;
 }
-
 @media screen and (max-width: 820px) {
   .zox-1 {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
+    animation-delay: 10s;
   }
 }
 
 .zox-2 {
-  top: 21vh;
-  right: 89vw;
-  height: calc(2* 3px);
-  width: calc(2* 6px);
-  -webkit-transform: rotate(118deg);
-          transform: rotate(118deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  top: 19vh;
+  right: 45vw;
+  height: calc(2 * 3px);
+  width: calc(2 * 7px);
+  transform: rotate(304deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 12s;
 }
-
 @media screen and (max-width: 820px) {
   .zox-2 {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
+    animation-delay: 10s;
   }
 }
 
 .zox-3 {
-  top: 11vh;
-  right: 66vw;
-  height: calc(3* 4px);
-  width: calc(3* 7px);
-  -webkit-transform: rotate(93deg);
-          transform: rotate(93deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  top: 34vh;
+  right: 89vw;
+  height: calc(3 * 3px);
+  width: calc(3 * 7px);
+  transform: rotate(119deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 12s;
 }
-
 @media screen and (max-width: 820px) {
   .zox-3 {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
+    animation-delay: 10s;
   }
 }
 
 .zox-4 {
-  top: 9vh;
-  right: 43vw;
-  height: calc(4* 3px);
-  width: calc(4* 4px);
-  -webkit-transform: rotate(227deg);
-          transform: rotate(227deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  top: 21vh;
+  right: 12vw;
+  height: calc(4 * 4px);
+  width: calc(4 * 7px);
+  transform: rotate(123deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 12s;
 }
-
 @media screen and (max-width: 820px) {
   .zox-4 {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
+    animation-delay: 10s;
   }
 }
 
 .zox-5 {
-  top: 8vh;
-  right: 75vw;
-  height: calc(5* 3px);
-  width: calc(5* 4px);
-  -webkit-transform: rotate(249deg);
-          transform: rotate(249deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  top: 38vh;
+  right: 78vw;
+  height: calc(5 * 2px);
+  width: calc(5 * 7px);
+  transform: rotate(141deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 12s;
 }
-
 @media screen and (max-width: 820px) {
   .zox-5 {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
+    animation-delay: 10s;
   }
 }
 
 .zox-6 {
-  top: 40vh;
-  right: 15vw;
-  height: calc(6* 3px);
-  width: calc(6* 3px);
-  -webkit-transform: rotate(11deg);
-          transform: rotate(11deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  top: 15vh;
+  right: 69vw;
+  height: calc(6 * 3px);
+  width: calc(6 * 5px);
+  transform: rotate(67deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 12s;
 }
-
 @media screen and (max-width: 820px) {
   .zox-6 {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
+    animation-delay: 10s;
   }
 }
 
 .zox-7 {
-  top: 37vh;
-  right: 24vw;
-  height: calc(7* 4px);
-  width: calc(7* 4px);
-  -webkit-transform: rotate(49deg);
-          transform: rotate(49deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  top: 36vh;
+  right: 20vw;
+  height: calc(7 * 3px);
+  width: calc(7 * 4px);
+  transform: rotate(263deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 12s;
 }
-
 @media screen and (max-width: 820px) {
   .zox-7 {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
+    animation-delay: 10s;
   }
 }
 
 .zox-8 {
-  top: 29vh;
-  right: 52vw;
-  height: calc(8* 2px);
-  width: calc(8* 5px);
-  -webkit-transform: rotate(124deg);
-          transform: rotate(124deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  top: 23vh;
+  right: 4vw;
+  height: calc(8 * 4px);
+  width: calc(8 * 7px);
+  transform: rotate(19deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 12s;
 }
-
 @media screen and (max-width: 820px) {
   .zox-8 {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
+    animation-delay: 10s;
   }
 }
 
 .zox-9 {
-  top: 34vh;
-  right: 64vw;
-  height: calc(9* 3px);
-  width: calc(9* 3px);
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  top: 1vh;
+  right: 77vw;
+  height: calc(9 * 3px);
+  width: calc(9 * 5px);
+  transform: rotate(110deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 12s;
 }
-
 @media screen and (max-width: 820px) {
   .zox-9 {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
+    animation-delay: 10s;
   }
 }
 
 .zox-10 {
-  top: 1vh;
-  right: 41vw;
-  height: calc(10* 4px);
-  width: calc(10* 6px);
-  -webkit-transform: rotate(343deg);
-          transform: rotate(343deg);
-  -webkit-animation: FALLCONFETTI 13s ease-in-out infinite;
-          animation: FALLCONFETTI 13s ease-in-out infinite;
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  top: 40vh;
+  right: 22vw;
+  height: calc(10 * 2px);
+  width: calc(10 * 6px);
+  transform: rotate(195deg);
+  animation: FALLCONFETTI 13s ease-in-out infinite;
+  animation-delay: 12s;
 }
-
 @media screen and (max-width: 820px) {
   .zox-10 {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
-  }
-}
-
-@-webkit-keyframes FALLCONFETTI {
-  0% {
-    -webkit-transform: translateY(-3000%);
-            transform: translateY(-3000%);
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.55;
-  }
-  100% {
-    -webkit-transform: translateY(3000%);
-            transform: translateY(3000%);
-    opacity: 0;
+    animation-delay: 10s;
   }
 }
 
 @keyframes FALLCONFETTI {
   0% {
-    -webkit-transform: translateY(-3000%);
-            transform: translateY(-3000%);
+    transform: translateY(-3000%);
     opacity: 0;
   }
   50% {
     opacity: 0.55;
   }
   100% {
-    -webkit-transform: translateY(3000%);
-            transform: translateY(3000%);
+    transform: translateY(3000%);
     opacity: 0;
   }
 }
-
 .video-modal {
   position: fixed;
   width: 100%;
@@ -1476,40 +1135,26 @@
   z-index: 20;
   pointer-events: none;
   opacity: 0;
-  -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 @media screen and (max-width: 600px) {
   .video-modal {
     display: none;
   }
 }
-
 .video-modal video {
   width: 65%;
   height: 65vh;
 }
-
 @media screen and (max-width: 1100px) {
   .video-modal video {
     width: 95%;
   }
 }
-
 .video-modal p {
   color: #ece9e9;
   margin: 1.5em 20px 0 20px;
@@ -1518,32 +1163,25 @@
 }
 
 .video-modal.open {
-  background-color: #272b2bf1;
+  background-color: rgba(39, 43, 43, 0.9450980392);
   opacity: 1;
   pointer-events: all;
 }
 
 #contact {
-  -webkit-box-align: stretch !important;
-      -ms-flex-align: stretch !important;
-          align-items: stretch !important;
+  align-items: stretch !important;
   position: relative;
 }
-
 @media screen and (max-width: 820px) {
   #contact {
     padding-bottom: 3em;
   }
 }
-
 #contact h2 {
   margin-top: 0;
   margin-right: 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 @media screen and (max-width: 820px) {
   #contact h2 {
     line-height: 1;
@@ -1551,37 +1189,24 @@
     text-align: center;
   }
 }
-
 @media screen and (max-width: 500px) {
   #contact h2 {
     margin-left: 0.5em;
     margin-right: 0.5em;
   }
 }
-
 #contact .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-left: 4em;
 }
-
 @media screen and (max-width: 820px) {
   #contact .text {
     margin-left: 0;
   }
 }
-
 #contact > p {
   position: absolute;
   bottom: 0;
@@ -1589,77 +1214,50 @@
   padding: 2px 5px;
   color: #4e4d3f;
   opacity: 0.8;
-  background-color: #706e5c1c;
+  background-color: rgba(112, 110, 92, 0.1098039216);
   width: 100%;
   text-align: right;
   font-size: 0.9rem;
 }
-
 @media screen and (max-width: 600px) {
   #contact > p {
     text-align: center;
   }
 }
-
 #contact .back-to-top {
   position: absolute;
   bottom: 5.5%;
   right: 2.5%;
   font-size: 1.5rem;
-  -webkit-animation: fadeIn 1s ease-in-out forwards;
-          animation: fadeIn 1s ease-in-out forwards;
+  animation: fadeIn 1s ease-in-out forwards;
   cursor: pointer;
-  -webkit-transition: -webkit-transform 150ms ease-in-out;
-  transition: -webkit-transform 150ms ease-in-out;
   transition: transform 150ms ease-in-out;
-  transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
-
 #contact .back-to-top:hover {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  transform: scale(1.15);
 }
-
 #contact .back-to-top span {
   font-size: 0.8rem;
   margin-left: 10px;
 }
 
 form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: space-between;
+  flex-direction: column;
   width: 50%;
   min-width: 330px;
 }
-
 @media screen and (max-width: 820px) {
   form {
     width: 90%;
     padding-bottom: 3em;
   }
 }
-
 form textarea {
   resize: none;
   background-color: transparent;
@@ -1667,11 +1265,9 @@ form textarea {
   padding: 1em;
   margin-top: 2em;
 }
-
 form textarea:focus {
-  background-color: #393d3f0c;
+  background-color: rgba(57, 61, 63, 0.0470588235);
 }
-
 form button {
   margin-top: 1em;
   background-color: #272b2b;
@@ -1682,11 +1278,9 @@ form button {
   border: none;
   padding: 0.2em 0;
 }
-
 form button:active {
-  -webkit-transform: scale(0.98);
-          transform: scale(0.98);
-  background-color: #393d3fe1;
+  transform: scale(0.98);
+  background-color: rgba(57, 61, 63, 0.8823529412);
 }
 
 .form-field {
@@ -1695,36 +1289,30 @@ form button:active {
   padding-top: 1.5em;
   margin-bottom: 1.5em;
 }
-
 .form-field:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 2px;
   bottom: 0;
   left: 0;
   background-color: #272b2b;
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
+  transform: translateX(-100%);
 }
-
 .form-field:focus-within:after {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
   z-index: 21;
 }
-
-.form-field:focus-within label,
-.form-field input:not(:placeholder-shown) + label {
-  -webkit-transform: translateY(-150%);
-          transform: translateY(-150%);
+.form-field input:not(:-moz-placeholder-shown) + label {
+  transform: translateY(-150%);
   opacity: 0.5;
 }
-
+.form-field:focus-within label,
+.form-field input:not(:placeholder-shown) + label {
+  transform: translateY(-150%);
+  opacity: 0.5;
+}
 .form-field input {
   border: none;
   background-color: transparent;
@@ -1734,20 +1322,16 @@ form button:active {
   font-weight: bold;
   font-size: 1.3rem;
 }
-
 .form-field input:invalid {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   color: rgba(201, 61, 61, 0.822);
 }
-
 .form-field label {
   width: 100%;
   position: absolute;
   left: 0;
   bottom: 0;
   pointer-events: none;
-  -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;
 }
 
@@ -1755,37 +1339,37 @@ form button:active {
   color: #272b2b !important;
 }
 
-.anchor-bar:after, nav .outer-menu > li a:after, .project-title div a:after, #facebook .text h2 div a:after, #filmly .text h2 div a:after, #battleship .text h2 div a:after, #about .text h2 div a:after {
-  content: '';
+.anchor-bar:after, .project-title div a:after, #work-experience .text h2 div a:after,
+#facebook .text h2 div a:after,
+#filmly .text h2 div a:after,
+#battleship .text h2 div a:after,
+#about .text h2 div a:after, nav .outer-menu > li a:after {
+  content: "";
   width: 100%;
   height: 2px;
   background-color: #ece9e9;
   position: absolute;
   bottom: -5px;
   left: 0;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transform-origin: 0%;
-          transform-origin: 0%;
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: 0%;
   transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
-
-.anchor-bar:hover:after, nav .outer-menu > li a:hover:after, .project-title div a:hover:after, #facebook .text h2 div a:hover:after, #filmly .text h2 div a:hover:after, #battleship .text h2 div a:hover:after, #about .text h2 div a:hover:after {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+.anchor-bar:hover:after, .project-title div a:hover:after, #work-experience .text h2 div a:hover:after,
+#facebook .text h2 div a:hover:after,
+#filmly .text h2 div a:hover:after,
+#battleship .text h2 div a:hover:after,
+#about .text h2 div a:hover:after, nav .outer-menu > li a:hover:after {
+  transform: scaleX(1);
 }
 
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   line-height: 1.5;
   letter-spacing: 1px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -1802,63 +1386,43 @@ body {
 }
 
 #wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .fab {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
 
 main {
   max-height: 100vh;
 }
 
-.section, nav, #hero, #facebook,
+.section, #work-experience,
 #filmly,
+#facebook,
 #battleship,
 #other-projects,
 #about,
-#contact {
+#contact, #hero, nav {
   min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
   margin-left: 12%;
 }
-
 @media screen and (max-width: 1100px) {
-  .section, nav, #hero, #facebook,
+  .section, #work-experience,
   #filmly,
+  #facebook,
   #battleship,
   #other-projects,
   #about,
-  #contact {
+  #contact, #hero, nav {
     margin-left: 0;
   }
 }
@@ -1869,24 +1433,18 @@ main {
   margin: 1em;
   opacity: 0.9;
 }
-
 @media screen and (max-width: 820px) {
   .tech-list-words {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     width: 90%;
   }
 }
-
 .tech-list-words li {
   background-color: #272b2b;
   color: white;
   padding: 0.3em;
   border-radius: 25px;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   padding: 0.3em 0.7em;
@@ -1900,56 +1458,35 @@ nav {
   z-index: 10;
   width: 12%;
   min-width: 170px;
-  -webkit-box-shadow: 0 2px 10px #272b2b;
-          box-shadow: 0 2px 10px #272b2b;
+  box-shadow: 0 2px 10px #272b2b;
   margin-left: 0;
   opacity: 1;
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
-
 @media screen and (max-width: 1100px) {
   nav {
     display: none;
   }
 }
-
 nav .outer-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
   list-style: none;
   width: 100%;
 }
-
-nav .outer-menu li[data-section='hero'] a {
-  font-family: 'Kalam', cursive;
+nav .outer-menu li[data-section=hero] a {
+  font-family: "Kalam", cursive;
   font-size: 1.2rem;
 }
-
 nav .outer-menu > li {
   text-align: center;
   margin: 30px 0;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 nav .outer-menu > li a {
-  -webkit-transition: background-color 150ms ease;
   transition: background-color 150ms ease;
   padding: 10px 0;
   color: #ece9e9;
@@ -1957,208 +1494,148 @@ nav .outer-menu > li a {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: center;
-          flex-direction: center;
+  justify-content: space-evenly;
+  flex-direction: center;
 }
-
 nav .outer-menu > li a i {
   margin-right: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 nav .outer-menu .has-menu {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-bottom: 10px;
 }
-
 nav .outer-menu .has-menu a {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
-
 nav .outer-menu .has-menu > a {
   margin-bottom: 10px;
   width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 nav .outer-menu .has-menu > a:after {
   content: none;
 }
-
 nav .outer-menu .has-menu .inner-menu {
   margin-top: -10px;
 }
-
 nav .outer-menu .has-menu .inner-menu li a:after {
   bottom: 0;
 }
-
 nav .inner-menu > li {
   margin: 10px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 nav .inner-menu > li a {
   padding: 10px 0;
   font-size: 0.8rem;
 }
-
 nav .selector {
   position: absolute;
   z-index: -30;
   background-color: #ece9e9;
-  -webkit-transition: top 200ms ease-in;
   transition: top 200ms ease-in;
-  -webkit-box-shadow: 0 0 6px #272b2b;
-          box-shadow: 0 0 6px #272b2b;
+  box-shadow: 0 0 6px #272b2b;
 }
 
 .text-name {
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   display: none;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 #name-svg {
-  -webkit-animation: fill 1s ease forwards 2s;
-          animation: fill 1s ease forwards 2s;
-  -webkit-transform: translate(25%);
-          transform: translate(25%);
+  animation: fill 1s ease forwards 2s;
+  transform: translate(25%);
 }
 
 @media screen and (max-width: 800px) {
   .text-name {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   h1:not(.text-name) {
     display: none;
   }
 }
-
 #name-svg > path:nth-of-type(1) {
-  stroke-dasharray: 121.5262;
-  stroke-dashoffset: 121.5262;
-  -webkit-animation: svgAnim 3s ease forwards;
-          animation: svgAnim 3s ease forwards;
+  stroke-dasharray: 121.5261993408;
+  stroke-dashoffset: 121.5261993408;
+  animation: svgAnim 3s ease forwards;
 }
 
 #name-svg > path:nth-of-type(2) {
-  stroke-dasharray: 122.7606;
-  stroke-dashoffset: 122.7606;
-  -webkit-animation: svgAnim 3s ease forwards;
-          animation: svgAnim 3s ease forwards;
+  stroke-dasharray: 122.7606048584;
+  stroke-dashoffset: 122.7606048584;
+  animation: svgAnim 3s ease forwards;
 }
 
 #name-svg > path:nth-of-type(3) {
-  stroke-dasharray: 83.15903;
-  stroke-dashoffset: 83.15903;
-  -webkit-animation: svgAnim 3s ease forwards;
-          animation: svgAnim 3s ease forwards;
+  stroke-dasharray: 83.1590270996;
+  stroke-dashoffset: 83.1590270996;
+  animation: svgAnim 3s ease forwards;
 }
 
 #name-svg > path:nth-of-type(4) {
-  stroke-dasharray: 80.7518;
-  stroke-dashoffset: 80.7518;
-  -webkit-animation: svgAnim 3s ease forwards;
-          animation: svgAnim 3s ease forwards;
+  stroke-dasharray: 80.7518005371;
+  stroke-dashoffset: 80.7518005371;
+  animation: svgAnim 3s ease forwards;
 }
 
 #name-svg > path:nth-of-type(5) {
-  stroke-dasharray: 105.00301;
-  stroke-dashoffset: 105.00301;
-  -webkit-animation: svgAnim 3s ease forwards;
-          animation: svgAnim 3s ease forwards;
+  stroke-dasharray: 105.0030059814;
+  stroke-dashoffset: 105.0030059814;
+  animation: svgAnim 3s ease forwards;
 }
 
 #name-svg > path:nth-of-type(6) {
-  stroke-dasharray: 186.55151;
-  stroke-dashoffset: 186.55151;
-  -webkit-animation: svgAnim 3s ease forwards;
-          animation: svgAnim 3s ease forwards;
+  stroke-dasharray: 186.5515136719;
+  stroke-dashoffset: 186.5515136719;
+  animation: svgAnim 3s ease forwards;
 }
 
 #name-svg > path:nth-of-type(7) {
-  stroke-dasharray: 118.1708;
-  stroke-dashoffset: 118.1708;
-  -webkit-animation: svgAnim 3s ease forwards;
-          animation: svgAnim 3s ease forwards;
+  stroke-dasharray: 118.1707992554;
+  stroke-dashoffset: 118.1707992554;
+  animation: svgAnim 3s ease forwards;
 }
 
 #name-svg > path:nth-of-type(8) {
-  stroke-dasharray: 73.31318;
-  stroke-dashoffset: 73.31318;
-  -webkit-animation: svgAnim 3s ease forwards;
-          animation: svgAnim 3s ease forwards;
+  stroke-dasharray: 73.3131790161;
+  stroke-dashoffset: 73.3131790161;
+  animation: svgAnim 3s ease forwards;
 }
 
 #name-svg > path:nth-of-type(9) {
-  stroke-dasharray: 199.94655;
-  stroke-dashoffset: 199.94655;
-  -webkit-animation: svgAnim 3s ease forwards;
-          animation: svgAnim 3s ease forwards;
+  stroke-dasharray: 199.9465484619;
+  stroke-dashoffset: 199.9465484619;
+  animation: svgAnim 3s ease forwards;
 }
 
 #name-svg > path:nth-of-type(10) {
-  stroke-dasharray: 156.72842;
-  stroke-dashoffset: 156.72842;
-  -webkit-animation: svgAnim 3s ease forwards;
-          animation: svgAnim 3s ease forwards;
+  stroke-dasharray: 156.7284240723;
+  stroke-dashoffset: 156.7284240723;
+  animation: svgAnim 3s ease forwards;
 }
 
 #name-svg > path:nth-of-type(11) {
-  stroke-dasharray: 145.99689;
-  stroke-dashoffset: 145.99689;
-  -webkit-animation: svgAnim 3s ease forwards;
-          animation: svgAnim 3s ease forwards;
+  stroke-dasharray: 145.996887207;
+  stroke-dashoffset: 145.996887207;
+  animation: svgAnim 3s ease forwards;
 }
 
 #name-svg > path:nth-of-type(12) {
-  stroke-dasharray: 118.17072;
-  stroke-dashoffset: 118.17072;
-  -webkit-animation: svgAnim 3s ease forwards;
-          animation: svgAnim 3s ease forwards;
+  stroke-dasharray: 118.1707229614;
+  stroke-dashoffset: 118.1707229614;
+  animation: svgAnim 3s ease forwards;
 }
 
 #name-svg > path:nth-of-type(13) {
-  stroke-dasharray: 117.36453;
-  stroke-dashoffset: 117.36453;
-  -webkit-animation: svgAnim 3s ease forwards;
-          animation: svgAnim 3s ease forwards;
-}
-
-@-webkit-keyframes svgAnim {
-  to {
-    stroke-dashoffset: 0;
-  }
+  stroke-dasharray: 117.3645324707;
+  stroke-dashoffset: 117.3645324707;
+  animation: svgAnim 3s ease forwards;
 }
 
 @keyframes svgAnim {
@@ -2166,16 +1643,6 @@ nav .selector {
     stroke-dashoffset: 0;
   }
 }
-
-@-webkit-keyframes fill {
-  from {
-    fill: transparent;
-  }
-  to {
-    fill: #272b2b;
-  }
-}
-
 @keyframes fill {
   from {
     fill: transparent;
@@ -2184,25 +1651,19 @@ nav .selector {
     fill: #272b2b;
   }
 }
-
 #hero {
   width: 60%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 @media screen and (max-width: 1100px) {
   #hero {
     margin-left: 0;
   }
 }
-
 #hero > div {
   margin-top: -150px;
   width: 90%;
 }
-
 #hero .to-projects {
   margin: 0 auto;
   font-size: 2rem;
@@ -2210,99 +1671,65 @@ nav .selector {
   position: absolute;
   bottom: 50px;
   opacity: 0;
-  -webkit-animation: direction 0.7s linear infinite alternate, fadeIn 1s ease-in-out forwards;
-          animation: direction 0.7s linear infinite alternate, fadeIn 1s ease-in-out forwards;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  animation: direction 0.7s linear infinite alternate, fadeIn 1s ease-in-out forwards;
+  animation-delay: 3s;
   cursor: pointer;
   display: none;
 }
-
 @media screen and (max-width: 820px) {
   #hero .to-projects {
-    -webkit-animation-delay: 2.2s;
-            animation-delay: 2.2s;
+    animation-delay: 2.2s;
     font-size: 1.5rem;
     bottom: 30px;
   }
 }
-
 #hero .to-projects i {
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
-
 #hero .to-projects i:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
-
 #hero .to-projects.show {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  justify-content: center;
+  flex-direction: row;
 }
-
 @media screen and (max-width: 500px) {
   #hero .to-projects.show {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
     margin-right: 50px;
   }
 }
-
 #hero h1 {
   font-size: 7rem;
   color: #272b2b;
   text-shadow: 0 0 1px #272b2b;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  align-items: baseline;
   width: 100%;
   padding-top: 200px;
 }
-
 @media screen and (max-width: 820px) {
   #hero h1.text-name {
     opacity: 0;
     font-size: 5rem;
     padding-top: 150px;
     text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-animation: fadeIn 700ms ease-in 0.5s forwards;
-            animation: fadeIn 700ms ease-in 0.5s forwards;
+    justify-content: center;
+    animation: fadeIn 700ms ease-in 0.5s forwards;
   }
 }
-
 @media screen and (max-width: 580px) {
   #hero h1.text-name {
     font-size: 3rem;
   }
 }
-
 #hero .subtitle {
   font-size: 1.7rem;
   width: 80%;
   opacity: 0;
-  -webkit-animation: fadeIn 700ms ease-in forwards;
-          animation: fadeIn 700ms ease-in forwards;
-  -webkit-animation-delay: 700ms;
-          animation-delay: 700ms;
+  animation: fadeIn 700ms ease-in forwards;
+  animation-delay: 700ms;
   color: #272b2b;
   text-align: end;
   letter-spacing: 5px;
@@ -2310,20 +1737,16 @@ nav .selector {
   position: relative;
   overflow: hidden;
 }
-
 @media screen and (max-width: 820px) {
   #hero .subtitle {
     font-size: 0.95rem;
     width: 100%;
     text-align: center;
-    -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
     z-index: -100;
   }
 }
-
 #hero .subtitle span {
   position: absolute;
   top: 0;
@@ -2332,19 +1755,15 @@ nav .selector {
   height: 100%;
   display: inline-block;
   background-color: #ece9e9;
-  -webkit-animation: slideRight 3s ease forwards 2s;
-          animation: slideRight 3s ease forwards 2s;
+  animation: slideRight 3s ease forwards 2s;
 }
-
 @media screen and (max-width: 820px) {
   #hero .subtitle span {
-    -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s;
+    animation-delay: 0.5s;
   }
 }
-
 #hero:after {
-  content: '';
+  content: "";
   height: 60%;
   width: 120%;
   position: absolute;
@@ -2354,37 +1773,26 @@ nav .selector {
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 27%);
   z-index: -10;
 }
-
 @media screen and (max-width: 820px) {
   #hero:after {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 27%);
             clip-path: polygon(0 0, 100% 0, 100% 85%, 0 27%);
   }
 }
-
 #hero .contact-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  justify-content: space-between;
+  flex-direction: row;
   width: 320px;
   list-style: none;
   padding-top: 100px;
 }
-
 @media screen and (max-width: 820px) {
   #hero .contact-links {
     padding-top: 150px;
     width: 260px;
   }
 }
-
 @media screen and (max-width: 500px) {
   #hero .contact-links {
     margin-bottom: -100px;
@@ -2392,249 +1800,201 @@ nav .selector {
     width: 230px;
   }
 }
-
 #hero .contact-links li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
   opacity: 0;
   position: relative;
-  -webkit-animation: fadeIn 750ms ease-in-out forwards;
-          animation: fadeIn 750ms ease-in-out forwards;
+  animation: fadeIn 750ms ease-in-out forwards;
   overflow-x: hidden;
 }
-
 @media screen and (max-width: 820px) {
   #hero .contact-links li {
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    animation-duration: 1s;
   }
 }
-
 #hero .contact-links li:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 3px;
   background-color: #272b2b;
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
+  transform: translateX(-100%);
   transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
-
 #hero .contact-links li:hover:after {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
-
 #hero .contact-links li:first-child {
-  -webkit-animation-delay: 2.7s;
-          animation-delay: 2.7s;
+  animation-delay: 2.7s;
 }
-
 @media screen and (max-width: 820px) {
   #hero .contact-links li:first-child {
-    -webkit-animation-delay: 0.7s;
-            animation-delay: 0.7s;
+    animation-delay: 0.7s;
   }
 }
-
 #hero .contact-links li:nth-child(2) {
-  -webkit-animation-delay: 3.2s;
-          animation-delay: 3.2s;
+  animation-delay: 3.2s;
 }
-
 @media screen and (max-width: 820px) {
   #hero .contact-links li:nth-child(2) {
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
+    animation-delay: 1s;
   }
 }
-
 #hero .contact-links li:nth-child(3) {
-  -webkit-animation-delay: 3.7s;
-          animation-delay: 3.7s;
+  animation-delay: 3.7s;
 }
-
 @media screen and (max-width: 820px) {
   #hero .contact-links li:nth-child(3) {
-    -webkit-animation-delay: 1.3s;
-            animation-delay: 1.3s;
+    animation-delay: 1.3s;
   }
 }
-
 #hero .contact-links li:last-child {
-  -webkit-animation-delay: 4.2s;
-          animation-delay: 4.2s;
+  animation-delay: 4.2s;
 }
-
 @media screen and (max-width: 820px) {
   #hero .contact-links li:last-child {
-    -webkit-animation-delay: 1.5s;
-            animation-delay: 1.5s;
+    animation-delay: 1.5s;
   }
 }
-
 #hero .contact-links a {
   color: #272b2b;
   text-decoration: none;
   font-size: 3rem;
 }
-
 @media screen and (max-width: 1100px) {
   #hero .contact-links a {
     font-size: 2.3rem;
   }
 }
-
 @media screen and (max-width: 820px) {
   #hero .contact-links a {
     font-size: 1.75rem;
   }
 }
 
-@-webkit-keyframes slideRight {
-  to {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-  }
-}
-
 @keyframes slideRight {
   to {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    transform: translateX(100%);
   }
 }
-
-.project-title, #facebook .text h2,
+.project-title, #work-experience .text h2,
+#facebook .text h2,
 #filmly .text h2,
 #battleship .text h2,
 #about .text h2 {
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   font-size: 2.5rem;
   color: #272b2b;
   margin: 0.5em 2em 1em 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-item-align: stretch;
-      align-self: stretch;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  align-self: stretch;
+  align-items: center;
 }
-
 @media screen and (max-width: 1100px) {
-  .project-title, #facebook .text h2,
+  .project-title, #work-experience .text h2,
+  #facebook .text h2,
   #filmly .text h2,
   #battleship .text h2,
   #about .text h2 {
     margin: 0.5em 20px 20px 20px;
   }
 }
-
 @media screen and (max-width: 580px) {
-  .project-title, #facebook .text h2,
+  .project-title, #work-experience .text h2,
+  #facebook .text h2,
   #filmly .text h2,
   #battleship .text h2,
   #about .text h2 {
     margin: 1em 0 0 0;
   }
 }
-
-.project-title div, #facebook .text h2 div, #filmly .text h2 div, #battleship .text h2 div, #about .text h2 div {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.project-title div, #work-experience .text h2 div,
+#facebook .text h2 div,
+#filmly .text h2 div,
+#battleship .text h2 div,
+#about .text h2 div {
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  justify-content: space-between;
+  flex-direction: row;
 }
-
 @media screen and (max-width: 820px) {
-  .project-title div, #facebook .text h2 div, #filmly .text h2 div, #battleship .text h2 div, #about .text h2 div {
+  .project-title div, #work-experience .text h2 div,
+  #facebook .text h2 div,
+  #filmly .text h2 div,
+  #battleship .text h2 div,
+  #about .text h2 div {
     margin-top: 20px;
     margin-bottom: 20px;
   }
 }
-
-.project-title div a, #facebook .text h2 div a, #filmly .text h2 div a, #battleship .text h2 div a, #about .text h2 div a {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.project-title div a, #work-experience .text h2 div a,
+#facebook .text h2 div a,
+#filmly .text h2 div a,
+#battleship .text h2 div a,
+#about .text h2 div a {
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
   color: #272b2b;
   font-size: 1rem;
   text-decoration: none;
   margin-left: 30px;
   position: relative;
 }
-
 @media screen and (max-width: 500px) {
-  .project-title div a, #facebook .text h2 div a, #filmly .text h2 div a, #battleship .text h2 div a, #about .text h2 div a {
+  .project-title div a, #work-experience .text h2 div a,
+  #facebook .text h2 div a,
+  #filmly .text h2 div a,
+  #battleship .text h2 div a,
+  #about .text h2 div a {
     font-size: 0.85rem !important;
     margin-left: 25px;
   }
 }
-
-.project-title div a:first-of-type, #facebook .text h2 div a:first-of-type, #filmly .text h2 div a:first-of-type, #battleship .text h2 div a:first-of-type, #about .text h2 div a:first-of-type {
+.project-title div a:first-of-type, #work-experience .text h2 div a:first-of-type,
+#facebook .text h2 div a:first-of-type,
+#filmly .text h2 div a:first-of-type,
+#battleship .text h2 div a:first-of-type,
+#about .text h2 div a:first-of-type {
   margin-left: 0;
 }
-
-.project-title div a i, #facebook .text h2 div a i, #filmly .text h2 div a i, #battleship .text h2 div a i, #about .text h2 div a i {
+.project-title div a i, #work-experience .text h2 div a i,
+#facebook .text h2 div a i,
+#filmly .text h2 div a i,
+#battleship .text h2 div a i,
+#about .text h2 div a i {
   width: 26px;
   height: 26px;
   margin-left: 10px;
   font-size: 1.5rem;
 }
-
 @media screen and (max-width: 820px) {
-  .project-title div a i, #facebook .text h2 div a i, #filmly .text h2 div a i, #battleship .text h2 div a i, #about .text h2 div a i {
+  .project-title div a i, #work-experience .text h2 div a i,
+  #facebook .text h2 div a i,
+  #filmly .text h2 div a i,
+  #battleship .text h2 div a i,
+  #about .text h2 div a i {
     margin-left: 7px;
   }
 }
-
-.project-title div a:after, #facebook .text h2 div a:after, #filmly .text h2 div a:after, #battleship .text h2 div a:after, #about .text h2 div a:after {
+.project-title div a:after, #work-experience .text h2 div a:after,
+#facebook .text h2 div a:after,
+#filmly .text h2 div a:after,
+#battleship .text h2 div a:after,
+#about .text h2 div a:after {
   background-color: #272b2b;
 }
 
-.video, #facebook .images figure video,
+.video, #work-experience .images figure video,
+#facebook .images figure video,
 #filmly .images figure video,
 #battleship .images figure video,
 #about .images figure video {
@@ -2642,11 +2002,11 @@ nav .selector {
   display: block;
   max-width: 90%;
   max-height: 260px;
-  -webkit-box-shadow: 0 2px 35px -20px #272b2b;
-          box-shadow: 0 2px 35px -20px #272b2b;
+  box-shadow: 0 2px 35px -20px #272b2b;
 }
 
-.techs-items, #facebook .text .techs li,
+.techs-items, #work-experience .text .techs li,
+#facebook .text .techs li,
 #filmly .text .techs li,
 #battleship .text .techs li,
 #about .text .techs li {
@@ -2654,70 +2014,61 @@ nav .selector {
   font-size: 1.2rem;
   margin: 0 15px;
   width: 8%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
-
 @media screen and (max-width: 820px) {
-  .techs-items, #facebook .text .techs li,
+  .techs-items, #work-experience .text .techs li,
+  #facebook .text .techs li,
   #filmly .text .techs li,
   #battleship .text .techs li,
   #about .text .techs li {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     max-height: 50px;
     min-width: 110px;
   }
-  .techs-items img, #facebook .text .techs li img, #filmly .text .techs li img, #battleship .text .techs li img, #about .text .techs li img {
+  .techs-items img, #work-experience .text .techs li img,
+  #facebook .text .techs li img,
+  #filmly .text .techs li img,
+  #battleship .text .techs li img,
+  #about .text .techs li img {
     max-height: 50px;
   }
 }
-
-.techs-items img, #facebook .text .techs li img, #filmly .text .techs li img, #battleship .text .techs li img, #about .text .techs li img {
+.techs-items img, #work-experience .text .techs li img,
+#facebook .text .techs li img,
+#filmly .text .techs li img,
+#battleship .text .techs li img,
+#about .text .techs li img {
   max-width: 100%;
 }
-
-.techs-items#express, #facebook .text .techs li#express,
+.techs-items#express, #work-experience .text .techs li#express,
+#facebook .text .techs li#express,
 #filmly .text .techs li#express,
 #battleship .text .techs li#express,
-#about .text .techs li#express, .techs-items#mongo, #facebook .text .techs li#mongo,
+#about .text .techs li#express, .techs-items#mongo, #work-experience .text .techs li#mongo,
+#facebook .text .techs li#mongo,
 #filmly .text .techs li#mongo,
 #battleship .text .techs li#mongo,
 #about .text .techs li#mongo {
   width: 17%;
 }
 
+#work-experience,
 #facebook,
 #filmly,
 #battleship,
 #about {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: stretch;
   position: relative;
 }
-
 @media screen and (max-width: 820px) {
+  #work-experience,
   #facebook,
   #filmly,
   #battleship,
@@ -2725,29 +2076,20 @@ nav .selector {
     padding-bottom: 2em;
   }
 }
-
+#work-experience .text,
 #facebook .text,
 #filmly .text,
 #battleship .text,
 #about .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   margin-left: 4em;
   font-size: 1.1rem;
 }
-
 @media screen and (max-width: 1100px) {
+  #work-experience .text,
   #facebook .text,
   #filmly .text,
   #battleship .text,
@@ -2755,28 +2097,24 @@ nav .selector {
     margin-left: 0;
   }
 }
-
 @media screen and (max-width: 820px) {
+  #work-experience .text h2,
   #facebook .text h2,
   #filmly .text h2,
   #battleship .text h2,
   #about .text h2 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-top: 0.5em;
   }
+  #work-experience .text h2 a,
   #facebook .text h2 a,
   #filmly .text h2 a,
   #battleship .text h2 a,
   #about .text h2 a {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
   }
 }
-
+#work-experience .text .highlight,
 #facebook .text .highlight,
 #filmly .text .highlight,
 #battleship .text .highlight,
@@ -2784,31 +2122,26 @@ nav .selector {
   color: #4e4d3f;
   font-weight: bold;
 }
-
+#work-experience .text .techs,
 #facebook .text .techs,
 #filmly .text .techs,
 #battleship .text .techs,
 #about .text .techs {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  justify-content: space-around;
+  flex-direction: row;
   list-style: none;
   width: 60%;
 }
-
 @media screen and (max-width: 1100px) {
+  #work-experience .text .techs,
   #facebook .text .techs,
   #filmly .text .techs,
   #battleship .text .techs,
   #about .text .techs {
     width: 80%;
   }
+  #work-experience .text .techs li,
   #facebook .text .techs li,
   #filmly .text .techs li,
   #battleship .text .techs li,
@@ -2816,34 +2149,32 @@ nav .selector {
     margin-bottom: 2em;
   }
 }
-
 @media screen and (max-width: 820px) {
+  #work-experience .text .techs,
   #facebook .text .techs,
   #filmly .text .techs,
   #battleship .text .techs,
   #about .text .techs {
     width: 100%;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     display: none;
   }
 }
-
+#work-experience .text .techs li,
 #facebook .text .techs li,
 #filmly .text .techs li,
 #battleship .text .techs li,
 #about .text .techs li {
   position: relative;
 }
-
+#work-experience .text .techs li span,
 #facebook .text .techs li span,
 #filmly .text .techs li span,
 #battleship .text .techs li span,
 #about .text .techs li span {
   position: absolute;
   bottom: -5px;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  transform: translateY(100%);
   background-color: #272b2b;
   color: #ece9e9;
   font-size: 0.7rem;
@@ -2851,11 +2182,10 @@ nav .selector {
   border-radius: 25px;
   display: inline-block;
   opacity: 0;
-  -webkit-transition: opacity 250ms ease-in;
   transition: opacity 250ms ease-in;
 }
-
 @media screen and (max-width: 820px) {
+  #work-experience .text .techs li span,
   #facebook .text .techs li span,
   #filmly .text .techs li span,
   #battleship .text .techs li span,
@@ -2863,23 +2193,22 @@ nav .selector {
     bottom: 0;
   }
 }
-
+#work-experience .text .techs li:hover span,
 #facebook .text .techs li:hover span,
 #filmly .text .techs li:hover span,
 #battleship .text .techs li:hover span,
 #about .text .techs li:hover span {
   opacity: 1;
 }
-
+#work-experience .text .techs li.passport img,
 #facebook .text .techs li.passport img,
 #filmly .text .techs li.passport img,
 #battleship .text .techs li.passport img,
 #about .text .techs li.passport img {
   height: 90%;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
 }
-
+#work-experience .text > div,
 #facebook .text > div,
 #filmly .text > div,
 #battleship .text > div,
@@ -2888,8 +2217,8 @@ nav .selector {
   margin-bottom: 4.5em;
   color: #434444;
 }
-
 @media screen and (max-width: 820px) {
+  #work-experience .text > div,
   #facebook .text > div,
   #filmly .text > div,
   #battleship .text > div,
@@ -2899,63 +2228,47 @@ nav .selector {
     width: 90%;
   }
 }
-
+#work-experience .images,
 #facebook .images,
 #filmly .images,
 #battleship .images,
 #about .images {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  justify-content: space-around;
+  flex-direction: row;
   width: 100%;
 }
-
 @media screen and (max-width: 1100px) {
+  #work-experience .images,
   #facebook .images,
   #filmly .images,
   #battleship .images,
   #about .images {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
-
+#work-experience .images figure,
 #facebook .images figure,
 #filmly .images figure,
 #battleship .images figure,
 #about .images figure {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  justify-content: space-between;
+  flex-direction: row;
 }
-
 @media screen and (max-width: 1100px) {
+  #work-experience .images figure,
   #facebook .images figure,
   #filmly .images figure,
   #battleship .images figure,
   #about .images figure {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     width: 49%;
     margin-bottom: 2em;
   }
 }
-
 @media screen and (max-width: 820px) {
+  #work-experience .images figure,
   #facebook .images figure,
   #filmly .images figure,
   #battleship .images figure,
@@ -2963,15 +2276,15 @@ nav .selector {
     width: 100%;
   }
 }
-
+#work-experience .images figure:first-child,
 #facebook .images figure:first-child,
 #filmly .images figure:first-child,
 #battleship .images figure:first-child,
 #about .images figure:first-child {
   margin-left: 4em;
 }
-
 @media screen and (max-width: 1100px) {
+  #work-experience .images figure:first-child,
   #facebook .images figure:first-child,
   #filmly .images figure:first-child,
   #battleship .images figure:first-child,
@@ -2988,56 +2301,42 @@ nav .selector {
 
 @media screen and (max-width: 820px) {
   #battleship .text .techs {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
-
 #battleship .text .techs li {
   width: 6%;
   position: relative;
   min-width: 42px;
   max-width: 70px;
 }
-
 #battleship .text .techs li img {
   width: 100%;
 }
-
 #battleship .text .techs li:last-child {
   width: 8%;
 }
-
 #battleship .text .techs li:last-child img {
-  -ms-flex-item-align: self-end;
-      -ms-grid-row-align: self-end;
-      align-self: self-end;
+  align-self: self-end;
 }
 
 @media screen and (max-width: 820px) {
   #filmly .text h2 div {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-bottom: 0;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
     width: 90%;
   }
   #filmly .text h2 div a {
-    width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
     margin-bottom: 20px;
     max-width: 145px;
   }
 }
-
 #other-projects h2 {
   margin: 1.5em 0 1em 2em;
 }
-
 @media screen and (max-width: 820px) {
   #other-projects h2 {
     line-height: 1;
@@ -3045,198 +2344,114 @@ nav .selector {
     margin: 1em auto;
   }
 }
-
 #other-projects > div {
   width: 95%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  -webkit-column-gap: 50px;
-          column-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  -moz-column-gap: 50px;
+       column-gap: 50px;
   row-gap: 40px;
   padding-bottom: 1em;
   margin-left: 20px;
 }
-
 @media screen and (max-width: 820px) {
   #other-projects > div {
     margin-left: 0;
   }
 }
-
 @media screen and (max-width: 820px) {
   #other-projects > div figure {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
-
 #other-projects > div figure > div {
   position: relative;
   overflow: hidden;
   max-width: 400px;
-  -webkit-box-shadow: 0 0 40px -20px #272b2b;
-          box-shadow: 0 0 40px -20px #272b2b;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-shadow: 0 0 40px -20px #272b2b;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  justify-content: space-between;
+  flex-direction: row;
 }
-
 #other-projects > div figure > div .blanket {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  justify-content: space-between;
+  flex-direction: row;
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #393d3faf;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
-  -webkit-transition: -webkit-transform 250ms ease-in;
-  transition: -webkit-transform 250ms ease-in;
+  background-color: rgba(57, 61, 63, 0.6862745098);
+  transform: translateY(100%);
   transition: transform 250ms ease-in;
-  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
 }
-
 #other-projects > div figure > div:hover .blanket {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
-
 #other-projects > div figure img {
   width: 100%;
 }
-
 #other-projects > div figure figcaption {
   font-size: 0.9rem;
   margin-top: 1em;
 }
-
 @media screen and (max-width: 710px) {
   #other-projects > div figure figcaption {
     max-width: 400px;
   }
 }
-
 #other-projects > div figure figcaption span {
   color: #4e4d3f;
   font-size: 1rem;
   font-weight: bold;
 }
-
 #other-projects > div figure figcaption strong {
   font-weight: 600;
   opacity: 0.8;
 }
-
 #other-projects > div .project-links {
   list-style: none;
   margin-top: 1em;
   width: 150px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  justify-content: space-around;
+  flex-direction: row;
 }
-
 #other-projects > div .project-links li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
-
 #other-projects > div .project-links li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
   color: #ece9e9;
   text-decoration: none;
 }
-
 #other-projects > div .project-links li a i {
   font-size: 2rem;
   position: relative;
 }
-
 #other-projects > div .project-links li a i:after {
-  content: '';
+  content: "";
   width: 100%;
   height: 2px;
   background-color: #ece9e9;
   position: absolute;
   bottom: -5px;
   left: 0;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transform-origin: 0%;
-          transform-origin: 0%;
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: 0%;
   transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
-
 #other-projects > div .project-links li a i:hover:after {
-  -webkit-transform: scaleX(100%);
-          transform: scaleX(100%);
-}
-
-@-webkit-keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
+  transform: scaleX(100%);
 }
 
 @keyframes fadeIn {
@@ -3244,26 +2459,11 @@ nav .selector {
     opacity: 1;
   }
 }
-
-@-webkit-keyframes direction {
-  from {
-    -webkit-transform: translateY(-20%);
-            transform: translateY(-20%);
-  }
-  to {
-    -webkit-transform: translateY(20%);
-            transform: translateY(20%);
-  }
-}
-
 @keyframes direction {
   from {
-    -webkit-transform: translateY(-20%);
-            transform: translateY(-20%);
+    transform: translateY(-20%);
   }
   to {
-    -webkit-transform: translateY(20%);
-            transform: translateY(20%);
+    transform: translateY(20%);
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
