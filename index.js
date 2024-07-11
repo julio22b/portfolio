@@ -6,8 +6,6 @@ const navBar = document.querySelector('nav');
 const black = '#393d3f';
 const white = '#ebebeb';
 
-console.log(sections)
-
 const observerOpts = { threshold: 0.25 };
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -112,4 +110,3 @@ const lengths = [];
 for (let i = 0; i < name.length; i++) {
     lengths.push(name[i].getTotalLength());
 }
-console.log(lengths);
